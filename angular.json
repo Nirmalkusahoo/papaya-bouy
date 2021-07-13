@@ -121,8 +121,13 @@
               "devServerTarget": "papaya-bouy:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "papaya-bouy"
 }
