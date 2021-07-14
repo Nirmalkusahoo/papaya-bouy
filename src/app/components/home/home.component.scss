@@ -1,17 +1,47 @@
 .bg-image{
   background-image: url("../../../assets/images/home_bg.jpg");
-  padding: 20em;
+  /* padding: 20em; */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: left -229px;
+  background-position: left top 56%;
+  //width: 100%;
+  padding: 10px;
+  position: relative;
+  height: 528px;
+  background-origin: border-box;
+  background-clip: border-box;
 }
 .bg-image h1{
-  font-size: 46px;
+  font-size: 33px;
   position: relative;
   top: 238px;
 }
 .bg-image h2{
-  font-size: 21px;
+  font-size: 19px;
   position: relative;
   top: 215px;
+}
+
+@media screen and (min-width: 800px){
+  .bg-image h1{
+    font-size: 46px;
+    position: relative;
+    top: 300px;
+  }
+  .bg-image h2{
+    font-size: 21px;
+    position: relative;
+    top: 266px;
+  }
+}
+@media screen and (max-width: 375px){
+  .bg-image{
+    background-position: left 60% top;
+  }
+  .bg-image h1{
+    top: 300px;
+  }
+  .bg-image h2{
+    top: 275px;
+  }
 }
