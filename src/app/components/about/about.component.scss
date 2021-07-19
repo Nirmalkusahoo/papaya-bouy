@@ -1,0 +1,86 @@
+.container{
+  display: flex;
+  background: white;
+  flex-direction: column;
+}
+.header{
+  display: flex;
+  justify-content: center;
+
+}
+
+.header img {
+  margin: 50px;
+  height: 270px;
+  width: 270px;
+}
+.name{
+  //font-family: Montserrat;
+  font-weight: 300;
+  color: #232323;
+  font-size: 100px;
+  line-height: 95px;
+}
+.bio{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bio strong{
+  font-weight: 600;
+  position: relative;
+  border-bottom: 3px solid #ff214f;
+}
+.role{
+  color: #939393;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 20px 20px 20px;
+  margin-left: initial;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  //border-bottom: 3px solid #ff214f;
+}
+.separator{
+  background-color: #ff214f;
+  width: 100px;
+  height: 1px;
+  margin: 0 !important;
+}
+.about div{
+
+}
+.title{
+  flex-basis: 50%;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+.desc{
+
+  display: flex;
+}
+.desc div{
+  //flex-basis: 50%;
+}
+.tag-line{
+  flex-basis: 50%;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 25px 100px 25px 100px;
+}
+.quote{
+  color: #ff214f;
+}
+.detail{
+
+  flex-basis: 50%;
+  margin: 25px 100px 25px 100px;
+}
