@@ -1,12 +1,11 @@
-.container{
+.container {
   display: flex;
   background: white;
   flex-direction: column;
 }
-.header{
+.header {
   display: flex;
   justify-content: center;
-
 }
 
 .header img {
@@ -14,26 +13,26 @@
   height: 270px;
   width: 270px;
 }
-.name{
+.name {
   //font-family: Montserrat;
   font-weight: 300;
   color: #232323;
   font-size: 100px;
   line-height: 95px;
 }
-.bio{
+.bio {
   margin: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.bio strong{
+.bio strong {
   font-weight: 600;
   position: relative;
   border-bottom: 3px solid #ff214f;
 }
-.role{
+.role {
   color: #939393;
   font-size: 12px;
   line-height: 20px;
@@ -41,46 +40,74 @@
   padding: 20px 20px 20px;
   margin-left: initial;
 }
-.about{
+.about {
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   //border-bottom: 3px solid #ff214f;
 }
-.separator{
+.separator {
   background-color: #ff214f;
   width: 100px;
   height: 1px;
-  margin: 0 !important;
+  margin-top: 18px;
 }
-.about div{
 
-}
-.title{
+.title {
   flex-basis: 50%;
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
 }
-.desc{
-
+.desc {
   display: flex;
 }
-.desc div{
+.desc div {
   //flex-basis: 50%;
 }
-.tag-line{
+.tag-line {
   flex-basis: 50%;
   font-size: 32px;
   font-weight: 700;
   margin: 25px 100px 25px 100px;
 }
-.quote{
+.quote {
   color: #ff214f;
 }
-.detail{
-
+.detail {
   flex-basis: 50%;
   margin: 25px 100px 25px 100px;
+}
+.detail h6 {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.detail p {
+  margin: 0 0 25px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.detail a{
+  text-decoration: none;
+}
+.resume-btn{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 29px;
+  border: 2px solid #232323;
+  border-radius: 50px;
+  cursor: pointer;
+  color: #232323;
+}
+.resume-btn:hover{
+  background: #232323;
+  border-color: #232323;
+  color: #ffffff;
+}
+.resume-btn i {
+  margin-right: 5px;
 }
