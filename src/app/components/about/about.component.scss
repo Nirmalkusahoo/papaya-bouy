@@ -2,26 +2,27 @@
   display: flex;
   background: white;
   flex-direction: column;
+  width: fit-content;
 }
 .header {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .header img {
   margin: 50px;
-  height: 270px;
-  width: 270px;
+  height: 384px;
+  width: 384px;
 }
 .name {
-  //font-family: Montserrat;
   font-weight: 300;
   color: #232323;
-  font-size: 100px;
-  line-height: 95px;
+  font-size: 38px;
+  line-height: 44px;
 }
 .bio {
-  margin: 50px;
+  margin: 35px 35px 50px 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -34,7 +35,7 @@
 }
 .role {
   color: #939393;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 500;
   padding: 20px 20px 20px;
@@ -62,13 +63,14 @@
 }
 .desc {
   display: flex;
+  flex-direction: column;
 }
 .desc div {
   //flex-basis: 50%;
 }
 .tag-line {
   flex-basis: 50%;
-  font-size: 32px;
+  font-size: 20px;
   font-weight: 700;
   margin: 25px 100px 25px 100px;
 }
@@ -80,7 +82,7 @@
   margin: 25px 100px 25px 100px;
 }
 .detail h6 {
-  font-size: 25px;
+  font-size: 18px;
   line-height: 30px;
   font-weight: 500;
   margin-bottom: 20px;
@@ -110,4 +112,31 @@
 }
 .resume-btn i {
   margin-right: 5px;
+}
+
+@media screen and (min-width: 800px){
+  .header {
+    flex-direction: row;
+  }
+  .header img {
+    margin: 50px;
+    height: 270px;
+    width: 270px;
+  }
+  .name {
+    font-size: 100px;
+    line-height: 95px;
+  }
+  .bio {
+    margin: 50px;
+  }
+  .desc {
+    flex-direction: row;
+  }
+  .tag-line {
+    font-size: 32px;
+  }
+  .detail h6 {
+    font-size: 25px;
+  }
 }
