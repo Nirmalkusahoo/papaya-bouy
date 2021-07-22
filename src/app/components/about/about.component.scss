@@ -65,9 +65,7 @@
   display: flex;
   flex-direction: column;
 }
-.desc div {
-  //flex-basis: 50%;
-}
+
 .tag-line {
   flex-basis: 50%;
   font-size: 20px;
@@ -93,10 +91,10 @@
   line-height: 24px;
   font-weight: 500;
 }
-.detail a{
+.detail a {
   text-decoration: none;
 }
-.resume-btn{
+.resume-btn {
   font-size: 14px;
   font-weight: 600;
   padding: 5px 29px;
@@ -105,7 +103,7 @@
   cursor: pointer;
   color: #232323;
 }
-.resume-btn:hover{
+.resume-btn:hover {
   background: #232323;
   border-color: #232323;
   color: #ffffff;
@@ -114,7 +112,90 @@
   margin-right: 5px;
 }
 
-@media screen and (min-width: 800px){
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0 80px 0;
+}
+.sub-title {
+  color: #939393;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 70px 0 50px 0;
+}
+.review > div {
+  margin-bottom: 40px;
+}
+.review-comments {
+  border-radius: 6px;
+  padding: 12%;
+  box-shadow: 0 0 3px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  max-width: 366px;
+  font-size: 14px;
+  color: #6f6f6f;
+  font-weight: 400;
+  line-height: 24px;
+}
+.review-comments:after {
+  top: 85.5%;
+  left: 24%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(245, 245, 245, 0);
+  border-top-color: #f5f5f5;
+  border-width: 15px;
+  margin-left: -15px;
+  z-index: 9;
+}
+.review-comments2 {
+  @extend .review-comments;
+  min-width: 453px;
+}
+.review-comments2:after {
+  top: 85.3%;
+  left: 56%;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.reviewer img {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+}
+.reviewer-detail {
+  margin-left: 15px;
+}
+.reviewer .name {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.reviewer .position {
+  color: #939393;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+@media screen and (min-width: 800px) {
   .header {
     flex-direction: row;
   }
@@ -138,5 +219,13 @@
   }
   .detail h6 {
     font-size: 25px;
+  }
+
+  .review {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  .review > div {
+    margin-bottom: 0px;
   }
 }
