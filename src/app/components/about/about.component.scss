@@ -48,19 +48,9 @@
   position: relative;
   //border-bottom: 3px solid #ff214f;
 }
-.separator {
-  background-color: #ff214f;
-  width: 100px;
-  height: 1px;
-  margin-top: 18px;
-}
 
-.title {
-  flex-basis: 50%;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 40px;
-}
+
+
 .desc {
   display: flex;
   flex-direction: column;
@@ -145,7 +135,7 @@
   font-weight: 400;
   line-height: 24px;
 }
-.review-comments:after {
+/*.review-comments:after {
   top: 85.5%;
   left: 24%;
   border: solid transparent;
@@ -159,7 +149,7 @@
   border-width: 15px;
   margin-left: -15px;
   z-index: 9;
-}
+}*/
 .review-comments2 {
   @extend .review-comments;
   min-width: 453px;

@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="title">CONTACT FORM</div>
+  <div class="separator"></div>
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <input type="text" placeholder="Name*" formControlName="name">
+    <input type="email" placeholder="E-mail*" formControlName="email">
+    <input type="text" placeholder="Subject*" formControlName="subject">
+    <textarea type="text" placeholder="Your Message*" formControlName="message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+

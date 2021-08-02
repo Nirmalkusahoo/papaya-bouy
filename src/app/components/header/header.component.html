@@ -1,12 +1,12 @@
 <header>
   <h1 class="logo">Logo</h1>
-  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <input type="checkbox" id="nav-toggle" class="nav-toggle" />
   <nav>
     <ul>
       <li><a routerLink="home">Home</a></li>
       <li><a routerLink="about">About</a></li>
       <li><a>Blog</a></li>
-      <li><a>Contact</a></li>
+      <li><a [routerLink]="['about']" fragment="contact_form">Contact</a></li>
     </ul>
   </nav>
   <label for="nav-toggle" class="nav-toggle-label">
