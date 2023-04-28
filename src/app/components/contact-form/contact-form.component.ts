@@ -1,11 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import {
-  FormBuilder,
-  FormControl,
-  FormGroup,
-  Validators,
-} from '@angular/forms';
-import { FormValidatorService } from '../../services/form-validator.service';
+import {Component, OnInit} from '@angular/core';
+import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators,} from '@angular/forms';
+import {FormValidatorService} from '../../services/form-validator.service';
 
 @Component({
   selector: 'app-contact-form',
@@ -13,17 +8,17 @@ import { FormValidatorService } from '../../services/form-validator.service';
   styleUrls: ['./contact-form.component.scss'],
 })
 export class ContactFormComponent implements OnInit {
-  public form: FormGroup;
-  public name: FormControl = new FormControl('', [Validators.required]);
-  public email: FormControl = new FormControl('', [
+  public form: UntypedFormGroup;
+  public name: UntypedFormControl = new UntypedFormControl('', [Validators.required]);
+  public email: UntypedFormControl = new UntypedFormControl('', [
     Validators.required,
     Validators.email,
   ]);
-  public subject: FormControl = new FormControl('', [Validators.required]);
-  public message: FormControl = new FormControl('', [Validators.required]);
+  public subject: UntypedFormControl = new UntypedFormControl('', [Validators.required]);
+  public message: UntypedFormControl = new UntypedFormControl('', [Validators.required]);
 
   constructor(
-    private formBuilder: FormBuilder,
+    private formBuilder: UntypedFormBuilder,
     public formValidatorService: FormValidatorService
   ) {
     this.form = this.formBuilder.group({
@@ -34,7 +29,8 @@ export class ContactFormComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
   public onSubmit(): void {
     this.formValidatorService.markAsTouched(this.form);

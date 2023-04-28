@@ -129,7 +129,6 @@
       }
     }
   },
-  "defaultProject": "papaya-bouy",
   "cli": {
     "analytics": false
   }
