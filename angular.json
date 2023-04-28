@@ -129,5 +129,8 @@
       }
     }
   },
-  "defaultProject": "papaya-bouy"
+  "defaultProject": "papaya-bouy",
+  "cli": {
+    "analytics": false
+  }
 }
