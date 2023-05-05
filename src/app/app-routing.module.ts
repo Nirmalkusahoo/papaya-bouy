@@ -1,14 +1,16 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './components/home/home.component';
-import { ArticleComponent } from './components/article/article.component';
-import { AboutComponent } from './components/about/about.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {HomeComponent} from './components/home/home.component';
+import {ArticleComponent} from './components/article/article.component';
+import {AboutComponent} from './components/about/about.component';
+import {PostComponent} from './components/post/post.component';
 
 const routes: Routes = [
-  { path: '', component: AboutComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'article', component: ArticleComponent },
-  { path: 'about', component: AboutComponent },
+  {path: '', component: AboutComponent},
+  {path: 'home', component: HomeComponent},
+  {path: 'article', component: ArticleComponent},
+  {path: 'about', component: AboutComponent},
+  {path: 'post', component: PostComponent},
 ];
 
 @NgModule({
@@ -20,4 +22,5 @@ const routes: Routes = [
   ],
   exports: [RouterModule],
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+}
