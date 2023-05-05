@@ -1,13 +1,15 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.post{
+  width: 100%;
 }
 
 .featured {
   margin-bottom: 40px;
   background: white;
-  margin-top: 4.2%;
+  margin-top: 5.2%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2%;
 }
 
 .featured h1 {
