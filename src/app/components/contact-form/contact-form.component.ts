@@ -1,6 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators,} from '@angular/forms';
 import {FormValidatorService} from '../../services/form-validator.service';
+import {HttpService} from '../../modules/shared-module/services/http.service';
+import {HttpHeaders} from '@angular/common/http';
 
 @Component({
   selector: 'app-contact-form',
@@ -19,7 +21,8 @@ export class ContactFormComponent implements OnInit {
 
   constructor(
     private formBuilder: UntypedFormBuilder,
-    public formValidatorService: FormValidatorService
+    public formValidatorService: FormValidatorService,
+    public httpService: HttpService
   ) {
     this.form = this.formBuilder.group({
       name: this.name,
@@ -36,6 +39,15 @@ export class ContactFormComponent implements OnInit {
     this.formValidatorService.markAsTouched(this.form);
     if (this.form.valid) {
       console.log(this.form.value);
+      const headers = new HttpHeaders({'Content-Type': 'application/json'});
+      this.httpService.postData('https://formspree.io/f/mvonlngy',
+        {name: this.name.value, replyto: this.email.value, message: this.message.value},
+        headers).subscribe(
+        response => {
+          console.log(response);
+        }
+      );
     }
   }
+
 }
