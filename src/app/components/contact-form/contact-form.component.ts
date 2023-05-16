@@ -37,6 +37,8 @@ export class ContactFormComponent implements OnInit {
 
   public onSubmit(): void {
     this.formValidatorService.markAsTouched(this.form);
+    // Email configuration done at
+    // https://formspree.io/forms/mvonlngy/integration
     if (this.form.valid) {
       console.log(this.form.value);
       const headers = new HttpHeaders({'Content-Type': 'application/json'});

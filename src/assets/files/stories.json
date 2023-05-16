@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "header": "Mat auto-complete handle object",
+      "title": "",
+      "paras": [
+        {
+          "title": "How to display and handle objects in mat-auto complete?",
+          "description": "If you have array of objects to be shown in <mat-option> ,then you can use displayWith property.\nBy using this property I will have control on,what to display to the user and what to store in backend.",
+          "codeDetails": [
+            {
+              "title": "In Component HTML:",
+              "code": "<input type=\"text\" matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\">\n    <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n      <mat-option *ngFor=\"let option of countryList\" [value]=\"option\">\n        {{option.name}}\n      </mat-option>\n    </mat-autocomplete>"
+            },
+            {
+              "title": "In Component ts file:",
+              "code": "// below is sample array of objects\n// In your case you can use actual array of objects\npublic countryList: Country[]= \n[\n {name:\"India\",code:\"IN\"},\n {name:\"United Nation America\",code:\"US\"},\n {name:\"Canada\",code:\"CN\"}\n]\ndisplayFn(country: countryList): string {\n    return country && country .name ? country.name : '';\n  }"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "description": "Note: Here onSubmit of form I will receive the control value as Country object, to get the value from control you can utilise below code.",
+          "codeDetails": [
+            {
+              "title": "",
+              "code": "public onSubmit(){\n  console.log((<Country>this.myControl.value).code)\n}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "header": "Mat auto-complete handle object",
+      "title": "",
+      "paras": [
+        {
+          "title": "How to display and handle objects in mat-auto complete?",
+          "description": "If you have array of objects to be shown in <mat-option> ,then you can use displayWith property.\nBy using this property I will have control on,what to display to the user and what to store in backend.",
+          "codeDetails": [
+            {
+              "title": "In Component HTML:",
+              "code": "<input type=\"text\" matInput [formControl]=\"myControl\" [matAutocomplete]=\"auto\">\n    <mat-autocomplete #auto=\"matAutocomplete\" [displayWith]=\"displayFn\">\n      <mat-option *ngFor=\"let option of countryList\" [value]=\"option\">\n        {{option.name}}\n      </mat-option>\n    </mat-autocomplete>"
+            },
+            {
+              "title": "In Component ts file:",
+              "code": "// below is sample array of objects\n// In your case you can use actual array of objects\npublic countryList: Country[]= \n[\n {name:\"India\",code:\"IN\"},\n {name:\"United Nation America\",code:\"US\"},\n {name:\"Canada\",code:\"CN\"}\n]\ndisplayFn(country: countryList): string {\n    return country && country .name ? country.name : '';\n  }"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "description": "Note: Here onSubmit of form I will receive the control value as Country object, to get the value from control you can utilise below code.",
+          "codeDetails": [
+            {
+              "title": "",
+              "code": "public onSubmit(){\n  console.log((<Country>this.myControl.value).code)\n}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
