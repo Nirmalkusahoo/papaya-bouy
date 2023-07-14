@@ -6,9 +6,10 @@
   box-sizing: border-box;
 }*/
 
-html{
+html, body {
   height: 100%;
 }
+
 body {
   margin: 0;
   background: #222;
@@ -18,7 +19,7 @@ body {
   min-height: 100%;
 }
 
-app-footer{
+app-footer {
   position: absolute;
   //bottom: 0;
   background: #2f2f2f;
@@ -27,7 +28,8 @@ app-footer{
   width: 100%;
   min-width: 375px;
 }
-.below-header{
+
+.below-header {
   position: relative;
   top: 80px;
 }
@@ -38,9 +40,12 @@ app-footer{
   font-size: 32px;
   line-height: 40px;
 }
+
 .separator {
   background-color: #ff214f;
   width: 100px;
   height: 1px;
   margin-top: 18px;
 }
+
+//body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -4,6 +4,7 @@ import {HomeComponent} from './components/home/home.component';
 import {ArticleComponent} from './components/article/article.component';
 import {AboutComponent} from './components/about/about.component';
 import {PostComponent} from './components/post/post.component';
+import {DsaQsListComponent} from './components/dsa-qs-list/dsa-qs-list.component';
 
 const routes: Routes = [
   {path: '', component: AboutComponent},
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: 'article', component: ArticleComponent},
   {path: 'about', component: AboutComponent},
   {path: 'post', component: PostComponent},
+  {path: 'dsa-list', component: DsaQsListComponent},
 ];
 
 @NgModule({

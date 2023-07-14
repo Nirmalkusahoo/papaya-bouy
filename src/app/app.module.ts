@@ -13,6 +13,11 @@ import {ContactFormComponent} from './components/contact-form/contact-form.compo
 import {ReactiveFormsModule} from '@angular/forms';
 import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
+import {DsaQsListComponent} from './components/dsa-qs-list/dsa-qs-list.component';
+import {CommonModule} from '@angular/common';
+import {MatTableModule} from '@angular/material/table';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -24,13 +29,16 @@ import {HttpClientModule} from '@angular/common/http';
     AboutComponent,
     ContactFormComponent,
     PostComponent,
+    DsaQsListComponent,
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatTableModule, MatButtonModule, MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],
