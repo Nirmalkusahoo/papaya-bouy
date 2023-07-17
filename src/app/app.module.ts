@@ -15,9 +15,7 @@ import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
 import {DsaQsListComponent} from './components/dsa-qs-list/dsa-qs-list.component';
 import {CommonModule} from '@angular/common';
-import {MatTableModule} from '@angular/material/table';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
+import {DsaTopicListComponent} from './components/dsa-topic-list/dsa-topic-list.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +28,7 @@ import {MatIconModule} from '@angular/material/icon';
     ContactFormComponent,
     PostComponent,
     DsaQsListComponent,
+    DsaTopicListComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,7 +37,6 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
-    MatTableModule, MatButtonModule, MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,0 +1,4 @@
+<div class="dsa-topic-list-container">
+  <div class="page-title">Topics</div>
+  <div class="topic" *ngFor="let topic of listOfTopics; index as i">{{i + 1}} . <span [routerLink]="['/dsa-list',topic]">{{topic}}</span></div>
+</div>
