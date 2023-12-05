@@ -3,6 +3,7 @@ import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators,} f
 import {FormValidatorService} from '../../services/form-validator.service';
 import {HttpService} from '../../modules/shared-module/services/http.service';
 import {HttpHeaders} from '@angular/common/http';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-contact-form',
@@ -22,7 +23,8 @@ export class ContactFormComponent implements OnInit {
   constructor(
     private formBuilder: UntypedFormBuilder,
     public formValidatorService: FormValidatorService,
-    public httpService: HttpService
+    public httpService: HttpService,
+    private matSnackBar: MatSnackBar
   ) {
     this.form = this.formBuilder.group({
       name: this.name,
@@ -40,13 +42,16 @@ export class ContactFormComponent implements OnInit {
     // Email configuration done at
     // https://formspree.io/forms/mvonlngy/integration
     if (this.form.valid) {
-      console.log(this.form.value);
       const headers = new HttpHeaders({'Content-Type': 'application/json'});
       this.httpService.postData('https://formspree.io/f/mvonlngy',
         {name: this.name.value, replyto: this.email.value, message: this.message.value},
         headers).subscribe(
         response => {
-          console.log(response);
+          if (response.ok === true) {
+            this.matSnackBar.open('Thank you for reaching, will get back to you to in next 24hr', 'X', {
+              duration: 5000
+            });
+          }
         }
       );
     }

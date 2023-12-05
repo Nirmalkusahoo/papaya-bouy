@@ -16,6 +16,7 @@ import {HttpClientModule} from '@angular/common/http';
 import {DsaQsListComponent} from './components/dsa-qs-list/dsa-qs-list.component';
 import {CommonModule} from '@angular/common';
 import {DsaTopicListComponent} from './components/dsa-topic-list/dsa-topic-list.component';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import {DsaTopicListComponent} from './components/dsa-topic-list/dsa-topic-list.
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -15,18 +15,22 @@ body {
   background: #222;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
-  //min-height: 100vh;
-  min-height: 100%;
+  min-height: 100vh;
+}
+
+app-root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 app-footer {
-  position: absolute;
-  //bottom: 0;
   background: #2f2f2f;
   color: #fff;
-  margin-top: 100px;
+  margin-top: auto;
   width: 100%;
   min-width: 375px;
+  z-index: 1;
 }
 
 .below-header {
