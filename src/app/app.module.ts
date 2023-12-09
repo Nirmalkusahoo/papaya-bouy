@@ -13,9 +13,7 @@ import {ContactFormComponent} from './components/contact-form/contact-form.compo
 import {ReactiveFormsModule} from '@angular/forms';
 import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
-import {DsaQsListComponent} from './components/dsa-qs-list/dsa-qs-list.component';
 import {CommonModule} from '@angular/common';
-import {DsaTopicListComponent} from './components/dsa-topic-list/dsa-topic-list.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 
 @NgModule({
@@ -28,8 +26,6 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     AboutComponent,
     ContactFormComponent,
     PostComponent,
-    DsaQsListComponent,
-    DsaTopicListComponent,
   ],
   imports: [
     BrowserModule,
