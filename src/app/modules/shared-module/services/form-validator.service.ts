@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import {
-  FormControl,
-  FormGroup,
+  FormControl, FormGroup,
+  UntypedFormControl,
+  UntypedFormGroup,
   ValidatorFn,
   Validators,
 } from '@angular/forms';
@@ -11,8 +12,12 @@ import {
 })
 /*All kind of form validations reusable logic can be added in this service*/
 export class FormValidatorService {
-  constructor() {}
-
+  public markFormGroupAsTouched(formGroup: UntypedFormGroup): void {
+    // tslint:disable-next-line:forin
+    for (const control in formGroup.controls) {
+      formGroup.get(control).markAsTouched();
+    }
+  }
   /**
    * Method used for marking As Touched to all form controls
    * @param controls - array of form controls.
@@ -47,6 +52,7 @@ export class FormValidatorService {
    * Method used for clearing all validators from form controls
    * If No Validators given then as by default it will add Validators.required
    * @param controls - array of form controls.
+   * @param alsoReset
    * @OptionalParam alsoReset - is a optional field can be used if you also want to rest the FormControl .
    */
   public removeValidators(
@@ -73,6 +79,24 @@ export class FormValidatorService {
     }
   }
 
+  public isFormControlInvalid(formControl: UntypedFormControl): boolean {
+    if (formControl?.touched && formControl.invalid) {
+      return true;
+    }
+  }
+
+  public printInValidFormControls(formGroup: UntypedFormGroup): void {
+    Object.keys(formGroup.controls).forEach((key) => {
+      const formControl: UntypedFormControl = formGroup.get(
+        key,
+      ) as UntypedFormControl;
+      if (formControl.invalid) {
+        Object.keys(formControl.errors).forEach((error) => {
+          console.log(`${key} input has error  :: ${error}`);
+        });
+      }
+    });
+  }
   public isInvalid(control: FormControl): boolean {
     if (control.touched && control.invalid) {
       return true;

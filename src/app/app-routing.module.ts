@@ -15,6 +15,13 @@ const routes: Routes = [
   {path: 'post', component: PostComponent},
   {path: 'dsa-list/:id', component: DsaQsListComponent},
   {path: 'list', component: DsaTopicListComponent},
+  {
+    path: 'auth',
+    loadChildren: () =>
+      import('./modules/auth/auth.module').then(
+        (m) => m.AuthModule,
+      ),
+  },
 ];
 
 @NgModule({

@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
 import {UntypedFormBuilder, UntypedFormControl, UntypedFormGroup, Validators,} from '@angular/forms';
-import {FormValidatorService} from '../../services/form-validator.service';
 import {HttpService} from '../../modules/shared-module/services/http.service';
 import {HttpHeaders} from '@angular/common/http';
 import {MatSnackBar} from '@angular/material/snack-bar';
+import {FormValidatorService} from '../../modules/shared-module/services/form-validator.service';
 
 @Component({
   selector: 'app-contact-form',
@@ -38,7 +38,7 @@ export class ContactFormComponent implements OnInit {
   }
 
   public onSubmit(): void {
-    this.formValidatorService.markAsTouched(this.form);
+    this.formValidatorService.markFormGroupAsTouched(this.form);
     // Email configuration done at
     // https://formspree.io/forms/mvonlngy/integration
     if (this.form.valid) {
