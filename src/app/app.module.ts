@@ -15,6 +15,7 @@ import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
+import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interceptor-providers';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,7 @@ import {MatSnackBarModule} from '@angular/material/snack-bar';
     ReactiveFormsModule,
     MatSnackBarModule
   ],
-  providers: [],
+  providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
 })
 export class AppModule {

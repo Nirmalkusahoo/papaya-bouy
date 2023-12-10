@@ -4,8 +4,8 @@ import {DsaQsListComponent} from './dsa-qs-list/dsa-qs-list.component';
 import {DsaTopicListComponent} from './dsa-topic-list/dsa-topic-list.component';
 
 const routes: Routes = [
-  {path: 'list/:id', component: DsaQsListComponent},
   {path: 'topics', component: DsaTopicListComponent},
+  {path: 'list/:topic', component: DsaQsListComponent},
 ];
 
 @NgModule({
