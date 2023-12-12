@@ -10,22 +10,30 @@ import {MatSortModule} from '@angular/material/sort';
 import {MatTableModule} from '@angular/material/table';
 import {MatInputModule} from '@angular/material/input';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {AddQuestionComponent} from './add-question/add-question.component';
+import {ReactiveFormsModule} from '@angular/forms';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
   declarations: [
     DsaQsListComponent,
-    DsaTopicListComponent],
-  imports: [
-    CommonModule,
-    DsaRoutingModule,
-    MatFormFieldModule,
-    MatInputModule,
-    MatTableModule,
-    MatSortModule,
-    MatPaginatorModule,
-    MatCheckboxModule,
-  ],
+    DsaTopicListComponent,
+    AddQuestionComponent],
+    imports: [
+        CommonModule,
+        DsaRoutingModule,
+        ReactiveFormsModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatTableModule,
+        MatSortModule,
+        MatPaginatorModule,
+        MatCheckboxModule,
+        MatButtonModule,
+        MatIconModule
+    ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class DsaModule {

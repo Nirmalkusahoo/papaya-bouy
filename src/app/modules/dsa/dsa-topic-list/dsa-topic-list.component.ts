@@ -12,7 +12,7 @@ export class DsaTopicListComponent {
   constructor(private router: Router, private route: ActivatedRoute,) {
     this.listOfTopics.push('LinkedList',
       'DoublyLinkedList',
-      'Array', 'Strings', 'Stacks', 'Sliding Window', 'Binary Tree', 'Dynamic Programming', 'Graph');
+      'Array', 'Strings', 'Stacks', 'Sliding Window', 'Binary Tree', 'Dynamic Programming', 'Graph', 'Design');
   }
 
   public navigate(topic: string): void {

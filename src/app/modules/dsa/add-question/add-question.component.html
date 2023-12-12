@@ -1,0 +1,38 @@
+<div class="header-gap">
+  <form [formGroup]="questionForm">
+    <div class="container">
+      <div class="page-title">Add Question</div>
+      <mat-form-field appearance="outline">
+        <mat-label>Question Title</mat-label>
+        <input matInput placeholder="Enter Your Question Title" formControlName="questionTitle">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Question Url</mat-label>
+        <input type="text" matInput placeholder="Enter Your Question Url" formControlName="questionUrl">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Answer Url</mat-label>
+        <input type="text" matInput placeholder="Enter Your Answer Url" formControlName="answerUrl">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Topic</mat-label>
+        <input type="text" matInput placeholder="Enter Your topic" formControlName="topic">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Qs Number</mat-label>
+        <input type="text" matInput placeholder="Enter Your Qs Number" formControlName="number">
+      </mat-form-field>
+
+      <mat-form-field appearance="outline">
+        <mat-label>Concept Url</mat-label>
+        <input type="text" matInput placeholder="Enter Your Concept Url" formControlName="conceptUrl">
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>Note</mat-label>
+        <input type="text" matInput placeholder="Enter Your Note" formControlName="hint">
+      </mat-form-field>
+      <button class="save-btn" mat-raised-button color="primary" (click)="onSubmit()">Save</button>
+    </div>
+  </form>
+
+</div>

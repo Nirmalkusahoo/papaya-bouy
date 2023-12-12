@@ -25,7 +25,7 @@ export class TokenInterceptor implements HttpInterceptor {
     let modifiedRequest = request;
 
     // If router/location url contains context=staging then modify HttpRequest
-    if (this.tokenService.getAccessToken()) {
+    if (request.url.indexOf('api/auth/login') === -1 && this.tokenService.getAccessToken()) {
       modifiedRequest = request.clone({
         setHeaders: {Authorization: `Bearer ${this.tokenService.getAccessToken()}`}
       });
