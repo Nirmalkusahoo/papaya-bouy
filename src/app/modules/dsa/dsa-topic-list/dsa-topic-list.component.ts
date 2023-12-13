@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
+import {LIST_OF_TOPICS} from '../dsa.util';
 
 @Component({
   selector: 'app-dsa-topic-list',
@@ -7,12 +8,9 @@ import {ActivatedRoute, Router} from '@angular/router';
   styleUrls: ['./dsa-topic-list.component.scss']
 })
 export class DsaTopicListComponent {
-  public listOfTopics: string[] = [];
+  public listOfTopics: string[] = LIST_OF_TOPICS;
 
   constructor(private router: Router, private route: ActivatedRoute,) {
-    this.listOfTopics.push('LinkedList',
-      'DoublyLinkedList',
-      'Array', 'Strings', 'Stacks', 'Sliding Window', 'Binary Tree', 'Dynamic Programming', 'Graph', 'Design');
   }
 
   public navigate(topic: string): void {

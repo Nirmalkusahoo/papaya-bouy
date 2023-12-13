@@ -1,13 +1,10 @@
 import {Component} from '@angular/core';
 import {FormBuilder, FormControl, FormGroup, Validators} from '@angular/forms';
-import {UserService} from '../../shared-module/services/user.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
-import {HttpService} from '../../shared-module/services/http.service';
-import {HttpClient} from '@angular/common/http';
 import {Router} from '@angular/router';
-import {LoginModel} from '../../auth/login/login.model';
 import {QuestionService} from '../question.service';
 import {QuestionModel} from './question.model';
+import {LIST_OF_TOPICS} from '../dsa.util';
 
 @Component({
   selector: 'app-add-question',
@@ -23,13 +20,12 @@ export class AddQuestionComponent {
   public conceptUrl: FormControl = new FormControl('', []);
   public hint: FormControl = new FormControl('', []);
   public questionForm!: FormGroup;
+  public topicOptions: string[] = LIST_OF_TOPICS;
 
-  constructor(private formBuilder: FormBuilder, private questionService: QuestionService, private matSnackBar: MatSnackBar, public httpService: HttpService, private http: HttpClient, public router: Router,) {
+  constructor(private formBuilder: FormBuilder, private questionService: QuestionService, private matSnackBar: MatSnackBar, public router: Router,) {
     this.initFormGroup();
   }
 
-  ngOnInit(): void {
-  }
 
   public initFormGroup(): void {
     this.questionForm = this.formBuilder.group({
@@ -49,7 +45,7 @@ export class AddQuestionComponent {
       this.questionService.postQuestion(this.getQuestionData()).subscribe(
         (data) => {
           this.showSnackBarMessage('Question posted successfully');
-          this.router.navigate(['../list', this.topic.value]);
+          this.router.navigate(['../list/', this.topic.value]);
         },
         (error) => {
         }

@@ -16,6 +16,9 @@ import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interceptor-providers';
+import { BlogComponent } from './components/blog/blog.component';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -27,16 +30,18 @@ import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interc
     AboutComponent,
     ContactFormComponent,
     PostComponent,
+    BlogComponent,
   ],
-  imports: [
-    BrowserModule,
-    CommonModule,
-    HttpClientModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    ReactiveFormsModule,
-    MatSnackBarModule
-  ],
+    imports: [
+        BrowserModule,
+        CommonModule,
+        HttpClientModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        MatSnackBarModule,
+        MatCardModule, MatButtonModule
+    ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
 })
