@@ -12,7 +12,8 @@ export const environment = {
   addCar: 'api/v1/manufacturers/models/add',
   fetchManufacturers: 'api/v1/manufacturers',
   getAllQuestion: 'api/questions/all/',
-  addQuestion: 'api/questions'
+  addQuestion: 'api/questions',
+  getTopics: 'api/questions/topics'
 };
 
 /*

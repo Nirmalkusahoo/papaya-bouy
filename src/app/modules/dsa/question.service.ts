@@ -18,4 +18,8 @@ export class QuestionService {
     const url: string = environment.baseUrl + environment.addQuestion;
     return this.httpService.postData(url, questionData);
   }
+  public getTopics(): Observable<any> {
+    const url: string = environment.baseUrl + environment.getTopics;
+    return this.httpService.getData(url);
+  }
 }
