@@ -16,9 +16,6 @@ export class DsaTopicListComponent {
   public listOfTopics: string[];
 
   public topic: string;
-  displayedColumns: string[] = ['topic'];
-  dataSource: MatTableDataSource<QuestionDetailModel>;
-  selection = new SelectionModel<QuestionDetailModel>(true, []);
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
@@ -38,43 +35,6 @@ export class DsaTopicListComponent {
     this.router.navigate(['../list', topic], {relativeTo: this.route});
   }
 
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();
-
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
-  }
-
-  isAllSelected() {
-    const numSelected = this.selection.selected.length;
-    const numRows = this.dataSource.data.length;
-    return numSelected === numRows;
-  }
-
-  /** Selects all rows if they are not all selected; otherwise clear selection. */
-  toggleAllRows() {
-    if (this.isAllSelected()) {
-      this.selection.clear();
-      return;
-    }
-
-    this.selection.select(...this.dataSource.data);
-  }
-
-  /** The label for the checkbox on the passed row */
-  checkboxLabel(row?: QuestionDetailModel): string {
-    if (!row) {
-      return `${this.isAllSelected() ? 'deselect' : 'select'} all`;
-    }
-    return `${this.selection.isSelected(row) ? 'deselect' : 'select'} row ${row.questionTitle + 1}`;
-  }
 
   public navigateToList(): void {
     this.router.navigate(['topics'], {relativeTo: this.route.parent});

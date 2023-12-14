@@ -1,5 +1,23 @@
 <div class="dsa-topic-list-container">
-  <div class="page-title">Topics</div>
-  <div class="topic" *ngFor="let topic of listOfTopics; index as i">{{i + 1}} . <span
-    (click)="navigate(topic)">{{topic}}</span></div>
+  <div class="header">
+    <div class=" page-title mat-headline-4">Topics</div>
+  </div>
+  <div class="card-container">
+    <mat-card class="example-card" *ngFor="let topic of listOfTopics?.sort()" (click)="navigate(topic.key)">
+      <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title></mat-card-title>
+        <mat-card-subtitle></mat-card-subtitle>
+      </mat-card-header>
+      <!--      <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">-->
+      <mat-card-content class="content">
+        {{topic.displayName}}
+      </mat-card-content>
+    <!--  <mat-card-actions >
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>-->
+    </mat-card>
+  </div>
 </div>
+

@@ -51,5 +51,11 @@ app-footer {
   height: 1px;
   margin-top: 18px;
 }
-
+.all-page{
+  display: flex;
+  position: relative;
+  top: 150px;
+  max-width: 85%;
+  min-height: 1000px;
+}
 //body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

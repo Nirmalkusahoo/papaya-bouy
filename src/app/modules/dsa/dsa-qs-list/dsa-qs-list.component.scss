@@ -1,12 +1,11 @@
+@import "src/styles";
+
 .qs-list-container {
-  display: flex;
+  @extend .all-page;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   margin: auto;
-  position: relative;
-  top: 32%;
   font-size: 16px;
-  max-width: 85%;
 }
 .header{
   display: flex;
