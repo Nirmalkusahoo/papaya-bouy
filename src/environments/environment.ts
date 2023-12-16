@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: true,
+  production: false,
   baseUrl: 'http://localhost:8090/',
   register: 'api/auth/signup',
   login: 'api/auth/login',
@@ -13,7 +13,8 @@ export const environment = {
   fetchManufacturers: 'api/v1/manufacturers',
   getAllQuestion: 'api/questions/all/',
   addQuestion: 'api/questions',
-  getTopics: 'api/questions/topics'
+  getTopics: 'api/questions/topics',
+  getAllStatus: 'api/questions/allstatus'
 };
 
 /*

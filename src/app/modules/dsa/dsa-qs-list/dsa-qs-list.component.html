@@ -10,56 +10,80 @@
     <mat-label>Filter</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Find two sum of target" #input>
   </mat-form-field>
+  <form [formGroup]="formGroup">
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource" matSort>
 
-  <div class="mat-elevation-z8">
-    <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="select">
+          <th mat-header-cell *matHeaderCellDef>
+            <mat-checkbox (change)="$event ? toggleAllRows() : null"
+                          [checked]="selection.hasValue() && isAllSelected()"
+                          [indeterminate]="selection.hasValue() && !isAllSelected()"
+                          [aria-label]="checkboxLabel()">
+            </mat-checkbox>
+          </th>
+          <td mat-cell *matCellDef="let row">
+            <mat-checkbox (click)="$event.stopPropagation()"
+                          (change)="$event ? selection.toggle(row) : null"
+                          [checked]="selection.isSelected(row)"
+                          [aria-label]="checkboxLabel(row)">
+            </mat-checkbox>
+          </td>
+        </ng-container>
 
-      <ng-container matColumnDef="select">
-        <th mat-header-cell *matHeaderCellDef>
-          <mat-checkbox (change)="$event ? toggleAllRows() : null"
-                        [checked]="selection.hasValue() && isAllSelected()"
-                        [indeterminate]="selection.hasValue() && !isAllSelected()"
-                        [aria-label]="checkboxLabel()">
-          </mat-checkbox>
-        </th>
-        <td mat-cell *matCellDef="let row">
-          <mat-checkbox (click)="$event.stopPropagation()"
-                        (change)="$event ? selection.toggle(row) : null"
-                        [checked]="selection.isSelected(row)"
-                        [aria-label]="checkboxLabel(row)">
-          </mat-checkbox>
-        </td>
-      </ng-container>
+        <ng-container matColumnDef="status">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Status</th>
+          <td mat-cell *matCellDef="let row">
+            {{row.status}}
+            <select formControlName="status" name="status">
+              <option label="Select Status"></option>
+              <option *ngFor="let status of allStatus" [value]="status.technicalName"> {{status.endUserName}}</option>
+            </select>
+          </td>
+        </ng-container>
 
-      <ng-container matColumnDef="questionTitle">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Question</th>
-        <td mat-cell *matCellDef="let row">
-          <a mat-button href="{{row.questionUrl}}" target="_blank">{{row.questionTitle}}</a>
-        </td>
-      </ng-container>
+        <ng-container matColumnDef="questionTitle">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Question</th>
+          <td mat-cell *matCellDef="let row">
+            <a mat-button href="{{row.questionUrl}}" target="_blank">{{row.questionTitle}}</a>
+          </td>
+        </ng-container>
 
-      <ng-container matColumnDef="answerUrl">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Answer Url</th>
-        <td mat-cell *matCellDef="let row">
-          <button mat-icon-button color="primary" aria-label="Video link">
-            <mat-icon><a href="{{row.answerUrl}}" target="_blank">video_library</a></mat-icon>
-          </button>
-        </td>
-      </ng-container>
+        <ng-container matColumnDef="answerUrl">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Answer Url</th>
+          <td mat-cell *matCellDef="let row">
+            <span *ngIf="row.answerDetails?.length>0 ">
+              <button mat-icon-button color="primary" aria-label="Video link" *ngFor="let answer of row.answerDetails"
+                      (click)="openInNewTab(answer.url)" matTooltip="{{answer.level}}">
+                <mat-icon matRipple matTooltip="Click to open video"><a [attr.href]="answer.url" target="_blank">video_library</a></mat-icon>
+              </button>
+            </span>
+            <span *ngIf="row.answerUrl">
+              <button mat-icon-button color="primary" aria-label="Video link" (click)="openInNewTab(row.answerUrl)"
+                      matTooltip="Info about the action">
+                <mat-icon matRipple matTooltip="Click to open video"><a href="{{row.answerUrl}}" target="_blank">video_library</a>
+                </mat-icon>
+              </button>
+            </span>
+          </td>
+        </ng-container>
 
-      <ng-container matColumnDef="conceptUrl">
-        <th mat-header-cell *matHeaderCellDef mat-sort-header> Concept Url</th>
-        <td mat-cell *matCellDef="let row"> {{row.conceptUrl}} </td>
-      </ng-container>
+        <ng-container matColumnDef="conceptUrl">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Concept Url</th>
+          <td mat-cell *matCellDef="let row"> {{row.conceptUrl}} </td>
+        </ng-container>
 
-      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-      <tr mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></tr>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row matRipple *matRowDef="let row; columns: displayedColumns;"></tr>
 
-      <tr class="mat-row" *matNoDataRow>
-        <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
-      </tr>
-    </table>
-    <mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
-  </div>
+        <tr class="mat-row" *matNoDataRow>
+          <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+        </tr>
+      </table>
+      <mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]"
+                     aria-label="Select page of users"></mat-paginator>
+    </div>
+  </form>
+
 </div>
 

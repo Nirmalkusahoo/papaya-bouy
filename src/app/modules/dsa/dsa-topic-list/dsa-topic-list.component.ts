@@ -1,11 +1,9 @@
 import {Component, ViewChild} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
-import {QuestionDetailModel} from '../dsa-qs-list/question-detail.model';
-import {MatTableDataSource} from '@angular/material/table';
-import {SelectionModel} from '@angular/cdk/collections';
 import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
 import {QuestionService} from '../question.service';
+import {KeyValueModel} from '../../shared-module/models/key-value.model';
 
 @Component({
   selector: 'app-dsa-topic-list',
@@ -13,7 +11,7 @@ import {QuestionService} from '../question.service';
   styleUrls: ['./dsa-topic-list.component.scss']
 })
 export class DsaTopicListComponent {
-  public listOfTopics: string[];
+  public listOfTopics: KeyValueModel[] = [];
 
   public topic: string;
 

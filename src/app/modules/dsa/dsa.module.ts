@@ -16,6 +16,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import {MatCardModule} from '@angular/material/card';
         MatButtonModule,
         MatIconModule,
         MatSelectModule,
-        MatCardModule
+        MatCardModule,
+        MatTooltipModule
     ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })

@@ -7,10 +7,12 @@
   margin: auto;
   font-size: 16px;
 }
-.header{
+
+.header {
   display: flex;
   justify-content: space-between;
 }
+
 .page-title {
   margin-bottom: 20px;
 }
@@ -30,6 +32,6 @@ a {
   background-color: transparent;
 }
 
-.pointer{
+.pointer {
   cursor: pointer;
 }

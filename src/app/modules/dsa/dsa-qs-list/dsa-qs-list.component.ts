@@ -8,6 +8,9 @@ import {publish} from 'rxjs';
 import {SelectionModel} from '@angular/cdk/collections';
 import {HttpService} from '../../shared-module/services/http.service';
 import {environment} from '../../../../environments/environment';
+import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
+import {QuestionService} from '../question.service';
+import {KeyValueModel} from '../../shared-module/models/key-value.model';
 
 @Component({
   selector: 'app-dsa-qs-list',
@@ -18,18 +21,33 @@ export class DsaQsListComponent {
 
 
   public listOfQs: QuestionDetailModel[] = [];
+  public allStatus: KeyValueModel[] = [];
   public topic: string;
-  displayedColumns: string[] = ['select', 'questionTitle', 'answerUrl', 'conceptUrl'];
+  public status: FormControl = new FormControl('');
+  public formGroup: FormGroup;
+  displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'conceptUrl'];
   dataSource: MatTableDataSource<QuestionDetailModel>;
   selection = new SelectionModel<QuestionDetailModel>(true, []);
-
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  constructor(private route: ActivatedRoute, private httpService: HttpService, private router: Router) {
+  constructor(private route: ActivatedRoute, private httpService: HttpService, private router: Router, private formBuilder: FormBuilder, private questionService: QuestionService) {
     this.route.params.subscribe((params: Params) => this.topic = params.topic);
-
+    this.initFormGroup();
     this.getAllQuestions();
+    this.getAllStatus();
+  }
+
+  private initFormGroup(): void {
+    this.formGroup = this.formBuilder.group({
+      status: this.status
+    });
+  }
+
+  private getAllStatus(): void {
+    this.questionService.getAllStatus().subscribe((data) => {
+      this.allStatus = data;
+    });
   }
 
   private getAllQuestions(): void {
@@ -80,6 +98,9 @@ export class DsaQsListComponent {
 
   public navigateToList(): void {
     this.router.navigate(['topics'], {relativeTo: this.route.parent});
+  }
+  public openInNewTab(url: string) {
+    window.open(url, '_blank');
   }
 }
 
