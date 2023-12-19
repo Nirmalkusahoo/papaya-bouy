@@ -1,0 +1,394 @@
+[
+  {
+
+    "topic": ["DoublyLinkedList"],
+    "number": null,
+    "questionTitle": " Design Browser History",
+    "questionUrl": "https://leetcode.com/problems/design-browser-history/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Simple logic back and forward with steps.",
+    "answerDetails": [
+      {
+        "level": "FRAZ",
+        "url": "https://youtu.be/SPDhPuMsM9A"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 35,
+    "questionTitle": " Search Insert Position",
+    "questionUrl": "https://leetcode.com/problems/search-insert-position/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Do binary search and if match found return middle, else at the end of while loop return L. Also did striver way",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 1290,
+    "questionTitle": "1290. Convert Binary Number in a Linked List to Integer",
+    "questionUrl": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/",
+    "answerUrl": "https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/discuss/629087/Detailed-explanation-Java-%3A-faster-than-100.00",
+    "conceptUrl": "",
+    "hint": "Its just based on a easy formula binary -> decimal",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 138,
+    "questionTitle": "138. Copy List with Random Pointer",
+    "questionUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
+    "answerUrl": "https://youtu.be/4apaOcK586U?si=XDl-dJj6DwslrJwK",
+    "conceptUrl": "",
+    "hint": "See its jus game a pointer. Learned new concept.SC-O(N) is easy. But with O(1) need practise",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 143,
+    "questionTitle": "143. Reorder List",
+    "questionUrl": "https://leetcode.com/problems/reorder-list/",
+    "answerUrl": "https://www.youtube.com/watch?v=xRYPjDMSUFw",
+    "conceptUrl": "",
+    "hint": "Program is simple, just need to take care of edge cases and need practise",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 1836,
+    "questionTitle": "1836. Remove Duplicates From an Unsorted Linked List",
+    "questionUrl": "https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/",
+    "answerUrl": "https://leetcode.com/problems/remove-duplicates-from-an-unsorted-linked-list/solutions/1228736/java-clean-o-n-solution/",
+    "conceptUrl": "",
+    "hint": "1stSolution:Only append if count ==1.2ndSolution: Need to handle two cases specially- if head is duplicate nodes and if all nodes are having duplicate.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["DoublyLinkedList"],
+    "number": null,
+    "questionTitle": "430. Flatten a Multilevel Doubly Linked List",
+    "questionUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Latter done by own using queue and recursive call. Initial time watched the video.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 445,
+    "questionTitle": "445. Add Two Numbers II",
+    "questionUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Advance version of [2. Add Two Numbers]. Solved using stack. Solved using reverse linked list too",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["Design"],
+    "number": 705,
+    "questionTitle": "705. Design HashSet",
+    "questionUrl": "https://leetcode.com/problems/design-hashset/",
+    "answerUrl": "https://youtu.be/o9R-mUhTM9A?si=GOeV9nKgTV4YwMUK",
+    "conceptUrl": "",
+    "hint": "New easy learning.Need practise. Implemented internal set. Similar to adjacency list in graph.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["Design"],
+    "number": 706,
+    "questionTitle": "706. Design HashMap",
+    "questionUrl": "https://leetcode.com/problems/design-hashmap/description/",
+    "answerUrl": "https://youtu.be/ISir207RuKQ?si=NsI1SdiNMJHpmYj6",
+    "conceptUrl": "",
+    "hint": "New easy learning.Need practise. Implemented internal hasmap way",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 82,
+    "questionTitle": "82. Remove Duplicates from Sorted List II",
+    "questionUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/",
+    "answerUrl": "https://youtu.be/R6-PnHODewY?si=stfrDrof-VY7Hz1L",
+    "conceptUrl": "",
+    "hint": "Again its just game of pointer.Need practise.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 83,
+    "questionTitle": "83. Remove Duplicates from Sorted List",
+    "questionUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "in while loop eash time currentNode.val == currentNode.next.val then currentNode.next = currentNode.next.next;",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": null,
+    "questionTitle": "86. Partition List",
+    "questionUrl": "https://leetcode.com/problems/partition-list/description/",
+    "answerUrl": "https://youtu.be/NYZKRUT_8MY?si=d201GWNhWoKMxoFG",
+    "conceptUrl": "",
+    "hint": "",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 704,
+    "questionTitle": "Binary Search",
+    "questionUrl": "https://leetcode.com/problems/binary-search/description/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": " Normal Binary search.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/MHf6awe89xw"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": null,
+    "questionTitle": "Ceil The Floor",
+    "questionUrl": "https://www.codingninjas.com/codestudio/problems/ceiling-in-a-sorted-array_1825401",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "finding lower bound and lower bound oppiste conditon",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": null,
+    "questionTitle": "Count occurrences in Array",
+    "questionUrl": "https://bit.ly/42ZDqM4/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "find first and last index then last-first+1.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.3",
+        "url": "https://youtu.be/hjR1IYVx9lY"
+      }
+    ]
+  },
+  {
+
+    "topic": ["Design"],
+    "number": 622,
+    "questionTitle": "Design Circular Queue",
+    "questionUrl": "https://leetcode.com/problems/design-circular-queue/",
+    "answerUrl": "https://youtu.be/lPL-pmBm04Q?si=qN5q0__H6JjH82Aa",
+    "conceptUrl": "",
+    "hint": "New easy learning.Need practise",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": null,
+    "questionTitle": "Find First and Last Position of Element in Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Same as [AlgoExpert]. Need to do multiple binary search till we reach 0 ||length-1 or till mid+1 != target or mi-1 != target . Striver way more intuitive.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.3",
+        "url": "https://youtu.be/hjR1IYVx9lY"
+      },
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/search-for-range"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 2089,
+    "questionTitle": "Find Target Indices After Sorting Array",
+    "questionUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "",
+    "answerDetails": [
+      {
+        "level": "Same as - Find First and Last Position of Element in Sorted Array",
+        "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 278,
+    "questionTitle": "First Bad Version",
+    "questionUrl": "https://leetcode.com/problems/first-bad-version/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "",
+    "answerDetails": [
+      {
+        "level": "Same as - Find First and Last Position of Element in Sorted Array",
+        "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": null,
+    "questionTitle": "Implement Lower Bound",
+    "questionUrl": "https://bit.ly/43967G5",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Finding lower bound.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": null,
+    "questionTitle": "Implement Upper Bound",
+    "questionUrl": "https://bit.ly/3IoKGce",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Finding Upper bound.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 708,
+    "questionTitle": "Insert into a Sorted Circular Linked List",
+    "questionUrl": "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list",
+    "answerUrl": "https://leetcode.com/problems/insert-into-a-sorted-circular-linked-list/editorial/comments/919842",
+    "conceptUrl": "",
+    "hint": "Saw the leetcode editor(somebody) commented code solution. Partially understood.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 382,
+    "questionTitle": "Linked List Random Node",
+    "questionUrl": "https://leetcode.com/problems/linked-list-random-node",
+    "answerUrl": "https://youtu.be/Rl7dOXde_2s?si=YidTnwa3OOhFCdYJ",
+    "conceptUrl": "",
+    "hint": "SC:O(N) is easy. just need to use Random class. But SC:O(1) still need to get hold Reservoir sampling algorithm",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["DoublyLinkedList"],
+    "number": 146,
+    "questionTitle": "LRU Cache",
+    "questionUrl": "https://leetcode.com/problems/lru-cache/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "LRU cache- Create Map<String, DoublyLinkedListNode> cache and DoublyLinkedList mostRecentList with maxSize. Striver approach is much cleaner than algo expert. But algo expert is much more fundamentally strong",
+    "answerDetails": [
+      {
+        "level": "TUF-Concept",
+        "url": "https://youtu.be/xDEuM5qa0zg?si=mJLYSpratr5RxMvy"
+      },
+      {
+        "level": "TUF-Code",
+        "url": "https://youtu.be/Xc4sICC8m4M?si=5SJKGXl5ycrp-2w_"
+      }
+    ]
+  },
+  {
+
+    "topic": ["LinkedList"],
+    "number": 1699,
+    "questionTitle": "Merge In Between Linked Lists",
+    "questionUrl": "https://leetcode.com/problems/merge-in-between-linked-lists/description/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Just pointer's game. Change both node only after reaching both places.",
+    "answerDetails": []
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 33,
+    "questionTitle": "Search in Rotated Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "You need identify sorted part.So it will be always that one half will be sorted.Need to know which part need to eliminate. Key word : search , sorted ths why Binary search.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.4",
+        "url": "https://youtu.be/5qGrJbHhqFs"
+      }
+    ]
+  },
+  {
+
+    "topic": ["BinarySearch"],
+    "number": 81,
+    "questionTitle": "Search in Rotated Sorted Array II",
+    "questionUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "Same as leetcode-33. Its just need to keep in shrink the array till both side are equal.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.5",
+        "url": "https://youtu.be/5qGrJbHhqFs"
+      }
+    ]
+  },
+  {
+
+    "topic": ["Stack"],
+    "number": 622,
+    "questionTitle": "Steps to Make Array Non-decreasing",
+    "questionUrl": "https://leetcode.com/problems/steps-to-make-array-non-decreasing/",
+    "answerUrl": "https://youtu.be/NQGduRE1Crk?si=swPDfI-WhVmtI8-L",
+    "conceptUrl": "",
+    "hint": "Understood the Monotonic stack concept",
+    "answerDetails": []
+  }
+]
