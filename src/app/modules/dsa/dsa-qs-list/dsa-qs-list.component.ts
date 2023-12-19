@@ -25,7 +25,7 @@ export class DsaQsListComponent {
   public topic: string;
   public status: FormControl = new FormControl('');
   public formGroup: FormGroup;
-  displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'conceptUrl'];
+  displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'notes'];
   dataSource: MatTableDataSource<QuestionDetailModel>;
   selection = new SelectionModel<QuestionDetailModel>(true, []);
   @ViewChild(MatPaginator) paginator: MatPaginator;
