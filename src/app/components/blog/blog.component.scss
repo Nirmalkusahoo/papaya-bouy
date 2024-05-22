@@ -10,9 +10,23 @@
   max-width: 400px;
   max-height: 400px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .example-header-image {
   //background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
+}
+.badge{
+  position: absolute;
+  left: 318px;
+  transform: rotatez(45deg) translateX(-24px) translateY(77px);
+  transform-origin: center;
+  z-index: 1;
+  background: coral;
+  padding: 1px;
+  width: 200px;
+  text-align: center;
+  font-weight: 600;
+  color: white;
 }

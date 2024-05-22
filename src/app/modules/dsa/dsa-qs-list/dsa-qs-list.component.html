@@ -45,7 +45,8 @@
         <ng-container matColumnDef="questionTitle">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Question</th>
           <td mat-cell *matCellDef="let row">
-            <a mat-button href="{{row.questionUrl}}" target="_blank">{{row.questionTitle}}</a>
+            <a *ngIf="row.questionUrl" mat-button href="{{row.questionUrl}}" target="_blank">{{row.questionTitle}}</a>
+            <a *ngIf="!(row.questionUrl)" mat-button>{{row.questionTitle}}</a>
           </td>
         </ng-container>
 
