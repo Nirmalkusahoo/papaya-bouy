@@ -27,16 +27,16 @@ const routes: Routes = [
       import('./modules/dsa/dsa.module').then(
         (m) => m.DsaModule,
       ),
-  },
+  }
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes, {
-    anchorScrolling: 'enabled',
-    scrollPositionRestoration: 'enabled',
-    initialNavigation: 'enabledBlocking'
-}),
+      anchorScrolling: 'enabled',
+      scrollPositionRestoration: 'enabled',
+      initialNavigation: 'enabledBlocking'
+    }),
   ],
   exports: [RouterModule],
 })

@@ -1,0 +1,30 @@
+[
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2625. Flatten Deeply Nested Array",
+    "questionUrl": "https://leetcode.com/problems/flatten-deeply-nested-array/description/?envType=study-plan-v2&envId=30-days-of-javascript",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/EXoS4MfElEc?si=4YjlxIm8SdviVzCh"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2705. Compact Object",
+    "questionUrl": "https://leetcode.com/problems/compact-object/description/?envType=study-plan-v2&envId=30-days-of-javascript",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/V5OXdDi15BE?si=8wn6ZwHpWfRJyK6S"
+      }
+    ]
+  }
+]

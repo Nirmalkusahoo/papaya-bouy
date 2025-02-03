@@ -25,7 +25,8 @@ export class DsaQsListComponent {
   public topic: string;
   public status: FormControl = new FormControl('');
   public formGroup: FormGroup;
-  displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'notes'];
+  // displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'notes'];
+  displayedColumns: string[] = ['questionTitle', 'answerUrl'];
   dataSource: MatTableDataSource<QuestionDetailModel>;
   selection = new SelectionModel<QuestionDetailModel>(true, []);
   @ViewChild(MatPaginator) paginator: MatPaginator;
@@ -35,7 +36,7 @@ export class DsaQsListComponent {
     this.route.params.subscribe((params: Params) => this.topic = params.topic);
     this.initFormGroup();
     this.getAllQuestions();
-    this.getAllStatus();
+    // this.getAllStatus();
   }
 
   private initFormGroup(): void {
@@ -51,7 +52,10 @@ export class DsaQsListComponent {
   }
 
   private getAllQuestions(): void {
-    const url = environment.baseUrl + environment.getAllQuestion + this.topic;
+    // const url = environment.baseUrl + environment.getAllQuestion + this.topic;
+    const url = `assets/jsondata/${this.topic}.json`;
+
+
     this.httpService.getData(url).subscribe((data) => {
       this.listOfQs = data;
       this.dataSource = new MatTableDataSource(this.listOfQs);
@@ -99,6 +103,7 @@ export class DsaQsListComponent {
   public navigateToList(): void {
     this.router.navigate(['topics'], {relativeTo: this.route.parent});
   }
+
   public openInNewTab(url: string) {
     window.open(url, '_blank');
   }

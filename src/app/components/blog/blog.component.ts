@@ -15,4 +15,8 @@ export class BlogComponent {
   public navigate(path: string): void {
     this.router.navigate([path], {relativeTo: this.activatedRoute.parent});
   }
+  public navigateToJavaScript(): void {
+    // this.router.navigate(['../list/javascriptquestions', ], {relativeTo:  this.activatedRoute.parent});
+    this.router.navigate(['../dsa/list/javascriptquestions' ]);
+  }
 }
