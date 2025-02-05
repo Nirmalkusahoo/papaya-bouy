@@ -48,5 +48,16 @@
         "url": "https://youtu.be/DB8pAAg-9xw?si=z_h9WnjNr3IVTViq"
       }
     ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2676. Throttle",
+    "questionUrl": "https://leetcode.com/problems/throttle/",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/zyGZV_fIQWk?si=6FqBwPLlxsqcaefA"
+      }
+    ]
   }
 ]
