@@ -26,5 +26,27 @@
         "url": "https://youtu.be/V5OXdDi15BE?si=8wn6ZwHpWfRJyK6S"
       }
     ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2694. Event Emitter",
+    "questionUrl": "https://leetcode.com/problems/event-emitter?envType=study-plan-v2&envId=30-days-of-javascript",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/M69bjWFarU0?si=7to0fRa0UEmR1hRm"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2636. Promise Pool",
+    "questionUrl": "https://leetcode.com/problems/promise-pool/",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/DB8pAAg-9xw?si=z_h9WnjNr3IVTViq"
+      }
+    ]
   }
 ]
