@@ -59,5 +59,16 @@
         "url": "https://youtu.be/zyGZV_fIQWk?si=6FqBwPLlxsqcaefA"
       }
     ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2628. JSON Deep Equal",
+    "questionUrl": "https://leetcode.com/problems/json-deep-equal/",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/4JVZ-mVqJPg?si=_Pq9cS1iYhI2gA5w"
+      }
+    ]
   }
 ]
