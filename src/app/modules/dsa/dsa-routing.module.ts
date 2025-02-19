@@ -3,11 +3,13 @@ import {RouterModule, Routes} from '@angular/router';
 import {DsaQsListComponent} from './dsa-qs-list/dsa-qs-list.component';
 import {DsaTopicListComponent} from './dsa-topic-list/dsa-topic-list.component';
 import {AddQuestionComponent} from './add-question/add-question.component';
+import {StarRatingComponent} from '../../components/projects/star-rating/star-rating.component';
 
 const routes: Routes = [
   {path: 'topics', component: DsaTopicListComponent},
   {path: 'list/:topic', component: DsaQsListComponent},
   {path: 'addqs', component: AddQuestionComponent},
+  {path: 'starrating', component: StarRatingComponent},
 ];
 
 @NgModule({

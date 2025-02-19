@@ -20,7 +20,8 @@ export class QuestionService {
     return this.httpService.postData(url, questionData);
   }
   public getTopics(): Observable<KeyValueModel[]> {
-    const url: string = environment.baseUrl + environment.getTopics;
+    const url = `assets/jsondata/dsatopiclist.json`;
+    // const url: string = environment.baseUrl + environment.getTopics;
     return this.httpService.getData(url);
   }
   public getAllStatus(): Observable<KeyValueModel[]> {

@@ -5,6 +5,7 @@ import {ArticleComponent} from './components/article/article.component';
 import {AboutComponent} from './components/about/about.component';
 import {PostComponent} from './components/post/post.component';
 import {BlogComponent} from './components/blog/blog.component';
+import {DsaQsListComponent} from './modules/dsa/dsa-qs-list/dsa-qs-list.component';
 
 const routes: Routes = [
   {path: '', component: AboutComponent},
@@ -13,7 +14,7 @@ const routes: Routes = [
   {path: 'about', component: AboutComponent},
   {path: 'post', component: PostComponent},
   {path: 'blogs', component: BlogComponent},
-
+  {path: 'angularprojects', component: DsaQsListComponent},
   {
     path: 'auth',
     loadChildren: () =>

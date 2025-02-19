@@ -19,4 +19,8 @@ export class BlogComponent {
     // this.router.navigate(['../list/javascriptquestions', ], {relativeTo:  this.activatedRoute.parent});
     this.router.navigate(['../dsa/list/javascriptquestions' ]);
   }
+
+  public navigateToAngularProjects(): void {
+    this.router.navigate(['../dsa/list/angularprojects' ]);
+  }
 }

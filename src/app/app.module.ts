@@ -19,6 +19,8 @@ import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interc
 import { BlogComponent } from './components/blog/blog.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import {StarRatingComponent} from './components/projects/star-rating/star-rating.component';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -31,17 +33,18 @@ import {MatButtonModule} from '@angular/material/button';
     ContactFormComponent,
     PostComponent,
     BlogComponent,
+    StarRatingComponent
   ],
-    imports: [
-        BrowserModule,
-        CommonModule,
-        HttpClientModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        ReactiveFormsModule,
-        MatSnackBarModule,
-        MatCardModule, MatButtonModule
-    ],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    MatCardModule, MatButtonModule, MatIconModule
+  ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
 })

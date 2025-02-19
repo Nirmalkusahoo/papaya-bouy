@@ -1,0 +1,93 @@
+[
+  {
+    "topic": "BinarySearch",
+    "number": 704,
+    "questionTitle": "Binary Search",
+    "questionUrl": "https://leetcode.com/problems/binary-search/description/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": " Normal Binary search.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/MHf6awe89xw"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Allocate Books or Book Allocation",
+    "questionUrl": "https://bit.ly/3MZQOct",
+    "answerDetails": [
+      {
+        "level": "TUF-B.18",
+        "url": "https://youtu.be/Z0hwjftStI4"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "410. Split Array Largest Sum",
+    "questionUrl": "https://leetcode.com/problems/split-array-largest-sum/",
+    "hint": "Same as [Allocate Books or Book Allocation]",
+    "answerDetails": [
+      {
+        "level": "TUF-B.19",
+        "url": "https://youtu.be/thUd_WJn6wk"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Painter's Partition",
+    "questionUrl": "https://bit.ly/3XM8oFS",
+    "hint": "Same as [Allocate Books or Book Allocation]",
+    "answerDetails": [
+      {
+        "level": "TUF-B.19",
+        "url": "https://youtu.be/thUd_WJn6wk"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "774. Minimize Max Distance to Gas Station",
+    "questionUrl": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/",
+    "hint": "Understood clearly but need practise. Yet to understand binary search approach.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.20",
+        "url": "https://youtu.be/kMSBvlZ-_HA"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "4. Median of Two Sorted Arrays",
+    "questionUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+    "hint": "TC: O(M+N) or SC:O(2) is easy. Binary search way understood- but to understand need to give more time. See in\n      future if u can implement.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.21",
+        "url": "https://youtu.be/C2rRzz-JDk8?si=-hPe4jXY5w4RAq9A"
+      },
+      {
+        "level": "TUF-B.21",
+        "url": "https://youtu.be/F9c7LpRZWVQ?si=xIDRenfKIEhzygWG"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "K-th Element of Two Sorted Arrays",
+    "questionUrl": "https://www.codingninjas.com/studio/problems/k-th-element-of-2-sorted-array_1164159?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf",
+    "hint": "Didn't do binary search way.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.22",
+        "url": "https://youtu.be/D1oDwWCq50g?si=2v2Eutjvo1qvfS5s"
+      }
+    ]
+  }
+]
+
