@@ -18,6 +18,6 @@ export class StarRatingComponent {
   }
 
   public openGitHubUrl(): void {
-    window.open();
+    window.open('https://github.com/Nirmalkusahoo/papaya-bouy/tree/78b009d174525086bf9ecf7182e0266888326d4e/src/app/components/projects/star-rating', '_blank');
   }
 }
