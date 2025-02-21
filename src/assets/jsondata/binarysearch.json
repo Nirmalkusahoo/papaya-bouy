@@ -88,6 +88,48 @@
         "url": "https://youtu.be/D1oDwWCq50g?si=2v2Eutjvo1qvfS5s"
       }
     ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2643. Row With Maximum Ones",
+    "questionUrl": "https://leetcode.com/problems/row-with-maximum-ones/",
+    "hint": " Easy one , lower bound.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.23",
+        "url": "https://youtu.be/SCz-1TtYxDI?si=R3_1tfLoHMLU_p_H"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "74. Search a 2D Matrix",
+    "questionUrl": "https://leetcode.com/problems/search-a-2d-matrix/",
+    "hint": "Similar to [Search in sorted matrix](https://www.algoexpert.io/questions/search-in-sorted-matrix)\n    * Algo Expert solution is more crisp, but striver solution is intuitive.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.24",
+        "url": "https://youtu.be/JXU4Akft7yk?si=yxT9NARlrLOxflLs"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "240. Search a 2D Matrix II",
+    "questionUrl": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+    "hint": "Interesting observation with new learning.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.25",
+        "url": "https://youtu.be/9ZbB397jU4k?si=akTpZr9ZhrLruQni"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1351. Count Negative Numbers in a Sorted Matrix",
+    "questionUrl": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
+    "hint": "Similar to [240. Search a 2D Matrix II]"
   }
 ]
 
