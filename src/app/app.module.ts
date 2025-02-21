@@ -21,6 +21,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {StarRatingComponent} from './components/projects/star-rating/star-rating.component';
 import {MatIconModule} from '@angular/material/icon';
+import {MatTooltipModule} from '@angular/material/tooltip';
 
 @NgModule({
   declarations: [
@@ -35,16 +36,16 @@ import {MatIconModule} from '@angular/material/icon';
     BlogComponent,
     StarRatingComponent
   ],
-  imports: [
-    BrowserModule,
-    CommonModule,
-    HttpClientModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    ReactiveFormsModule,
-    MatSnackBarModule,
-    MatCardModule, MatButtonModule, MatIconModule
-  ],
+    imports: [
+        BrowserModule,
+        CommonModule,
+        HttpClientModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        ReactiveFormsModule,
+        MatSnackBarModule,
+        MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule
+    ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
 })

@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.start-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-icon {
+  color: gray;
+  font-size: 100px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.rated {
+  color: orange;
+  transition: color 0.3s ease-in-out;
+}
+
+mat-icon:hover {
+  color: orange;
+  transition: color 0.3s ease-in-out;
+}
+
+.code-btn {
+  margin-top: 40px;
+}
+
+.code {
+  color: gray;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}

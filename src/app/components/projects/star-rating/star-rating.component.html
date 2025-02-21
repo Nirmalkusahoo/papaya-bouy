@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="start-container">
+    <mat-icon aria-hidden="false" fontIcon="star"
+              [ngClass]="(rating >= 1 || hoverIndex>=1)?'rated':''"
+              (click)="rate(1)" (mouseover)="setHover(1)" (mouseleave)="setHover(0)"></mat-icon>
+    <mat-icon aria-hidden="false" fontIcon="star" [ngClass]="(rating >= 2 || hoverIndex>=2)?'rated':''"
+              (click)="rate(2)" (mouseover)="setHover(2)" (mouseleave)="setHover(0)"></mat-icon>
+    <mat-icon aria-hidden="false" fontIcon="star" [ngClass]="(rating >= 3 || hoverIndex>=3)?'rated':''"
+              (click)="rate(3)" (mouseover)="setHover(3)" (mouseleave)="setHover(0)"></mat-icon>
+    <mat-icon aria-hidden="false" fontIcon="star" [ngClass]="(rating >= 4 || hoverIndex>=4)?'rated':''"
+              (click)="rate(4)" (mouseover)="setHover(4)" (mouseleave)="setHover(0)"></mat-icon>
+    <mat-icon aria-hidden="false" fontIcon="star" [ngClass]="(rating >= 5 || hoverIndex>=5)?'rated':''"
+              (click)="rate(5)" (mouseover)="setHover(5)" (mouseleave)="setHover(0)"></mat-icon>
+  </div>
+  <button class="code-btn" mat-mini-fab (click)="openGitHubUrl()" matTooltip="Check Code">
+    <mat-icon class="code">code</mat-icon>
+  </button>
+</div>
+
+
