@@ -9,7 +9,7 @@ export class StarRatingComponent {
   public rating: number;
   public hoverIndex: number;
 
-  public rate(index: number) {
+  public rate(index: number): void {
     this.rating = index;
   }
 

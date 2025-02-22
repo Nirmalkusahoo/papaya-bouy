@@ -1,5 +1,9 @@
 [
   {
+    "technicalName": "arrays",
+    "endUserName": "Arrays"
+  },
+  {
     "technicalName": "binarysearch",
     "endUserName": "Binary Search"
   }

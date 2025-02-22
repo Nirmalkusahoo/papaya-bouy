@@ -1,0 +1,24 @@
+[
+  {
+    "topic": "Arrays",
+    "questionTitle": "605. Can Place Flowers",
+    "questionUrl": "https://leetcode.com/problems/can-place-flowers/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "greedy approach with tow variable prev and next and handling 0 and length-1 index. Look at for loop conditions."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "581. Shortest Unsorted Continuous Subarray",
+    "questionUrl": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": " East one but need practise.",
+    "answerDetails": [
+      {
+        "level": "NICK",
+        "url": "https://youtu.be/p-O7FExDH1M?si=k4DudCpO_g8H6EmK"
+      }
+    ]
+  }
+]
