@@ -130,6 +130,18 @@
     "questionTitle": "1351. Count Negative Numbers in a Sorted Matrix",
     "questionUrl": "https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/",
     "hint": "Similar to [240. Search a 2D Matrix II]"
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1901. Find a Peak Element II",
+    "questionUrl": "https://leetcode.com/problems/find-a-peak-element-ii/",
+    "hint": "Interesting observation with new learning.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.26",
+        "url": "https://youtu.be/nGGp5XBzC4g?si=XW5ALq1zKpMkYJ1d"
+      }
+    ]
   }
 ]
 

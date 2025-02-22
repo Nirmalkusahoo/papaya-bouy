@@ -11,13 +11,35 @@
     "topic": "Arrays",
     "questionTitle": "581. Shortest Unsorted Continuous Subarray",
     "questionUrl": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
-    "answerUrl": "",
-    "conceptUrl": "",
     "hint": " East one but need practise.",
     "answerDetails": [
       {
         "level": "NICK",
         "url": "https://youtu.be/p-O7FExDH1M?si=k4DudCpO_g8H6EmK"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1996. The Number of Weak Characters in the Game",
+    "questionUrl": "https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/",
+    "hint": "Sorting will give the solution .",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=P0T2fy06x48"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1464. Maximum Product of Two Elements in an Array",
+    "questionUrl": "https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/",
+    "hint": "Did own. Added video reference since just watched in sequence.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/37E9ckMDdTk"
       }
     ]
   }
