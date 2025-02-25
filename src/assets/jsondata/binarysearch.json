@@ -142,6 +142,48 @@
         "url": "https://youtu.be/nGGp5XBzC4g?si=XW5ALq1zKpMkYJ1d"
       }
     ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1838. Frequency of the Most Frequent Element",
+    "questionUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/",
+    "hint": "Interesting new learning.Binary search for learning. for interview -sliding window approach. Latter found binary-search easy.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/iOqH_JnXIOQ?si=xqX7wKQgDQltefNG"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1337. The K Weakest Rows in a Matrix",
+    "questionUrl": "https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/",
+    "hint": "~~Next time try to do it by using lower-bound concept~~ Done using lower bound and max heap."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "702. Search in a Sorted Array of Unknown Size",
+    "questionUrl": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
+    "hint": "Trick is to find the window and right part, because array size is unknown. Why right = target - reader.get(0) ?\n      Explanation: Given all the elements in the Array are unique. If first value is n and we have all possible integers from n to target .\n      We will find the target at worst case  at (target - n)\n      Example: If First Element is -1 and target = 5 if the array had all elements between -1 and 5 i.e.,  \n      [-1,0,1,2,3,4,5] Worst case 5 will be at (target - firstValue).",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/solutions/595200/simple-java-100-faster-and-memory-less-than-100-of-solution/"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2387. Median of a Row Wise Sorted Matrix",
+    "questionUrl": "https://leetcode.com/problems/median-of-a-row-wise-sorted-matrix/",
+    "hint": "Partially understood, yet to code.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.27",
+        "url": "https://youtu.be/Q9wXgdxJq48?si=xSwWbfVCLvTGDayV"
+      }
+    ]
   }
 ]
 
