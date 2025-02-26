@@ -22,6 +22,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {StarRatingComponent} from './components/projects/star-rating/star-rating.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import { ProgressBarComponent } from './components/projects/progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
     ContactFormComponent,
     PostComponent,
     BlogComponent,
-    StarRatingComponent
+    StarRatingComponent,
+    ProgressBarComponent
   ],
     imports: [
         BrowserModule,

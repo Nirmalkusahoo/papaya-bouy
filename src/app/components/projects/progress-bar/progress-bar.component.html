@@ -1,0 +1,18 @@
+<div class="progress-bar-container">
+  <div class="outer">
+    <div class="inner" role="progressbar"
+         [ngStyle]="{'transform':'translateX('+ (progressNumber-100) +'%)','color':progressNumber<=5 ?'black':'white'}">{{ progressNumber }}
+      %
+    </div>
+  </div>
+  <div class="buttons">
+    <button mat-stroked-button (click)="setProgress(10)">10%</button>
+    <button mat-stroked-button (click)="setProgress(20)">20%</button>
+    <button mat-stroked-button (click)="setProgress(25)">25%</button>
+    <button mat-stroked-button (click)="setProgress(50)">50%</button>
+    <button mat-stroked-button (click)="setProgress(75)">75%</button>
+    <button mat-stroked-button (click)="setProgress(100)">100%</button>
+  </div>
+
+</div>
+

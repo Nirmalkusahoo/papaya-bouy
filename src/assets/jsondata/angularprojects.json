@@ -3,13 +3,21 @@
     "topic": "Angular Projects",
     "questionTitle": "Star Rating",
     "questionUrl": "dsa/starrating",
-    "answerUrl": "",
-    "conceptUrl": "",
-    "hint": "",
     "answerDetails": [
       {
         "level": "AyyazTech",
         "url": "https://youtu.be/rryzENCdiNA?si=EwjmLWBqE90FDgwB"
+      }
+    ]
+  },
+  {
+    "topic": "Angular Projects",
+    "questionTitle": "Progress Bar",
+    "questionUrl": "dsa/progress-bar",
+    "answerDetails": [
+      {
+        "level": "Akshay Saini",
+        "url": "https://youtu.be/MrJ8gjQBwr4?si=iv5rVesFXKA-Ur_U"
       }
     ]
   }
