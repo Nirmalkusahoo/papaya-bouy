@@ -6,5 +6,9 @@
   {
     "technicalName": "binarysearch",
     "endUserName": "Binary Search"
+  },
+  {
+    "technicalName": "matrix",
+    "endUserName": "Matrix"
   }
 ]
