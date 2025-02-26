@@ -1,18 +1,16 @@
-import {AfterViewInit, Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-progress-bar',
   templateUrl: './progress-bar.component.html',
   styleUrls: ['./progress-bar.component.scss']
 })
-export class ProgressBarComponent implements OnInit, AfterViewInit {
+export class ProgressBarComponent implements OnInit {
   @Input() progressNumber = 0;
 
-  public progressArray: number[] = [0, 0, 0, 0, 0, 0];
 
   ngOnInit(): void {
     setTimeout(() => {
-      // this.progressArray = [0, 1, 5, 10, 25, 50, 75, 100];
       this.progressNumber = 5;
     }, 100);
   }
@@ -21,9 +19,7 @@ export class ProgressBarComponent implements OnInit, AfterViewInit {
     this.progressNumber = value;
   }
 
-  ngAfterViewInit(): void {
-    /*setTimeout(() => {
-      this.progressArray = [0, 1, 5, 10, 25, 50, 75, 100];
-    }, 2000);*/
+  public openGitHubUrl(): void {
+    window.open('https://github.com/Nirmalkusahoo/papaya-bouy/tree/ef2485716a8ecf206a189a6fd0bb2326f06adeb4/src/app/components/projects/progress-bar', '_blank');
   }
 }
