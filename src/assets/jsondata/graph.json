@@ -3,8 +3,6 @@
     "topic": "Graph",
     "questionTitle": "547. Number of Provinces",
     "questionUrl": "https://leetcode.com/problems/number-of-provinces/",
-    "answerUrl": "",
-    "conceptUrl": "",
     "hint": "First solution using DFS call. Second one with disjoint set.",
     "answerDetails": [
       {
@@ -14,6 +12,18 @@
       {
         "level": "TUF- G48",
         "url": "https://youtu.be/ZGr5nX-Gi6Y"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "323. Number of Connected Components in an Undirected Graph",
+    "questionUrl": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+    "hint": "Same as [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/)",
+    "answerDetails": [
+      {
+        "level": "TUF- G7",
+        "url": "https://youtu.be/ACzkVtewUYA"
       }
     ]
   }
