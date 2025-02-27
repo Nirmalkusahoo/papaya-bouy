@@ -1,0 +1,20 @@
+[
+  {
+    "topic": "Graph",
+    "questionTitle": "547. Number of Provinces",
+    "questionUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "answerUrl": "",
+    "conceptUrl": "",
+    "hint": "First solution using DFS call. Second one with disjoint set.",
+    "answerDetails": [
+      {
+        "level": "TUF- G7",
+        "url": "https://youtu.be/ACzkVtewUYA"
+      },
+      {
+        "level": "TUF- G48",
+        "url": "https://youtu.be/ZGr5nX-Gi6Y"
+      }
+    ]
+  }
+]

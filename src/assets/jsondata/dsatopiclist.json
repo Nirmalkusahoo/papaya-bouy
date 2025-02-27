@@ -10,5 +10,9 @@
   {
     "technicalName": "matrix",
     "endUserName": "Matrix"
+  },
+  {
+    "technicalName": "graph",
+    "endUserName": "Graph"
   }
 ]
