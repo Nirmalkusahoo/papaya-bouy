@@ -26,5 +26,35 @@
         "url": "https://youtu.be/ACzkVtewUYA"
       }
     ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2685. Count the Number of Complete Components",
+    "questionUrl": "https://leetcode.com/problems/count-the-number-of-complete-components/",
+    "hint": " Same as Connected Components.Traverse each connected component and check whether every node has N-1 vertices in\n      it's adjacency list. If yes, then it is a complete connected component. Else, ignore it.\n    * TC can be improved.Try next time.There are some formula based on edge and vertex.",
+    "answerDetails": [
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/count-the-number-of-complete-components/solutions/3531447/easy-to-understand-approach-connected-components/"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "200. Number of Islands",
+    "questionUrl": "https://leetcode.com/problems/number-of-islands/",
+    "hint": "Simple matrix BFS/DFS traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF- G8",
+        "url": "https://youtu.be/muncqlKJrH0"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1905. Count Sub Islands",
+    "questionUrl": "https://leetcode.com/problems/count-sub-islands/",
+    "hint": "Simple matrix BFS/DFS traversal.We just need to check each if(grid2 value present in grid1) then count++"
   }
 ]
