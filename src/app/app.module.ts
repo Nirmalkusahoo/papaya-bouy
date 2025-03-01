@@ -23,6 +23,8 @@ import {StarRatingComponent} from './components/projects/star-rating/star-rating
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import { ProgressBarComponent } from './components/projects/progress-bar/progress-bar.component';
+import { FolderComponent } from './components/projects/folder-struture/folder/folder.component';
+import { FolderStrutureComponent } from './components/projects/folder-struture/folder-struture.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { ProgressBarComponent } from './components/projects/progress-bar/progres
     PostComponent,
     BlogComponent,
     StarRatingComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    FolderComponent,
+    FolderStrutureComponent
   ],
     imports: [
         BrowserModule,

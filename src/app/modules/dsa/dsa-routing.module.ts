@@ -5,6 +5,8 @@ import {DsaTopicListComponent} from './dsa-topic-list/dsa-topic-list.component';
 import {AddQuestionComponent} from './add-question/add-question.component';
 import {StarRatingComponent} from '../../components/projects/star-rating/star-rating.component';
 import {ProgressBarComponent} from '../../components/projects/progress-bar/progress-bar.component';
+import {FolderComponent} from '../../components/projects/folder-struture/folder/folder.component';
+import {FolderStrutureComponent} from '../../components/projects/folder-struture/folder-struture.component';
 
 const routes: Routes = [
   {path: 'topics', component: DsaTopicListComponent},
@@ -12,6 +14,7 @@ const routes: Routes = [
   {path: 'addqs', component: AddQuestionComponent},
   {path: 'starrating', component: StarRatingComponent},
   {path: 'progress-bar', component: ProgressBarComponent},
+  {path: 'folder-structure', component: FolderStrutureComponent},
 ];
 
 @NgModule({

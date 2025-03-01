@@ -1,0 +1,15 @@
+<div *ngIf="folder" class="folder">
+  <div (click)="isExpanded=!isExpanded">
+    <span *ngIf="folder.isFolder">
+    <span *ngIf="isExpanded else expand">-</span>
+    <ng-template #expand>+</ng-template>
+  </span>
+    {{ folder.name }}
+  </div>
+  <div *ngIf="folder.isFolder && isExpanded">
+    <app-folder *ngFor="let childFolder of folder.children" [folder]="childFolder">
+      <app-folder></app-folder>
+    </app-folder>
+  </div>
+</div>
+

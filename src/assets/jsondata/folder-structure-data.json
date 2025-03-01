@@ -1,0 +1,72 @@
+[
+  {
+    "name": "src",
+    "isFolder": true,
+    "children": [
+      {
+        "name": "app",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "components",
+            "isFolder": true,
+            "children": [
+              {
+                "name": "home-component",
+                "isFolder": true,
+                "children": [
+                  {
+                    "name": "home-component.ts",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "home-component.html",
+                    "isFolder": false
+                  },
+                  {
+                    "name": "home-component.scss",
+                    "isFolder": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "assets",
+        "isFolder": true,
+        "children": [
+          {
+            "name": "files",
+            "isFolder": true,
+            "children": [
+              {
+                "name": "data.json",
+                "isFolder": false
+              }
+            ]
+          },
+          {
+            "name": "images",
+            "isFolder": true,
+            "children": [
+              {
+                "name": "profile_icon.png",
+                "isFolder": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "styles.scss",
+        "isFolder": false
+      }
+    ]
+  },
+  {
+    "name": "package.json",
+    "isFolder": false
+  }
+]
