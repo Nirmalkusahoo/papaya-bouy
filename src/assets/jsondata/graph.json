@@ -56,5 +56,35 @@
     "questionTitle": "1905. Count Sub Islands",
     "questionUrl": "https://leetcode.com/problems/count-sub-islands/",
     "hint": "Simple matrix BFS/DFS traversal.We just need to check each if(grid2 value present in grid1) then count++"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "733. Flood Fill",
+    "questionUrl": "https://leetcode.com/problems/flood-fill/",
+    "hint": "**Skip able**- Simple matrix BFS/DFS traversal. Here the all 0 edge case you need to handle to overflow.",
+    "answerDetails": [
+      {
+        "level": "TUF- G9",
+        "url": "https://youtu.be/C-2_uSRli8o"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "463. Island Perimeter",
+    "questionUrl": "https://leetcode.com/problems/island-perimeter/",
+    "hint": "Simple, done own."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "994. Rotting Oranges",
+    "questionUrl": "https://leetcode.com/problems/rotting-oranges/",
+    "hint": "See the only point you need to know is rotting oranges starts parallel from all rotten boxes in the beginning.So\nput those {i,j} in to queue first. Then do level order/BFS\n* You will always return time - 1 because of last level; And if (freshOrange == 0) return 0;",
+    "answerDetails": [
+      {
+        "level": "TUF- G10",
+        "url": "https://youtu.be/yf3oUhkvqA0"
+      }
+    ]
   }
 ]
