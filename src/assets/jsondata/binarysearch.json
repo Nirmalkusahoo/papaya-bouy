@@ -196,5 +196,21 @@
         "url": "https://youtu.be/dd2gFD6tlrU?si=bH4kmGDbmg_kZLJn"
       }
     ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1498. Number of Subsequences That Satisfy the Given Sum Condition",
+    "questionUrl": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/",
+    "hint": "See post sort , max and minimum element in a subsequent will remain same. So sorting doesn't impact.\n* Understood clearly .New learning .Just need practise. Math.pow(2, right - left) worked for few test cases.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/wwDTU32JTQg?si=MG2C6z5y4DbeQAAW"
+      },
+      {
+        "level": "CodeFrom",
+        "url": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/editorial/"
+      }
+    ]
   }
 ]

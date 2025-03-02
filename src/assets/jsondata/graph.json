@@ -86,5 +86,27 @@
         "url": "https://youtu.be/yf3oUhkvqA0"
       }
     ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Detect cycle in an undirected graph",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+    "hint": "G11- Understood nicely .BFS approach .G12-Understood nicely.DFS approach.",
+    "answerDetails": [
+      {
+        "level": "TUF- G11",
+        "url": "https://youtu.be/BPlrALf1LDU"
+      },
+      {
+        "level": "TUF- G12",
+        "url": "https://youtu.be/zQ3zgFypzX4"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "261. Graph Valid Tree",
+    "questionUrl": "https://leetcode.com/problems/graph-valid-tree/",
+    "hint": "With minor change . A tree should not have cycle and all nodes should be connected.",
   }
 ]
