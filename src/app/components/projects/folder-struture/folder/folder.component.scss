@@ -1,6 +1,13 @@
-.folder{
+.folder {
   padding-left: 20px;
   padding-bottom: 5px;
   padding-top: 5px;
   cursor: pointer;
+}
+
+.add-folder,
+.delete-folder {
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
 }

@@ -212,5 +212,21 @@
         "url": "https://leetcode.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/editorial/"
       }
     ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2616. Minimize the Maximum Difference of Pairs",
+    "questionUrl": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/",
+    "hint": "See post sort , you will get the range, and range leads to binary search.New learning .Just need practise.",
+    "answerDetails": [
+      {
+        "level": "Neetocde",
+        "url": "https://youtu.be/lf1Pxg7IrzQ?si=d7hI22ZOYA_vWjes"
+      },
+      {
+        "level": "CodeFrom",
+        "url": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/"
+      }
+    ]
   }
 ]

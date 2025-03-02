@@ -9,7 +9,21 @@ import {Folder} from '../folder-struture.component';
 export class FolderComponent {
   @Input() folder: Folder;
 
-  public isExpanded: boolean = false;
+  public isExpanded = false;
 
+  public addFolder(): void {
+    const name = prompt('Enter name');
+    if (name) {
+      const newFolder: Folder = new Folder();
+      newFolder.name = name;
+      newFolder.isFolder = true;
+      newFolder.children = [];
+      this.folder.children.push(newFolder);
+    }
+  }
+
+  public deleteFolder(): void {
+    alert('Not implemented');
+  }
 }
 

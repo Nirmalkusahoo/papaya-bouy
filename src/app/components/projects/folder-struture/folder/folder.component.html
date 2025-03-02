@@ -3,8 +3,15 @@
     <span *ngIf="folder.isFolder">
     <span *ngIf="isExpanded else expand">-</span>
     <ng-template #expand>+</ng-template>
-  </span>
-    {{ folder.name }}
+    </span>
+    <span class="folder-name">
+      {{ folder.name }}
+      <mat-icon class="add-folder" [matTooltip]="'Add Folder'" matTooltipPosition="right" *ngIf="folder.isFolder"
+                (click)="addFolder()">folder</mat-icon>
+       <mat-icon class="delete-folder" [matTooltip]="'Delete Folder'" matTooltipPosition="right" *ngIf="folder.isFolder"
+                 (click)="deleteFolder()">delete</mat-icon>
+    </span>
+
   </div>
   <div *ngIf="folder.isFolder && isExpanded">
     <app-folder *ngFor="let childFolder of folder.children" [folder]="childFolder">
