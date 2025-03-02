@@ -107,6 +107,6 @@
     "topic": "Graph",
     "questionTitle": "261. Graph Valid Tree",
     "questionUrl": "https://leetcode.com/problems/graph-valid-tree/",
-    "hint": "With minor change . A tree should not have cycle and all nodes should be connected.",
+    "hint": "With minor change . A tree should not have cycle and all nodes should be connected."
   }
 ]
