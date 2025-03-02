@@ -1,4 +1,8 @@
 <div class="folder-structure-container">
   <h3>Folder Explorer</h3>
   <app-folder *ngFor="let folderObj of folders" [folder]="folderObj"></app-folder>
+
+  <button class="code-btn" mat-mini-fab (click)="openGitHubUrl()" matTooltip="Check Code">
+    <mat-icon class="code">code</mat-icon>
+  </button>
 </div>

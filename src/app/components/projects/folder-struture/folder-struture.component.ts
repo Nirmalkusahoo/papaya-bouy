@@ -19,6 +19,10 @@ export class FolderStrutureComponent {
       this.folders = data;
     });
   }
+
+  public openGitHubUrl(): void {
+    window.open('https://github.com/Nirmalkusahoo/papaya-bouy/tree/7827db184bd00413b18f0ef5ae3e356d15486772/src/app/components/projects/folder-struture', '_blank');
+  }
 }
 
 export class Folder {

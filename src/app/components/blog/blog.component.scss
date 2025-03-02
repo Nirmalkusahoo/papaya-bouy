@@ -17,7 +17,8 @@
   //background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
   background-size: cover;
 }
-.badge{
+
+.badge {
   position: absolute;
   left: 318px;
   transform: rotatez(45deg) translateX(-24px) translateY(77px);
@@ -29,4 +30,16 @@
   text-align: center;
   font-weight: 600;
   color: white;
+}
+
+::ng-deep .mat-mdc-card-content {
+  text-align: center;
+}
+
+::ng-deep .mat-card-content {
+  text-align: center;
+}
+
+.mat-card-content {
+  text-align: center;
 }
