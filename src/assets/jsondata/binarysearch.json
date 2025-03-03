@@ -228,5 +228,11 @@
         "url": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/"
       }
     ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1870. Minimum Speed to Arrive on Time",
+    "questionUrl": "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
+    "hint": "You need to fine the range and last element you dont need Math.ceil, because no to wait since its last train.",
   }
 ]
