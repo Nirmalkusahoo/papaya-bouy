@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {Folder} from '../folder-struture.component';
 
 @Component({
@@ -8,13 +8,15 @@ import {Folder} from '../folder-struture.component';
 })
 export class FolderComponent {
   @Input() folder: Folder;
-
+  @Input() index: number;
+  @Output() deleteFolderEvent = new EventEmitter<string>();
   public isExpanded = false;
 
   public addFolder(): void {
     const name = prompt('Enter name');
     if (name) {
       const newFolder: Folder = new Folder();
+      newFolder.id = new Date().toDateString();
       newFolder.name = name;
       newFolder.isFolder = true;
       newFolder.children = [];
@@ -23,7 +25,11 @@ export class FolderComponent {
   }
 
   public deleteFolder(): void {
-    alert('Not implemented');
+    this.deleteFolderEvent.emit(this.folder.id);
+  }
+
+  public deleteNestedFolder(id: string): void {
+    this.deleteFolderEvent.emit(id);
   }
 }
 

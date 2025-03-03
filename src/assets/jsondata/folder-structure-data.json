@@ -1,17 +1,21 @@
 [
   {
+    "id": "1",
     "name": "src",
     "isFolder": true,
     "children": [
       {
+        "id": "2",
         "name": "app",
         "isFolder": true,
         "children": [
           {
+            "id": "3",
             "name": "components",
             "isFolder": true,
             "children": [
               {
+                "id": "4",
                 "name": "home-component",
                 "isFolder": true,
                 "children": [
@@ -34,10 +38,12 @@
         ]
       },
       {
+        "id": "5",
         "name": "assets",
         "isFolder": true,
         "children": [
           {
+            "id": "6",
             "name": "files",
             "isFolder": true,
             "children": [
@@ -48,6 +54,7 @@
             ]
           },
           {
+            "id": "7",
             "name": "images",
             "isFolder": true,
             "children": [

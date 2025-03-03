@@ -14,8 +14,8 @@
 
   </div>
   <div *ngIf="folder.isFolder && isExpanded">
-    <app-folder *ngFor="let childFolder of folder.children" [folder]="childFolder">
-      <app-folder></app-folder>
+    <app-folder *ngFor="let childFolder of folder.children" [folder]="childFolder" (deleteFolderEvent)="deleteNestedFolder($event)">
+<!--      <app-folder></app-folder>-->
     </app-folder>
   </div>
 </div>

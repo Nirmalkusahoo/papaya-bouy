@@ -233,6 +233,18 @@
     "topic": "BinarySearch",
     "questionTitle": "1870. Minimum Speed to Arrive on Time",
     "questionUrl": "https://leetcode.com/problems/minimum-speed-to-arrive-on-time/",
-    "hint": "You need to fine the range and last element you dont need Math.ceil, because no to wait since its last train.",
+    "hint": "You need to fine the range and last element you dont need Math.ceil, because no to wait since its last train."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "374. Guess Number Higher or Lower",
+    "questionUrl": "https://leetcode.com/problems/guess-number-higher-or-lower/description/",
+    "hint": "Normal Binary search."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2187. Minimum Time to Complete Trips",
+    "questionUrl": "https://leetcode.com/problems/minimum-time-to-complete-trips/",
+    "hint": "Again here the only trick is to find the range. high= MaxTimeTakenToCompleteATrip * NoOfTrips"
   }
 ]
