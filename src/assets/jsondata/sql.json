@@ -1,0 +1,47 @@
+[
+  {
+    "topic": "SQL",
+    "questionTitle": "1757. Recyclable and Low Fat Products",
+    "questionUrl": "https://leetcode.com/problems/recyclable-and-low-fat-products/",
+    "hint": "Simple",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/-3AQD8s_Qdg?si=RzlCb0ptUHKoDfT3"
+      }
+    ]
+  },
+  {
+    "topic": "SQL",
+    "questionTitle": "584. Find Customer Referee",
+    "questionUrl": "https://leetcode.com/problems/find-customer-referee/",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/8XSR6UEqliU?si=X0lRt12cco2ri0V7"
+      }
+    ]
+  },
+  {
+    "topic": "SQL",
+    "questionTitle": "595. Big Countries",
+    "questionUrl": "https://leetcode.com/problems/big-countries/",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/KPD13iaklxE?si=TKfhw9vwMo43UPEq"
+      }
+    ]
+  },
+  {
+    "topic": "SQL",
+    "questionTitle": "1148. Article Views I",
+    "questionUrl": "https://leetcode.com/problems/article-views-i/",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/1QXZHgx24TM?si=trawU6YpbS6zOhO5"
+      }
+    ]
+  }
+]

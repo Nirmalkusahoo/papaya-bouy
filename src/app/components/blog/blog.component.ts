@@ -23,4 +23,12 @@ export class BlogComponent {
   public navigateToAngularProjects(): void {
     this.router.navigate(['../dsa/list/angularprojects' ]);
   }
+
+  public navigateToJavaInterviewQs(): void {
+    this.router.navigate(['../dsa/list/javainterviewsqs' ]);
+  }
+
+  public navigateToSQLQs(): void {
+    this.router.navigate(['../dsa/list/sql' ]);
+  }
 }

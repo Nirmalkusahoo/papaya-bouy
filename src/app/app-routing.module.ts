@@ -15,6 +15,8 @@ const routes: Routes = [
   {path: 'post', component: PostComponent},
   {path: 'blogs', component: BlogComponent},
   {path: 'angularprojects', component: DsaQsListComponent},
+  {path: 'javainterviewsqs', component: DsaQsListComponent},
+  {path: 'sql', component: DsaQsListComponent},
   {
     path: 'auth',
     loadChildren: () =>

@@ -42,5 +42,34 @@
         "url": "https://youtu.be/37E9ckMDdTk"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1752. Check if Array Is Sorted and Rotated",
+    "questionUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+    "hint": "Simple pattern , need to notice.",
+    "answerDetails": [
+      {
+        "level": "CodeHelp",
+        "url": "https://youtu.be/Z7_nMTHROZo?t=1199"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "2124. Check if All A's Appears Before All B's",
+    "questionUrl": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "26. Remove Duplicates from Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
+    "hint": "Simple two pinter approach.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/37E9ckMDdTk?t=1886"
+      }
+    ]
   }
 ]
