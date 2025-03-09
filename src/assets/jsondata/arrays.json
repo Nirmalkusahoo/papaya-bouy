@@ -58,7 +58,7 @@
   {
     "topic": "Arrays",
     "questionTitle": "2124. Check if All A's Appears Before All B's",
-    "questionUrl": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+    "questionUrl": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/"
   },
   {
     "topic": "Arrays",
@@ -69,6 +69,30 @@
       {
         "level": "TUF",
         "url": "https://youtu.be/37E9ckMDdTk?t=1886"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "189. Rotate Array",
+    "questionUrl": "https://leetcode.com/problems/rotate-array/",
+    "hint": "Optimal solution is a bit tricky.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/wvcQg43_V8U?t=485"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "283. Move Zeroes",
+    "questionUrl": "https://leetcode.com/problems/move-zeroes/",
+    "hint": "Two pointer approach starting both from right.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/wvcQg43_V8U?t=1633"
       }
     ]
   }

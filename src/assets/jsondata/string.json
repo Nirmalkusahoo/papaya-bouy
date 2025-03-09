@@ -1,0 +1,14 @@
+[
+  {
+    "topic": "String",
+    "questionTitle": "205. Isomorphic Strings",
+    "questionUrl": "https://leetcode.com/problems/isomorphic-strings/",
+    "hint": "Can be solved using 2 map."
+  },
+  {
+    "topic": "String",
+    "questionTitle": "290. Word Pattern",
+    "questionUrl": "https://leetcode.com/problems/word-pattern/",
+    "hint": "Same as [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/). Can be solved using 2 map."
+  }
+]

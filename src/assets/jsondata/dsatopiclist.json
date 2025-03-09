@@ -1,5 +1,9 @@
 [
   {
+    "technicalName": "string",
+    "endUserName": "String"
+  },
+  {
     "technicalName": "arrays",
     "endUserName": "Arrays"
   },
