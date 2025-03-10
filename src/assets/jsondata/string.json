@@ -10,5 +10,29 @@
     "questionTitle": "290. Word Pattern",
     "questionUrl": "https://leetcode.com/problems/word-pattern/",
     "hint": "Same as [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/). Can be solved using 2 map."
+  },
+  {
+    "topic": "String",
+    "questionTitle": "344. Reverse String",
+    "questionUrl": "https://leetcode.com/problems/reverse-string/",
+    "hint": "Did solve 3 way. 1. Two pointer 2. two pointer recursive 3. One pointer recursive",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/twuC1F6gLI8"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "696. Count Binary Substrings",
+    "questionUrl": "https://leetcode.com/problems/count-binary-substrings/",
+    "hint": "Need to practise simple logic",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=MGPHPadxhtQ"
+      }
+    ]
   }
 ]
