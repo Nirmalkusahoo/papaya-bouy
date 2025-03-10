@@ -43,5 +43,27 @@
         "url": "https://youtu.be/1QXZHgx24TM?si=trawU6YpbS6zOhO5"
       }
     ]
+  },
+  {
+    "topic": "SQL",
+    "questionTitle": "1683. Invalid Tweets",
+    "questionUrl": "https://leetcode.com/problems/invalid-tweets/",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/0BN2uS1j8jc?si=_47QM2puUj9yIxCn"
+      }
+    ]
+  },
+  {
+    "topic": "SQL",
+    "questionTitle": "1378. Replace Employee ID With The Unique Identifier",
+    "questionUrl": "https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/cXfOqM_IIjg?si=HlAi-xZUbSsGoqT1"
+      }
+    ]
   }
 ]

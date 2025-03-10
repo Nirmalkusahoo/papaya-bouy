@@ -1,6 +1,16 @@
 [
   {
     "topic": "JavaScript",
+    "questionTitle": "Top 25 JavaScript Interview Questions for Beginners",
+    "answerDetails": [
+      {
+        "level": "Interview happy",
+        "url": "https://youtu.be/OEQpRTXfxoo?si=1r9kvpRsUuD9nLJa"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
     "questionTitle": "2625. Flatten Deeply Nested Array",
     "questionUrl": "https://leetcode.com/problems/flatten-deeply-nested-array/description/?envType=study-plan-v2&envId=30-days-of-javascript",
     "answerUrl": "",
