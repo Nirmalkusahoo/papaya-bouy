@@ -1,0 +1,30 @@
+.search-input {
+  width: 500px;
+  padding: 5px;
+}
+
+.search-result-container {
+  width: 500px;
+  border: #080808 solid 1px;
+  padding: 5px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.search-result {
+  padding: 5px;
+}
+
+.search-result:hover {
+  background-color: beige;
+  cursor: pointer;
+}
+
+.highlight {
+  background-color: lightblue;
+}
+
+.selected-recipe{
+  width: 500px;
+  padding: 5px;
+}

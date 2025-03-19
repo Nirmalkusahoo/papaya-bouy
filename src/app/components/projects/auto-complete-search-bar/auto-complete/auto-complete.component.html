@@ -1,0 +1,11 @@
+<input [(ngModel)]="searchInput" (ngModelChange)="getRecipesBasedOnUserInput()" class="search-input"
+       (focus)="showResults=true"
+       (blur)=hideResults() (keydown)="onKeyDown($event)">
+<div class="search-result-container" *ngIf="recipes?.length && showResults">
+  <div *ngFor="let recipe of recipes; let i=index" class="search-result"
+       [class.highlight]="i===selectedIndex" (click)="selectRecipe(i)">{{ recipe.name }}
+  </div>
+</div>
+<div class="selected-recipe" *ngIf="selectedRecipe">
+  {{ selectedRecipe | json }}
+</div>
