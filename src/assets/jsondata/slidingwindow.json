@@ -1,0 +1,135 @@
+[
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "Sliding Window Introduction",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/EHCGAZBbB88"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "Sliding Window Problems",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/cQmopmHlchE"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "Max Sum Subarray of size K",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1",
+    "answerDetails": [
+      {
+        "level": "TUF-L.1",
+        "url": "https://youtu.be/9kdHxplyl5I?si=bXijMlPsspSZ3m9w"
+      },
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/KtpqeN0Goro"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "2461. Maximum Sum of Distinct Subarrays With Length K",
+    "questionUrl": "https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/",
+    "hint": "Similar to [Max Sum Subarray of size K]. Learned new trick. if no duplicates then Map.size==k .No need to use any\nboolean variable."
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "First negative integer in every window of size k",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1",
+    "hint": "Sliding window problem.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/uUXXEgK2Jh8?si=WAVX_xLbYhetyUqS"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "438. Find All Anagrams in a String",
+    "questionUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
+    "hint": "Aditya's solution is more intuitive. P will be substring. So in specific window you need to check if p is present.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/MW4lJ8Y0xXk"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=54xCKwmtpLg"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "567. Permutation in String",
+    "questionUrl": "https://leetcode.com/problems/permutation-in-string/",
+    "hint": "same as [438. Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)"
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "239. Sliding Window Maximum",
+    "questionUrl": "https://leetcode.com/problems/sliding-window-maximum/",
+    "hint": "We don't need smaller value in before jth index because that is out of window we need smaller element because it\nmight be required in the future.So storing data in deque will help in removing first and last element.\n* remove all smaller values to the left, so that your deque will contain the largest value at first index.",
+    "answerDetails": [
+      {
+        "level": "Anuj",
+        "url": "https://www.youtube.com/watch?v=MCvGwtkqJS0"
+      },
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/xFJXtB5vSmM"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "325. Maximum Size Subarray Sum Equals k",
+    "questionUrl": "https://leetcode.com/problems/maximum-size-subarray-sum-equals-k/",
+    "hint": "Leetcode qs is different.Aditya's solution will work only for +ve numbers.So followed striver prefix way solution\nusing Map.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://www.youtube.com/watch?v=TfQPoaRDeMQ&list=PL_z_8CaSLPWeM8BDJmIYDaoQ5zuwyxnfj&index=8"
+      },
+      {
+        "level": "Striver",
+        "url": "https://www.youtube.com/watch?v=xmguZ6GbatA"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "Longest K unique characters substring",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1",
+    "hint": "Need practise.Next time try using Trie.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/Lav6St0W_pQ?si=axBwuvRDz34w5Mpn"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "340. Longest Substring with At Most K Distinct Characters",
+    "questionUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/",
+    "hint": "Similar [Longest K unique characters substring] with slight change."
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "159. Longest Substring with At Most Two Distinct Characters",
+    "questionUrl": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
+    "hint": "Similar [Longest K unique characters substring] with slight change."
+  }
+]
+
+

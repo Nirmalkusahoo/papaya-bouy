@@ -34,5 +34,98 @@
         "url": "https://www.youtube.com/watch?v=MGPHPadxhtQ"
       }
     ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "125. Valid Palindrome",
+    "questionUrl": "https://leetcode.com/problems/valid-palindrome/",
+    "hint": "Not necessary to watch if u know the recursive way\n* Skip other than letter and numbers , so use while (!Character.isLetterOrDigit(str.charAt(L))){ L++; }\n* Did both way - two pointer and recursive.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/twuC1F6gLI8"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "680. Valid Palindrome II",
+    "questionUrl": "https://leetcode.com/problems/valid-palindrome-ii/",
+    "hint": "Got the answer from editorial. Editorial is good you can read it."
+  },
+  {
+    "topic": "String",
+    "questionTitle": "848. Shifting Letters",
+    "questionUrl": "https://leetcode.com/problems/shifting-letters/",
+    "hint": "TC will be reduced if we can calculate shiftArray from backward. Note:converting char interesting logic",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/shifting-letters/discuss/137906/C%2B%2BJavaPython-Easy-Understood"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "1239. Maximum Length of a Concatenated String with Unique Characters",
+    "questionUrl": "https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/",
+    "hint": "Similar to making all the subsets' logic,but the trick is need to make only with unique characters.",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=gfZPl-BWZuo"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "242. Valid Anagram",
+    "questionUrl": "https://leetcode.com/problems/valid-anagram/"
+  },
+  {
+    "topic": "String",
+    "questionTitle": "49. Group Anagrams",
+    "questionUrl": "https://leetcode.com/problems/group-anagrams/description/"
+  },
+  {
+    "topic": "String",
+    "questionTitle": "14. Longest Common Prefix",
+    "questionUrl": "https://leetcode.com/problems/longest-common-prefix/",
+    "hint": "Can be solved using two pointer post sorting(its sort based on lexicographically order)."
+  },
+  {
+    "topic": "String",
+    "questionTitle": "38. Count and Say",
+    "questionUrl": "https://leetcode.com/problems/count-and-say/description/",
+    "hint": "Easy logic need practise",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://youtu.be/VE8yEc4R6q0?si=3x5BmHxDHw5G1n5J"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "657. Robot Return to Origin",
+    "questionUrl": "https://leetcode.com/problems/robot-return-to-origin/description/",
+    "hint": "Easy one.Just 4 direction, and with direction change value you need to add.Done own."
+  },
+  {
+    "topic": "String",
+    "questionTitle": "67. Add Binary",
+    "questionUrl": "https://leetcode.com/problems/add-binary/description/"
+  },
+  {
+    "topic": "String",
+    "questionTitle": "2452. Words Within Two Edits of Dictionary",
+    "questionUrl": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/description/",
+    "hint": "Need practise.Next time try using Trie.",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/solutions/2757049/two-approach-java-solution-brute-force-using-trie-data-structure/"
+      }
+    ]
   }
 ]

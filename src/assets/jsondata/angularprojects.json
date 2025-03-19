@@ -31,5 +31,16 @@
         "url": "https://youtu.be/c2UJKEIvQZQ?si=HvI8W0x-WeDkt6Xq"
       }
     ]
+  },
+  {
+    "topic": "Angular Projects",
+    "questionTitle": "Auto Complete Search Bar",
+    "questionUrl": "dsa/auto-complete",
+    "answerDetails": [
+      {
+        "level": "Akshay Saini",
+        "url": "https://youtu.be/fL0gfeDHKP0?si=jiwXpqvYC3x9cphS"
+      }
+    ]
   }
 ]

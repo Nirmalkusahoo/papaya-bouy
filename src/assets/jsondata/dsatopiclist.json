@@ -8,6 +8,10 @@
     "endUserName": "Arrays"
   },
   {
+    "technicalName": "slidingwindow",
+    "endUserName": "Sliding Window"
+  },
+  {
     "technicalName": "binarysearch",
     "endUserName": "Binary Search"
   },

@@ -10,21 +10,24 @@ import {ArticleComponent} from './components/article/article.component';
 import {AboutComponent} from './components/about/about.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {ContactFormComponent} from './components/contact-form/contact-form.component';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
 import {CommonModule} from '@angular/common';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interceptor-providers';
-import { BlogComponent } from './components/blog/blog.component';
+import {BlogComponent} from './components/blog/blog.component';
 import {MatCardModule} from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import {StarRatingComponent} from './components/projects/star-rating/star-rating.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatTooltipModule} from '@angular/material/tooltip';
-import { ProgressBarComponent } from './components/projects/progress-bar/progress-bar.component';
-import { FolderComponent } from './components/projects/folder-struture/folder/folder.component';
-import { FolderStrutureComponent } from './components/projects/folder-struture/folder-struture.component';
+import {ProgressBarComponent} from './components/projects/progress-bar/progress-bar.component';
+import {FolderComponent} from './components/projects/folder-struture/folder/folder.component';
+import {FolderStrutureComponent} from './components/projects/folder-struture/folder-struture.component';
+import {TestComponent} from './components/test/test.component';
+import { AutoCompleteSearchBarComponent } from './components/projects/auto-complete-search-bar/auto-complete-search-bar.component';
+import { AutoCompleteComponent } from './components/projects/auto-complete-search-bar/auto-complete/auto-complete.component';
 
 @NgModule({
   declarations: [
@@ -40,18 +43,20 @@ import { FolderStrutureComponent } from './components/projects/folder-struture/f
     StarRatingComponent,
     ProgressBarComponent,
     FolderComponent,
-    FolderStrutureComponent
+    FolderStrutureComponent,
+    AutoCompleteSearchBarComponent,
+    AutoCompleteComponent,
   ],
-    imports: [
-        BrowserModule,
-        CommonModule,
-        HttpClientModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        ReactiveFormsModule,
-        MatSnackBarModule,
-        MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule
-    ],
+  imports: [
+    BrowserModule,
+    CommonModule,
+    HttpClientModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ReactiveFormsModule,
+    MatSnackBarModule,
+    MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule, TestComponent, FormsModule
+  ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
 })
