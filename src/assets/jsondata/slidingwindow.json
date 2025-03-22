@@ -129,7 +129,73 @@
     "questionTitle": "159. Longest Substring with At Most Two Distinct Characters",
     "questionUrl": "https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/",
     "hint": "Similar [Longest K unique characters substring] with slight change."
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "3. Longest Substring Without Repeating Characters",
+    "questionUrl": "https://leetcode.com/problems/longest-substring-without-repeating-characters/description/",
+    "hint": "Variable sliding window problem. Map plays important role.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/L6cffskouPQ?si=bXceXg1OxioNf6TA"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "424. Longest Repeating Character Replacement",
+    "questionUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
+    "hint": "Latter did by Aditya's way only.~~Can be done in normal Aditya sliding window way also~~ .and For coding decoded\nway need to do dry run to understand.\nend variable will go beyond length i.e 11 then you will get answer for [1,1,1,0,0,0,1,1,1,1,0]",
+    "answerDetails": [
+      {
+        "level": "Code decoded",
+        "url": "https: //www.youtube.com/watch?v=pwaVTOazeb4"
+      },
+      {
+        "level": "TUF",
+        "url": "https: //youtu.be/_eNhaDCr6P0?si=Q2enmrRn6FfouIt1"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1004. Max Consecutive Ones III",
+    "questionUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/",
+    "hint": "So, let's say there were no constraints like the k. Given a string convert it to a string with all same characters\nwith minimal changes. The answer to this is (string.length() - maximum occurring character) .Given this, we can\napply the at most k changes constraint and maintain a sliding window such that (string.length() - maximum\noccurring character in the substring) <= k\n* ~~Need to get hold more and practise.~~",
+    "answerDetails": [
+      {
+        "Solution": "Code decoded",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/solutions/91271/java-12-lines-o-n-sliding-window-solution-with-explanation/"
+      },
+      {
+        "level": "Explanation",
+        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/solutions/91285/sliding-window-similar-to-finding-longest-substring-with-k-distinct-characters/"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "904. Fruit Into Baskets",
+    "questionUrl": "https://leetcode.com/problems/fruit-into-baskets/",
+    "hint": " Similar to Pick a toy and  [Longest K unique characters substring]. See this is the key line from question which\ntells that it is a substring/sliding window problem \"**you must pick exactly one fruit from every tree (including\nthe start tree) while moving to the right.**\"",
+    "answerDetails": [
+      {
+        "Solution": "Aditya",
+        "url": "https://youtu.be/seOKHXB_w74"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "76. Minimum Window Substring",
+    "questionUrl": "https://leetcode.com/problems/minimum-window-substring/",
+    "hint": "Variable sliding window problem.Interesting one. Need practise.",
+    "answerDetails": [
+      {
+        "Solution": "Aditya",
+        "url": "https://youtu.be/iwv1llyN6mo?si=Ynwev-QN0OzpbWAa"
+      }
+    ]
   }
 ]
-
-
