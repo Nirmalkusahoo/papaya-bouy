@@ -197,5 +197,103 @@
         "url": "https://youtu.be/iwv1llyN6mo?si=Ynwev-QN0OzpbWAa"
       }
     ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "209. Minimum Size Subarray Sum",
+    "questionUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/",
+    "hint": "Simple variable sliding window problem.",
+    "answerDetails": [
+      {
+        "Solution": "Nick",
+        "url": "https://www.youtube.com/watch?v=jKF9AcyBZ6E"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1423. Maximum Points You Can Obtain from Cards",
+    "questionUrl": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/",
+    "hint": "Later followed TUF solution.Asked 16times in _Google_.\n* It's a sliding window problem. You need to find out the total sum and the window sum.\n* Now in a for loop you need increase windowSum(- from back , +from front) and subtract from total sum\n* and save Max(ans, totalSum-windowSum)",
+    "answerDetails": [
+      {
+        "Solution": "TUF-L2",
+        "url": "https://youtu.be/pBWCOCS636U?si=go6LFp47OQiSUbv"
+      },
+      {
+        "Solution": "Code",
+        "url": "https://www.youtube.com/watch?v=U0utLw_vWGM"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1358. Number of Substrings Containing All Three Characters",
+    "questionUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "hint": "Tried tow ways. Traditional way like other problems and a tricky way. See whichever fine for you.\n* trick-see the index where you found all three char , then from 0->tht index all are valid substring.",
+    "answerDetails": [
+      {
+        "Solution": "TUF-L7",
+        "url": "https://youtu.be/xtqN4qlgr8s?si=sN6r9uF4rWeXDJvZ"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "2799. Count Complete Subarrays in an Array",
+    "questionUrl": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/description/",
+    "hint": "The formula the trick. New learning. ~~still need to get hold of it~~.",
+    "answerDetails": [
+      {
+        "Solution": "Solution 2",
+        "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/solutions/3836125/o-n-mindblowing-explanation-by-deriving-formula"
+      },
+      {
+        "Solution": "Solution 1",
+        "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/solutions/3836137/java-c-python-sliding-window-o-n/"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "930. Binary Subarrays With Sum",
+    "questionUrl": "https://leetcode.com/problems/binary-subarrays-with-sum/description/",
+    "hint": "New easy trick.",
+    "answerDetails": [
+      {
+        "Solution": "TUF-L9",
+        "url": "https://youtu.be/XnMdNUkX6VM?si=Y3tgVeXt9fShz4Jn"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "992. Subarrays with K Different Integers",
+    "questionUrl": "https://leetcode.com/problems/subarrays-with-k-different-integers/description/",
+    "hint": "same as [930. Binary Subarrays With Sum] with nice trick.",
+    "answerDetails": [
+      {
+        "Solution": "TUF-L11",
+        "url": "https://youtu.be/7wYGbV_LsX4?si=-oOEhHD2eM9-rWt4"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1493. Longest Subarray of 1's After Deleting One Element",
+    "questionUrl": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/",
+    "hint": "Done own. A slight change in sliding window.,"
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "2024. Maximize the Confusion of an Exam",
+    "questionUrl": "https://leetcode.com/problems/maximize-the-confusion-of-an-exam/description/",
+    "hint": "Simple variable size sliding window.Its just that need to run two times.",
+    "answerDetails": [
+      {
+        "Solution": "Aryan",
+        "url": "https://youtu.be/HI9A-pvwIQ0?si=YTN_HsXU72q0nR0z"
+      }
+    ]
   }
 ]
