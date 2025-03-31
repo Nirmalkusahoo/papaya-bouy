@@ -28,6 +28,10 @@ import {FolderStrutureComponent} from './components/projects/folder-struture/fol
 import {TestComponent} from './components/test/test.component';
 import { AutoCompleteSearchBarComponent } from './components/projects/auto-complete-search-bar/auto-complete-search-bar.component';
 import { AutoCompleteComponent } from './components/projects/auto-complete-search-bar/auto-complete/auto-complete.component';
+import { TabFormComponent } from './components/projects/tab-form/tab-form.component';
+import { ProfileComponent } from './components/projects/tab-form/profile/profile.component';
+import { SettingsComponent } from './components/projects/tab-form/settings/settings.component';
+import { IntrestComponent } from './components/projects/tab-form/intrest/intrest.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +50,10 @@ import { AutoCompleteComponent } from './components/projects/auto-complete-searc
     FolderStrutureComponent,
     AutoCompleteSearchBarComponent,
     AutoCompleteComponent,
+    TabFormComponent,
+    ProfileComponent,
+    SettingsComponent,
+    IntrestComponent,
   ],
   imports: [
     BrowserModule,

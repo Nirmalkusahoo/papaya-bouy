@@ -295,5 +295,29 @@
         "url": "https://youtu.be/HI9A-pvwIQ0?si=YTN_HsXU72q0nR0z"
       }
     ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1838. Frequency of the Most Frequent Element",
+    "questionUrl": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/description/",
+    "hint": "Interesting new learning.Binary search for learning. for interview -sliding window approach.",
+    "answerDetails": [
+      {
+        "Solution": "MIK",
+        "url": "https://youtu.be/iOqH_JnXIOQ?si=xqX7wKQgDQltefNG"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "395. Longest Substring with At Least K Repeating Characters",
+    "questionUrl": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
+    "hint": "Partially understood.Didn't understand Code decoded solution. Need to see some other video. You can check editor\nsliding window solution.",
+    "answerDetails": [
+      {
+        "Solution": "Code decoded",
+        "url": "https://www.youtube.com/watch?v=YSQVDVRQyA4"
+      }
+    ]
   }
 ]

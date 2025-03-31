@@ -95,5 +95,41 @@
         "url": "https://youtu.be/wvcQg43_V8U?t=1633"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "Union of Two Sorted Arrays",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1",
+    "hint": "Two pointer approach.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/wvcQg43_V8U?t=3213"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "349. Intersection of Two Arrays",
+    "questionUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
+    "hint": "Two pointer approach.349- will be set, 350 will be List",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/wvcQg43_V8U?t=4170"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "350. Intersection of Two Arrays II",
+    "questionUrl": "https://leetcode.com/problems/intersection-of-two-arrays-ii/",
+    "hint": "Two pointer approach.349- will be set, 350 will be List",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/wvcQg43_V8U?t=4170"
+      }
+    ]
   }
 ]

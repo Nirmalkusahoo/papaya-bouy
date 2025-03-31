@@ -127,5 +127,17 @@
         "url": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/solutions/2757049/two-approach-java-solution-brute-force-using-trie-data-structure/"
       }
     ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "2337. Move Pieces to Obtain a String",
+    "questionUrl": "https://leetcode.com/problems/move-pieces-to-obtain-a-string/",
+    "hint": "Need to remember and practise. Can you check [777. Swap Adjacent in LR String]",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://youtu.be/313W6T134SE"
+      }
+    ]
   }
 ]

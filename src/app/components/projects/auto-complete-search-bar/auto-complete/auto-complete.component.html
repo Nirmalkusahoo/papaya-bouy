@@ -1,6 +1,6 @@
 <input [(ngModel)]="searchInput" (ngModelChange)="getRecipesBasedOnUserInput()" class="search-input"
        (focus)="showResults=true"
-       (blur)=hideResults() (keydown)="onKeyDown($event)">
+       (blur)=hideResults() (keydown)="onKeyDown($event)" placeholder="Search recipe">
 <div class="search-result-container" *ngIf="recipes?.length && showResults">
   <div *ngFor="let recipe of recipes; let i=index" class="search-result"
        [class.highlight]="i===selectedIndex" (click)="selectRecipe(i)">{{ recipe.name }}
