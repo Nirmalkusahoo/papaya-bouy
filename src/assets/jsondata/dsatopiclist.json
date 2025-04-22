@@ -22,5 +22,9 @@
   {
     "technicalName": "graph",
     "endUserName": "Graph"
+  },
+  {
+    "technicalName": "doublylinkedlist",
+    "endUserName": "Doubly Linked List"
   }
 ]

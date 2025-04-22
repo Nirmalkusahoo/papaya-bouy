@@ -1,0 +1,24 @@
+[
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Introduction To Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/3fj6tvrt",
+    "answerDetails": [
+      {
+        "level": "TUF- L.3",
+        "url": "https://youtu.be/0eKMU10uEDI?si=rlcvD1U57ZJAK5H6"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Delete node from Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/2aady8f7",
+    "answerDetails": [
+      {
+        "level": "TUF- L.3",
+        "url": "https://youtu.be/0eKMU10uEDI?si=rlcvD1U57ZJAK5H6"
+      }
+    ]
+  }
+]
