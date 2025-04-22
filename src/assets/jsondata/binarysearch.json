@@ -246,5 +246,65 @@
     "questionTitle": "2187. Minimum Time to Complete Trips",
     "questionUrl": "https://leetcode.com/problems/minimum-time-to-complete-trips/",
     "hint": "Again here the only trick is to find the range. high= MaxTimeTakenToCompleteATrip * NoOfTrips"
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2300. Successful Pairs of Spells and Potions",
+    "questionUrl": "https://leetcode.com/problems/successful-pairs-of-spells-and-potions/description/",
+    "hint": "here the only trick is to find the range. and need to get Math.ceil value."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2251. Number of Flowers in Full Bloom",
+    "questionUrl": "https://leetcode.com/problems/number-of-flowers-in-full-bloom/description/",
+    "hint": "New observation.Finding the right index is the tricky.Next time can try using priority queue given in solution.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/9L7258j-enE?si=_HTDGw8hqdUdXyNR"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "981. Time Based Key-Value Store",
+    "questionUrl": "https://leetcode.com/problems/time-based-key-value-store/description/",
+    "hint": "New simple observation.Simple problem which looks complex.",
+    "answerDetails": [
+      {
+        "level": "CodingDecoded",
+        "url": "https://youtu.be/uNyAMxr7JGI?si=b07jKqVqUFVEJPLe"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2141. Maximum Running Time of N Computers",
+    "questionUrl": "https://leetcode.com/problems/maximum-running-time-of-n-computers/description/",
+    "hint": "New observation.understood. but need to come up own, may be next practise will help.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/CdqZNsvVSS4?si=PCpyPZIRYLKds6NG"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1970. Last Day Where You Can Still Cross",
+    "questionUrl": "https://leetcode.com/problems/last-day-where-you-can-still-cross/description/",
+    "hint": "Nice question.New observation.understood.Combination of multiple technique.Next time can also do BFS way..",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/U4C7-PF_fi8?si=h27uSMF-NX1VJwXL"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "441. Arranging Coins",
+    "questionUrl": "https://leetcode.com/problems/arranging-coins/description/",
+    "hint": "Done own.Simple binary search."
   }
 ]

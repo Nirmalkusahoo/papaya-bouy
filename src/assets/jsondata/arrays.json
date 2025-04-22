@@ -131,5 +131,35 @@
         "url": "https://youtu.be/wvcQg43_V8U?t=4170"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "268. Missing Number",
+    "questionUrl": "https://leetcode.com/problems/missing-number/",
+    "hint": "Using formula and one more way is using boolean array and another one is using XOR.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/bYWLJb3vCWY?t=57"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "136. Single Number",
+    "questionUrl": "https://leetcode.com/problems/single-number/",
+    "hint": "res ^= num; XOR operation"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "389. Find the Difference",
+    "questionUrl": "https://leetcode.com/problems/find-the-difference/",
+    "hint": "res ^= char; XOR operation"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "137. Single Number II",
+    "questionUrl": "https://leetcode.com/problems/single-number-ii/",
+    "hint": "Solved using has map and sorting way. but try using XOR latter"
   }
 ]
