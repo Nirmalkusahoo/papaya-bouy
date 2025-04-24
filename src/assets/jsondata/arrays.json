@@ -161,5 +161,59 @@
     "questionTitle": "137. Single Number II",
     "questionUrl": "https://leetcode.com/problems/single-number-ii/",
     "hint": "Solved using has map and sorting way. but try using XOR latter"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "260. Single Number III",
+    "questionUrl": "https://leetcode.com/problems/single-number-iii/",
+    "hint": "Solved using has map. but try using XOR latter"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "485. Max Consecutive Ones",
+    "questionUrl": "https://leetcode.com/problems/max-consecutive-ones/",
+    "hint": "Two pointer approach done by own. With one count variable seen from Striver.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/bYWLJb3vCWY?t=1266"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "487. Max Consecutive Ones II",
+    "questionUrl": "https://leetcode.com/problems/max-consecutive-ones-ii/",
+    "hint": "Two pointer approach done by own passed few case. Leetcode solution understood partially."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1446. Consecutive Characters",
+    "questionUrl": "https://leetcode.com/problems/consecutive-characters/",
+    "hint": "Two pointer approach done by own."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1. Two Sum",
+    "questionUrl": "https://leetcode.com/problems/two-sum/",
+    "hint": "**Skip able**- Simple , you know the solution.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/UXDSeD9mN-k"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "167. Two Sum II - Input Array Is Sorted",
+    "questionUrl": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+    "hint": "**Skip able**- Simple , you know the solution."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1099. Two Sum Less Than K",
+    "questionUrl": "https://leetcode.com/problems/two-sum-less-than-k/",
+    "hint": "**Skip able**- Simple , you know the solution. while (left < right) not while (left <= right)"
   }
 ]
