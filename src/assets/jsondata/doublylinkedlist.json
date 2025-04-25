@@ -20,5 +20,75 @@
         "url": "https://youtu.be/0eKMU10uEDI?si=rlcvD1U57ZJAK5H6"
       }
     ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Insert At The Front of a Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/58fyn6d8",
+    "answerDetails": [
+      {
+        "level": "TUF- L.3",
+        "url": "https://youtu.be/0eKMU10uEDI?si=rlcvD1U57ZJAK5H6"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Insert at end of Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/26yh8tv7",
+    "answerDetails": [
+      {
+        "level": "TUF- L.3",
+        "url": "https://youtu.be/0eKMU10uEDI?si=rlcvD1U57ZJAK5H6"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Reverse A Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/mw45vuf6",
+    "hint": "Simple. Just need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF- L.4",
+        "url": "https://youtu.be/u3WUW2qe6ww?si=BZF1eFeOZO1ugl5I"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Delete all occurrences of a given key in a doubly linked list",
+    "questionUrl": "https://tinyurl.com/yc7znssk",
+    "hint": "Simple. Just need practise.if you have to delete head just shift head",
+    "answerDetails": [
+      {
+        "level": "TUF- L.18",
+        "url": "https://youtu.be/Mh0NH_SD92k?si=tygTQcShy1GeWkBc"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Find pairs with given sum in doubly linked list",
+    "questionUrl": "https://tinyurl.com/y4xca7e5",
+    "hint": "Two sum problem with left and right node.",
+    "answerDetails": [
+      {
+        "level": "TUF- L.19",
+        "url": "https://youtu.be/YitR4dQsddE?si=6-dhmEDTjpwLJAo5"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "Remove duplicates from a sorted Doubly Linked List",
+    "questionUrl": "https://tinyurl.com/5n8ndcuu",
+    "hint": "**Skip able**-.Normal loop.Couldn't execute ~~.Platform was throwing error~~.",
+    "answerDetails": [
+      {
+        "level": "TUF- L.20",
+        "url": "https://youtu.be/YJKVTnOJXSY?si=9pa-PLMm9TSBt2S0"
+      }
+    ]
   }
 ]
