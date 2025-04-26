@@ -215,5 +215,39 @@
     "questionTitle": "1099. Two Sum Less Than K",
     "questionUrl": "https://leetcode.com/problems/two-sum-less-than-k/",
     "hint": "**Skip able**- Simple , you know the solution. while (left < right) not while (left <= right)"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "430. Flatten a Multilevel Doubly Linked List",
+    "questionUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "hint": "Latter done by own using queue and recursive call. Initial time watched the video."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "75. Sort Colors",
+    "questionUrl": "https://leetcode.com/problems/sort-colors/",
+    "hint": "New interesting easy logic.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/tp8JIuCXBaU"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "169. Majority Element",
+    "questionUrl": "https://leetcode.com/problems/majority-element/",
+    "hint": "Mores Algorithm. Another solution is ,post sorting the majority element will always pass through middle, since\nmajority element definition tells same.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/nP_ns3uSh80"
+      },
+      {
+        "level": "Anuj",
+        "url": "https://www.youtube.com/watch?v=X0G5jEcvroo"
+      }
+    ]
   }
 ]
