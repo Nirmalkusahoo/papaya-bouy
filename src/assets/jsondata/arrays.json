@@ -249,5 +249,27 @@
         "url": "https://www.youtube.com/watch?v=X0G5jEcvroo"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1150. Check If a Number Is Majority Element in a Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/check-if-a-number-is-majority-element-in-a-sorted-array/",
+    "hint": "Same as [169. Majority Element] with just one more target check."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "53. Maximum Subarray",
+    "questionUrl": "https://leetcode.com/problems/maximum-subarray/",
+    "hint": "Anuj-Very simple based kadanes algo. Just watch the video in case confusion. Video is worth to see.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/AHZpyENo7k4"
+      },
+      {
+        "level": "Anuj",
+        "url": "https://www.youtube.com/watch?v=HCL4_bOd3-4"
+      }
+    ]
   }
 ]

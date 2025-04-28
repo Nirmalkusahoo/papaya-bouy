@@ -90,5 +90,21 @@
         "url": "https://youtu.be/YJKVTnOJXSY?si=9pa-PLMm9TSBt2S0"
       }
     ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "146. LRU Cache",
+    "questionUrl": "https://leetcode.com/problems/lru-cache/",
+    "hint": "LRU cache- Create Map<String, DoublyLinkedListNode> cache and DoublyLinkedList mostRecentList with maxSize\n* Striver approach is much cleaner than algo expert. But algo expert is much more fundamentally strong.",
+    "answerDetails": [
+      {
+        "level": "TUF-concept",
+        "url": "https://youtu.be/xDEuM5qa0zg?si=mJLYSpratr5RxMvy"
+      },
+      {
+        "level": "TUF-code",
+        "url": "https://youtu.be/Xc4sICC8m4M?si=5SJKGXl5ycrp-2w_"
+      }
+    ]
   }
 ]
