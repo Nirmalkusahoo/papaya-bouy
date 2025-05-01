@@ -10,5 +10,53 @@
         "url": "(https://youtu.be/gm55Fi3oEsc?si=T9tP0RU-5-_hYBTY"
       }
     ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "73. Set Matrix Zeroes",
+    "questionUrl": "https://leetcode.com/problems/set-matrix-zeroes/",
+    "hint": "Interesting better solution(2) where striver create row and col array.Optimal one has some trick,need to remember.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/N0MgLvceX7M"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "48. Rotate Image",
+    "questionUrl": "https://leetcode.com/problems/rotate-image/",
+    "hint": "transpose and then reverse.Transpose goes in diagonal downwards direction, so j=i in for loop.\n* `and reverse will take place till the half length count, its just replacing first will last number in array`",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/Z0R2u6gd3GU"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "1886. Determine Whether Matrix Can Be Obtained By Rotation",
+    "questionUrl": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
+    "hint": "Solved using by seeing leetcode solution. running it for 5 times because after 4 times it will come back to\noriginal position."
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "54. Spiral Matrix",
+    "questionUrl": "https://leetcode.com/problems/spiral-matrix/description/",
+    "hint": "See for understanding you can refer striver video.~~but earlier algo expert code is more readable~~.Striver\nsolution is more intuitive.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/3Zv-s9UUrFM"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "59. Spiral Matrix II",
+    "questionUrl": "https://leetcode.com/problems/spiral-matrix-ii/",
+    "hint": "Same as [54. Spiral Matrix] with count."
   }
 ]

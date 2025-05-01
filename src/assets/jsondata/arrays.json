@@ -271,5 +271,67 @@
         "url": "https://www.youtube.com/watch?v=HCL4_bOd3-4"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "2149. Rearrange Array Elements by Sign",
+    "questionUrl": "https://leetcode.com/problems/rearrange-array-elements-by-sign/",
+    "hint": "Interesting new simple logic.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/h4aBagy4Uok"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "922. Sort Array By Parity II",
+    "questionUrl": "https://leetcode.com/problems/sort-array-by-parity-ii/",
+    "hint": "Similar to [2149. Rearrange Array Elements by Sign]"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1299. Replace Elements with Greatest Element on Right Side",
+    "questionUrl": "https://leetcode.com/problems/replace-elements-with-greatest-element-on-right-side/",
+    "hint": "Simple logic with right greatest element.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/cHrH9CQ8pmY"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "128. Longest Consecutive Sequence",
+    "questionUrl": "https://leetcode.com/problems/longest-consecutive-sequence/",
+    "hint": "See first time done using Algo expert way, but latter found striver way easier to write.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/oO5uLE7EUlM"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "560. Subarray Sum Equals K",
+    "questionUrl": "https://leetcode.com/problems/subarray-sum-equals-k/",
+    "hint": "~~understood correctly, but still not able to map. if currentsum-k exist then the sum(k) exist.~~\n* recommending striver solution .if currentsum-k exist then the sum(k) exist.",
+    "answerDetails": [
+      {
+        "level": "Anuj-understood core similar logic",
+        "url": "https://www.youtube.com/watch?v=XzwUBIkR9pA"
+      },
+      {
+        "level": "Nick-understood current program",
+        "url": "https://www.youtube.com/watch?v=AmlVSNBHzJg"
+      },
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/xvNwoz-ufXA"
+      }
+    ]
   }
 ]
