@@ -58,5 +58,17 @@
     "questionTitle": "59. Spiral Matrix II",
     "questionUrl": "https://leetcode.com/problems/spiral-matrix-ii/",
     "hint": "Same as [54. Spiral Matrix] with count."
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "118. Pascal's Triangle",
+    "questionUrl": "https://leetcode.com/problems/pascals-triangle/",
+    "hint": "Wrote from somewhere self-explanatory code. Found Striver solution formula based.So didn't consider."
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "119. Pascal's Triangle II",
+    "questionUrl": "https://leetcode.com/problems/pascals-triangle-ii/",
+    "hint": "Similar to [118. Pascal's Triangle]."
   }
 ]

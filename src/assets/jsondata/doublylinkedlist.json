@@ -106,5 +106,17 @@
         "url": "https://youtu.be/Xc4sICC8m4M?si=5SJKGXl5ycrp-2w_"
       }
     ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "1472. Design Browser History",
+    "questionUrl": "https://leetcode.com/problems/design-browser-history/",
+    "hint": "Simple logic back and forward with steps.",
+    "answerDetails": [
+      {
+        "level": "FRAZ",
+        "url": "https://youtu.be/SPDhPuMsM9A"
+      }
+    ]
   }
 ]
