@@ -333,5 +333,17 @@
         "url": "https://youtu.be/xvNwoz-ufXA"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "18. 4Sum",
+    "questionUrl": "https://leetcode.com/problems/4sum/description/",
+    "hint": "Initially did use algo expert way but latter found striver solution is much easier. Same as three sum with\nadditional for loop and avoid duplicate logic",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/eD95WRfh81c"
+      }
+    ]
   }
 ]
