@@ -70,5 +70,17 @@
     "questionTitle": "119. Pascal's Triangle II",
     "questionUrl": "https://leetcode.com/problems/pascals-triangle-ii/",
     "hint": "Similar to [118. Pascal's Triangle]."
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "229. Majority Element II",
+    "questionUrl": "https://leetcode.com/problems/majority-element-ii/",
+    "hint": "Extension of Mores Algorithm. and problem [169. Majority Element](https://leetcode.com/problems/majority-element/)\n* Need to use two counter.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/vwZj1K0e9U8"
+      }
+    ]
   }
 ]
