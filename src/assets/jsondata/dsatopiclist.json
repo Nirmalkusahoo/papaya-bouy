@@ -8,6 +8,10 @@
     "endUserName": "Arrays"
   },
   {
+    "technicalName": "intervals",
+    "endUserName": "Intervals"
+  },
+  {
     "technicalName": "slidingwindow",
     "endUserName": "Sliding Window"
   },

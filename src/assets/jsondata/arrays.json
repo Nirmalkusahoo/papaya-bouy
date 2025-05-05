@@ -345,5 +345,54 @@
         "url": "https://youtu.be/eD95WRfh81c"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "454. 4Sum II",
+    "questionUrl": "https://leetcode.com/problems/4sum-ii/",
+    "hint": "Simple logic , can be solved using map.Similar to two sum.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/njGddZ40ZxI"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1331. Rank Transform of an Array",
+    "questionUrl": "https://leetcode.com/problems/rank-transform-of-an-array/",
+    "hint": "Solved randomly using Map."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "Merge Without Extra Space",
+    "questionUrl": "https://bit.ly/3zRzmAo",
+    "hint": "Learned a simple new trick.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/n7uwj04E0I4"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "977. Squares of a Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/squares-of-a-sorted-array/",
+    "hint": "Again one more qs of array creation given sorted array .So better to start from end\n* Can be solved using two pointer , compare with absolute value and store the larger value in the last index of\nanswer array and decrease/increase the respective array index"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "287. Find the Duplicate Number",
+    "questionUrl": "https://leetcode.com/problems/find-the-duplicate-number/",
+    "hint": "Did striver way with SC: O(N). and then did algo expert way with SC:O(1);",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/2D0D8HE6uak"
+      }
+    ]
   }
 ]
+

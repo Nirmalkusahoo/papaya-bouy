@@ -1,0 +1,15 @@
+[
+  {
+    "topic": "Intervals",
+    "questionTitle": "56. Merge Intervals",
+    "questionUrl": "https://leetcode.com/problems/4sum/description/",
+    "hint": "See you need add first interval to the list before u start iteration, if you dont you need att multiple othere\ncondition to add the last element;",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/IexN60k62jo"
+      }
+    ]
+  }
+]
+
