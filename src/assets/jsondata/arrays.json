@@ -393,6 +393,35 @@
         "url": "https://youtu.be/2D0D8HE6uak"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "152. Maximum Product Subarray",
+    "questionUrl": "https://leetcode.com/problems/maximum-product-subarray/",
+    "hint": "Simple new interesting logic.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/hnswaLJvr6g"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "238. Product of Array Except Self",
+    "questionUrl": "https://leetcode.com/problems/product-of-array-except-self/",
+    "hint": "Same as [152. Maximum Product Subarray]."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "42. Trapping Rain Water",
+    "questionUrl": "https://leetcode.com/problems/trapping-rain-water/",
+    "hint": "Three simple way. Optimized one need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/m18Hntz4go8"
+      }
+    ]
   }
 ]
-
