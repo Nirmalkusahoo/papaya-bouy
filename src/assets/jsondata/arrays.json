@@ -423,5 +423,11 @@
         "url": "https://youtu.be/m18Hntz4go8"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "11. Container With Most Water",
+    "questionUrl": "https://leetcode.com/problems/container-with-most-water/",
+    "hint": "Simple logic maxWater = Math.max(maxWater, Math.min(height[leftIdx], height[rightIdx]) * (rightIdx - leftIdx));"
   }
 ]
