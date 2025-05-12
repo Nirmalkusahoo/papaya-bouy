@@ -10,6 +10,74 @@
         "url": "https://youtu.be/NXOOYYwpbg4"
       }
     ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "503. Next Greater Element II",
+    "questionUrl": "https://leetcode.com/problems/next-greater-element-ii/",
+    "hint": "See basically its telling the last element can also search in 0->n-1 index So. We put all element in to stack\nfirst.Now since last index will compare with 0 index first so put in stack from n-1 index so that 0 index item\nwill be in top.\n* in the leetcode solution they have used index. but in my solution I have used array element itself.",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/next-greater-element-ii/discuss/98262/Typical-ways-to-solve-circular-array-problems.-Java-solution."
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1019. Next Greater Node In Linked List",
+    "questionUrl": "https://leetcode.com/problems/next-greater-node-in-linked-list/",
+    "hint": "Similar to [496. Next Greater Element I]. But see leetcode solution section, I feel there the solution is crisp."
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "739. Daily Temperatures",
+    "questionUrl": "https://leetcode.com/problems/daily-temperatures/",
+    "hint": "Similar to [503. Next Greater Element II]"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "946. Validate Stack Sequences",
+    "questionUrl": "https://leetcode.com/problems/validate-stack-sequences/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "Nearest Greater to left",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/T5s96ynzArg"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "Smallest number on left",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/smallest-number-on-left3403/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article",
+    "hint": "Similar to right greater problem",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/T5s96ynzArg"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1475. Final Prices With a Special Discount in a Shop",
+    "questionUrl": "https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/",
+    "hint": "Similar to [Smallest number on left]. See its nearest value= recent value= > Stack data structure with top"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "901. Online Stock Span",
+    "questionUrl": "https://leetcode.com/problems/online-stock-span/",
+    "hint": "Similar to [Next greater to left]",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/p9T-fE1g1pU"
+      }
+    ]
   }
 ]
-
