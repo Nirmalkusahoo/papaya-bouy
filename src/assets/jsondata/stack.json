@@ -79,5 +79,65 @@
         "url": "https://youtu.be/p9T-fE1g1pU"
       }
     ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "84. Largest Rectangle in Histogram",
+    "questionUrl": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+    "hint": "combination of  [Next smaller to left] [Next smaller to right]\n* Current code is written based Aditya explanation which is more intuitive but a bit lengthy. but latter if you get\nmastered u can shorten it by seeing the other solutions. Need practise.\n* Striver solution yet to watch.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/J2X70jj_I1o"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "85. Maximal Rectangle",
+    "questionUrl": "https://leetcode.com/problems/maximal-rectangle/",
+    "hint": "Similar to [84. Largest Rectangle in Histogram].Just need practise.Striver solution yet to watch.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/St0Jf_VmG_g"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "735. Asteroid Collision",
+    "questionUrl": "https://leetcode.com/problems/asteroid-collision/",
+    "hint": "See since you are checking last element always in while loop so to get last element you need stack.",
+    "answerDetails": [
+      {
+        "level": "Nick",
+        "url": "https://www.youtube.com/watch?v=6GGTBM7mwfs"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "402. Remove K Digits",
+    "questionUrl": "https://leetcode.com/problems/remove-k-digits/",
+    "hint": "See the trick is you need remove number from left those are greater than right.",
+    "answerDetails": [
+      {
+        "level": "Nick",
+        "url": "https://www.youtube.com/watch?v=vbM41Zql228"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "155. Min Stack",
+    "questionUrl": "https://leetcode.com/problems/min-stack/",
+    "hint": "See O(1) time means, index retrieval or key retrieval. so here used list and them map."
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "682. Baseball Game",
+    "questionUrl": "https://leetcode.com/problems/baseball-game/"
   }
 ]
+
