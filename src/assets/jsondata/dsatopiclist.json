@@ -32,6 +32,10 @@
     "endUserName": "Graph"
   },
   {
+    "technicalName": "dynamicprogramming",
+    "endUserName": "Dynamic Programming"
+  },
+  {
     "technicalName": "doublylinkedlist",
     "endUserName": "Doubly Linked List"
   }

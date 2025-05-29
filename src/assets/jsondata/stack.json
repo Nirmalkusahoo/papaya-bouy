@@ -138,6 +138,86 @@
     "topic": "Stack",
     "questionTitle": "682. Baseball Game",
     "questionUrl": "https://leetcode.com/problems/baseball-game/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "20. Valid Parentheses",
+    "questionUrl": "https://leetcode.com/problems/valid-parentheses/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "71. Simplify Path",
+    "questionUrl": "https://leetcode.com/problems/simplify-path/description/",
+    "hint": "New interesting easy problem.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/8fM6D3sMIDs"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "895. Maximum Frequency Stack",
+    "questionUrl": "https://leetcode.com/problems/maximum-frequency-stack/",
+    "hint": "Just need practise.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/0fRmVjxopiE"
+      },
+      {
+        "level": "[Leetcode",
+        "url": "https://leetcode.com/problems/car-fleet/solutions/139850/c-java-python-straight-forward/"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "844. Backspace String Compare",
+    "questionUrl": "https://leetcode.com/problems/backspace-string-compare/",
+    "hint": "two solution are there 1. using stack with O(M+N) space , 2.using while loop with O(1)\n* In Second approach create two pointers from end of strings and check",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=vgog1EuEJYQ"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1209. Remove All Adjacent Duplicates in String II",
+    "questionUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/",
+    "hint": "Can be solved using stack.Store the char its count in stack. if stack.peek()[0]==char then increase the count.\n* And once count==k , stack.pop(). At the end you can form string from the stack.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=RJpy4A7LJrs"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1047. Remove All Adjacent Duplicates In String",
+    "questionUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/",
+    "hint": "Same as [1209. Remove All Adjacent Duplicates String II]\n* Only change is no need of using stack , can be done using String Builder(better SC) and stack."
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "2390. Removing Stars From a String",
+    "questionUrl": "https://leetcode.com/problems/removing-stars-from-a-string/",
+    "hint": "**Skip able**- Same as [1209. Remove All Adjacent Duplicates String II]"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1081. Smallest Subsequence of Distinct Characters",
+    "questionUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
+    "hint": "Interesting easy logic using stack. Note: while iterating in Stack int for loop it fetches data from bottom.\n* boolean visited array is mandatory to avoid duplicate char.",
+    "answerDetails": [
+      {
+        "level": "Compl",
+        "url": "https://youtu.be/UHALIyneo_Y"
+      }
+    ]
   }
 ]
-

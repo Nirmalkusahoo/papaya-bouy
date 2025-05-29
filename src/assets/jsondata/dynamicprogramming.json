@@ -1,0 +1,15 @@
+[
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "509. Fibonacci Number",
+    "questionUrl": "https://leetcode.com/problems/fibonacci-number/",
+    "hint": "See this is first program of DP and you need to remember all th ways. recursion + memoization + tabulation.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.1",
+        "url": "https://youtu.be/tyB0ztf0DNY"
+      }
+    ]
+  }
+]
+
