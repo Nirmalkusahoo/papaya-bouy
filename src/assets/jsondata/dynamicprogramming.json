@@ -10,6 +10,51 @@
         "url": "https://youtu.be/tyB0ztf0DNY"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1137. N-th Tribonacci Number",
+    "questionUrl": "https://leetcode.com/problems/n-th-tribonacci-number/",
+    "hint": "Similar to [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/).Similar to [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)"
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "70. Climbing Stairs",
+    "questionUrl": "https://leetcode.com/problems/climbing-stairs/",
+    "hint": "here to go to height 4 having steps 2 , you can get the value by no of ways to reach height 3 and 2\n* So its like height-noOfStepsYouHave. To reach height[0]=1;height[1]=1;",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.2",
+        "url": "https://youtu.be/mLfjzJsN8us"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Geek Jump",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/geek-jump/1",
+    "hint": "Simple.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.3",
+        "url": "https://youtu.be/EgG3jsGoPvQ"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "746. Min Cost Climbing Stairs",
+    "questionUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+    "hint": "See you need to find current cost + Math.min(cost[i-1],cost[i-2])\n* See here the striver approach will work wil slight change, because frog jump is different from this problem.It is\npartially similar. It still needs practises.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.3",
+        "url": "https://youtu.be/EgG3jsGoPvQ"
+      },
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/min-cost-climbing-stairs/discuss/476388/4-ways-or-Step-by-step-from-Recursion-greater-top-down-DP-greater-bottom-up-DP-greater-fine-tuning"
+      }
+    ]
   }
 ]
-
