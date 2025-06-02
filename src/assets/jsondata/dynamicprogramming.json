@@ -56,5 +56,17 @@
         "url": "https://leetcode.com/problems/min-cost-climbing-stairs/discuss/476388/4-ways-or-Step-by-step-from-Recursion-greater-top-down-DP-greater-bottom-up-DP-greater-fine-tuning"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "198. House Robber",
+    "questionUrl": "https://leetcode.com/problems/house-robber/",
+    "hint": "~~Similar to [Max subset sum no adjacent](https://www.algoexpert.io/questions/max-subset-sum-no-adjacent)\n.Algo-expert may be helpful for this particular problem. But Striver teaches how to solve by yourself.\n* So for now watch striver video. this is important video, since here he has explained very well all the approaches.\nIt is indeed worth watching this one.~~\n* Simple pick and not pick problem, the base case will be different if you start from 0 and n.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.5",
+        "url": "https://youtu.be/GrMBfJNk_NY"
+      }
+    ]
   }
 ]

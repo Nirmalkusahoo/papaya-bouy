@@ -219,5 +219,29 @@
         "url": "https://youtu.be/UHALIyneo_Y"
       }
     ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1673. Find the Most Competitive Subsequence",
+    "questionUrl": "https://leetcode.com/problems/find-the-most-competitive-subsequence/",
+    "hint": "New trick learning.Interesting easy logic using stack.",
+    "answerDetails": [
+      {
+        "level": "Fraz",
+        "url": "https://youtu.be/Ol7yz0XKKLw?si=5eK-ms73Im-ARFRa"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "227. Basic Calculator II",
+    "questionUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "hint": "Need practise. latter can try without using stack.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/GR8Z1zaQzz0"
+      }
+    ]
   }
 ]
