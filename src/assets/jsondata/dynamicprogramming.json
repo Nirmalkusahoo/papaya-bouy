@@ -68,5 +68,24 @@
         "url": "https://youtu.be/GrMBfJNk_NY"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Ninja's Training",
+    "questionUrl": "https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos",
+    "hint": "This is important video, since Striver he has explained very well all the approaches for 2D DP patterns. It is\n  indeed worth watching this one.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.7",
+        "url": "https://www.youtube.com/watch?v=AE39gJYuRog&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=8"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "256. Paint House",
+    "questionUrl": "https://leetcode.com/problems/paint-house/",
+    "hint": "Similar to [Ninja's Training].Here the in DP approach slight trick is there."
   }
 ]
+
