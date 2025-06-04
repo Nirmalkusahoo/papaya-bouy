@@ -86,6 +86,39 @@
     "questionTitle": "256. Paint House",
     "questionUrl": "https://leetcode.com/problems/paint-house/",
     "hint": "Similar to [Ninja's Training].Here the in DP approach slight trick is there."
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1289. Minimum Falling Path Sum II",
+    "questionUrl": "https://leetcode.com/problems/minimum-falling-path-sum-ii/",
+    "hint": "Similar to [Ninja's Training]."
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "62. Unique Paths",
+    "questionUrl": "https://leetcode.com/problems/unique-paths/",
+    "hint": "Simple recursive approach then optimize.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.8",
+        "url": "https://youtu.be/sdE0A2Oxofw"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "63. Unique Paths II",
+    "questionUrl": "https://leetcode.com/problems/unique-paths-ii/",
+    "hint": "It's not that complex. Basic fundamental logic is for each position find how many ways are there to reach.And at\nthe end you will have value for reaching the bottom right position.Find the ways to reach for first column and row\nvalues in if condition and then using these values you can get other values position obstacleGrid[i][j] =\nobstacleGrid[i - 1][j] + obstacleGrid[i][j - 1]; Solution 3 code. Follow striver approach.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.9",
+        "url": "https://youtu.be/TmhpgXScLyY"
+      },
+      {
+        "level": "TUF-DP.9",
+        "url": "https://www.youtube.com/watch?v=nZSXWXzn1aM"
+      }
+    ]
   }
 ]
-
