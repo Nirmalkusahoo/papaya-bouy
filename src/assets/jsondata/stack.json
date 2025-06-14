@@ -243,5 +243,27 @@
         "url": "https://youtu.be/GR8Z1zaQzz0"
       }
     ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "225. Implement Stack using Queues",
+    "questionUrl": "https://leetcode.com/problems/implement-stack-using-queues/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "232. Implement Queue using Stacks",
+    "questionUrl": "https://leetcode.com/problems/implement-queue-using-stacks/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1544. Make The String Great",
+    "questionUrl": "https://leetcode.com/problems/make-the-string-great/description/",
+    "hint": "difference between the any lowercase and uppercase alphabet is 32.",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/make-the-string-great/solutions/781009/java-simple-solution-using-stack-explained/"
+      }
+    ]
   }
 ]

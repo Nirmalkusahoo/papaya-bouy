@@ -116,8 +116,130 @@
         "url": "https://youtu.be/TmhpgXScLyY"
       },
       {
-        "level": "TUF-DP.9",
+        "level": "AME",
         "url": "https://www.youtube.com/watch?v=nZSXWXzn1aM"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "64. Minimum Path Sum",
+    "questionUrl": "https://leetcode.com/problems/minimum-path-sum/",
+    "hint": "Simple problem. You just need store sum of current grid value + min(leftGridValue,topGridValue).\n* And at the end you can return grid[m-1][n-1] value. this will have min path sum",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.10",
+        "url": "https://youtu.be/_rgTlyky1uQ"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1463. Cherry Pickup II",
+    "questionUrl": "https://leetcode.com/problems/cherry-pickup-ii/",
+    "hint": " See code wise solution 1 simple to write and simple to understand too. ButI have just followed striver approach\nwhich is more helpful in long run/problem-solving ability\n* while practising try writing it from solution 2 and reach to 3.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.13",
+        "url": "https://youtu.be/QGfn7JeXK54"
+      },
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/cherry-pickup-ii/discuss/660562/C%2B%2BJavaPython-Top-Down-DP-Clean-code"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "120. Triangle",
+    "questionUrl": "https://leetcode.com/problems/triangle/",
+    "hint": "~~Solutions 4 & 5 should be fine for interview , did in all ways. AME also did in solution 6 way.\n* here take min of above tow possible value, except when you are in first column and last column.~~\n* Multi option base case.Variable Ending Points.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.11",
+        "url": "https://youtu.be/SrP-PiLSYC0"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=O2eaAdBpZBQ"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "931. Minimum Falling Path Sum",
+    "questionUrl": "https://leetcode.com/problems/minimum-falling-path-sum/",
+    "hint": "Since its variable start point and end point use recursive call in for loop.\n* Simple problem you just need minimum diagonal elements.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.12",
+        "url": "https://youtu.be/N_aJ5qQbYA0"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=N_aJ5qQbYA0&list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY&index=14"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "605. Can Place Flowers",
+    "questionUrl": "https://leetcode.com/problems/can-place-flowers/",
+    "hint": "normal greedy approach with tow variable prev and next and handling 0 and length-1 index."
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Subset Sum Equal To K",
+    "questionUrl": "https://www.codingninjas.com/codestudio/problems/subset-sum-equal-to-k_1550954?leftPanelTab=0",
+    "hint": "Striver, make u understand recursion->memoization and from Tushar tabulation-space optimization",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.14",
+        "url": "https://youtu.be/fWX9xDmIzRI"
+      },
+      {
+        "level": "Tushar Roy",
+        "url": "https://youtu.be/s6FhG--P7z0"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "416. Partition Equal Subset Sum",
+    "questionUrl": "https://leetcode.com/problems/partition-equal-subset-sum/",
+    "hint": "Similar to [Subset Sum Equal To K].Its just that target will be totalSum/2.And if sum%2!=0 means it's not possible",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.15",
+        "url": "https://youtu.be/7win3dcgo3k"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "2035. Partition Array Into Two Arrays to Minimize Sum Difference",
+    "questionUrl": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
+    "hint": "Similar subset sum problem with little trick.Understood clearly both the solution But both Striver and Aditya\nsolution failing for negative values.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.16",
+        "url": "https://youtu.be/GS_OqZb2CWc"
+      },
+      {
+        "level": "Aditya",
+        "url": "https://www.youtube.com/watch?v=-GtpxG6l_Mc"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Counts Subsets with Sum K",
+    "questionUrl": "https://www.codingninjas.com/studio/problems/number-of-subsets_3952532",
+    "hint": "Understood clearly the solution But need to get hold of space optimization solution. Didn't find leetcode problem.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.17",
+        "url": "https://youtu.be/ZHyb-A2Mte4"
       }
     ]
   }
