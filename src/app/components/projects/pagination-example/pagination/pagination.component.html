@@ -1,0 +1,7 @@
+<div class="pagination-container">
+  <button [disabled]="currentPage===0" (click)="goToPrevPage()" class="page-btn"> < </button>
+  <button class="page-btn" *ngFor="let item of [].constructor(noOfPages);let i = index"
+          (click)="setCurrentPage(i)"[ngClass]="{'active':currentPage===i}" >{{ i + 1 }}
+  </button>
+  <button [disabled]="currentPage===noOfPages-1" (click)="goToNextPage()" class="page-btn"> > </button>
+</div>

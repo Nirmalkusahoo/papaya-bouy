@@ -242,5 +242,47 @@
         "url": "https://youtu.be/ZHyb-A2Mte4"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Count Partitions With Given Difference",
+    "questionUrl": "https://www.codingninjas.com/studio/problems/partitions-with-given-difference_3751628",
+    "hint": "Same as count subset sum of k with little change .Understood clearly the solution But need to get hold of space\noptimization solution. Didn't find leetcode problem.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.18",
+        "url": "https://youtu.be/zoilQD1kYSg"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "0/1 Knapsack",
+    "questionUrl": "https://www.codingninjas.com/studio/problems/0-1-knapsack_920542",
+    "hint": "Watched both Striver and Tushar video.Watch tushar for tabulation intuition and for other concepts watch strivers.\n* Knapsack concept will be cleared. House robber problem",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.19",
+        "url": "https://youtu.be/GqOmJHQZivw"
+      },
+      {
+        "level": "Tushar Roy",
+        "url": "https://youtu.be/8LusJS5-AGo"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "322. Coin Change",
+    "questionUrl": "https://leetcode.com/problems/coin-change/",
+    "hint": "See base case is important. u can't write coins[index] <= amount in base case.\n* simple formula ways[targetAMount] = ways[targetAMount] + ways[targetAMount - coin];",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.20",
+        "url": "https://youtu.be/myPeWb3Y68A?si=IU8oqfKf-HFAF8GS"
+      }
+    ]
   }
 ]
+
+

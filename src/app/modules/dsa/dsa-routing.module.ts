@@ -9,6 +9,7 @@ import {FolderComponent} from '../../components/projects/folder-struture/folder/
 import {FolderStrutureComponent} from '../../components/projects/folder-struture/folder-struture.component';
 import {AutoCompleteSearchBarComponent} from '../../components/projects/auto-complete-search-bar/auto-complete-search-bar.component';
 import {TabFormComponent} from '../../components/projects/tab-form/tab-form.component';
+import {PaginationExampleComponent} from '../../components/projects/pagination-example/pagination-example.component';
 
 const routes: Routes = [
   {path: 'topics', component: DsaTopicListComponent},
@@ -19,6 +20,7 @@ const routes: Routes = [
   {path: 'folder-structure', component: FolderStrutureComponent},
   {path: 'auto-complete', component: AutoCompleteSearchBarComponent},
   {path: 'tab-forms', component: TabFormComponent},
+  {path: 'pagination', component: PaginationExampleComponent},
 ];
 
 @NgModule({

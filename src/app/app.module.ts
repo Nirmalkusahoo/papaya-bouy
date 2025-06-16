@@ -13,7 +13,7 @@ import {ContactFormComponent} from './components/contact-form/contact-form.compo
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {PostComponent} from './components/post/post.component';
 import {HttpClientModule} from '@angular/common/http';
-import {CommonModule} from '@angular/common';
+import {CommonModule, NgOptimizedImage} from '@angular/common';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {INTERCEPTOR_PROVIDERS} from './modules/shared-module/interceptors/interceptor-providers';
 import {BlogComponent} from './components/blog/blog.component';
@@ -32,6 +32,9 @@ import { TabFormComponent } from './components/projects/tab-form/tab-form.compon
 import { ProfileComponent } from './components/projects/tab-form/profile/profile.component';
 import { SettingsComponent } from './components/projects/tab-form/settings/settings.component';
 import { IntrestComponent } from './components/projects/tab-form/intrest/intrest.component';
+import { PaginationExampleComponent } from './components/projects/pagination-example/pagination-example.component';
+import { ProductCardComponent } from './components/projects/pagination-example/product-card/product-card.component';
+import { PaginationComponent } from './components/projects/pagination-example/pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +57,9 @@ import { IntrestComponent } from './components/projects/tab-form/intrest/intrest
     ProfileComponent,
     SettingsComponent,
     IntrestComponent,
+    PaginationExampleComponent,
+    ProductCardComponent,
+    PaginationComponent,
   ],
   imports: [
     BrowserModule,
@@ -63,7 +69,7 @@ import { IntrestComponent } from './components/projects/tab-form/intrest/intrest
     BrowserAnimationsModule,
     ReactiveFormsModule,
     MatSnackBarModule,
-    MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule, TestComponent, FormsModule
+    MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule, TestComponent, FormsModule, NgOptimizedImage
   ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],
