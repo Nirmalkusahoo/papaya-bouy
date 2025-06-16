@@ -37,6 +37,6 @@ export class PaginationExampleComponent {
 
 
   public openGitHubUrl(): void {
-    window.open('https://github.com/Nirmalkusahoo/papaya-bouy/tree/78b009d174525086bf9ecf7182e0266888326d4e/src/app/components/projects/star-rating', '_blank');
+    window.open('https://github.com/Nirmalkusahoo/papaya-bouy/tree/4f074d3b3e0c8d7e35642f92ac8fba4958902530/src/app/components/projects/pagination-example', '_blank');
   }
 }
