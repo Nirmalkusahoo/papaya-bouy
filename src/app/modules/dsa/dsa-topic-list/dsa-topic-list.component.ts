@@ -1,14 +1,14 @@
-import {Component, ViewChild} from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
-import {QuestionService} from '../question.service';
-import {KeyValueModel} from '../../shared-module/models/key-value.model';
+import { Component, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
+import { QuestionService } from '../question.service';
+import { KeyValueModel } from '../../shared-module/models/key-value.model';
 
 @Component({
   selector: 'app-dsa-topic-list',
   templateUrl: './dsa-topic-list.component.html',
-  styleUrls: ['./dsa-topic-list.component.scss']
+  styleUrls: ['./dsa-topic-list.component.scss'],
 })
 export class DsaTopicListComponent {
   public listOfTopics: KeyValueModel[] = [];
@@ -18,7 +18,11 @@ export class DsaTopicListComponent {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  constructor(private router: Router, private route: ActivatedRoute, private questionService: QuestionService) {
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private questionService: QuestionService,
+  ) {
     this.getTopics();
   }
 
@@ -30,13 +34,13 @@ export class DsaTopicListComponent {
 
   public navigate(topic: string): void {
     // this.router.navigate(['list', topic], {relativeTo: this.route.parent});
-    this.router.navigate(['../list', topic], {relativeTo: this.route});
+    this.router.navigate(['../list', topic], {
+      relativeTo: this.route,
+      state: { showBackButton: true },
+    });
   }
-
 
   public navigateToList(): void {
-    this.router.navigate(['topics'], {relativeTo: this.route.parent});
+    this.router.navigate(['topics'], { relativeTo: this.route.parent });
   }
 }
-
-

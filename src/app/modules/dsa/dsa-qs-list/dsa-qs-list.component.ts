@@ -1,16 +1,16 @@
-import {Component, ViewChild} from '@angular/core';
-import {ActivatedRoute, Params, Router} from '@angular/router';
-import {MatTableDataSource} from '@angular/material/table';
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
-import {QuestionDetailModel} from './question-detail.model';
-import {publish} from 'rxjs';
-import {SelectionModel} from '@angular/cdk/collections';
-import {HttpService} from '../../shared-module/services/http.service';
-import {environment} from '../../../../environments/environment';
-import {FormBuilder, FormControl, FormGroup} from '@angular/forms';
-import {QuestionService} from '../question.service';
-import {KeyValueModel} from '../../shared-module/models/key-value.model';
+import { Component, ViewChild } from '@angular/core';
+import { ActivatedRoute, Params, Router } from '@angular/router';
+import { MatTableDataSource } from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
+import { QuestionDetailModel } from './question-detail.model';
+import { publish } from 'rxjs';
+import { SelectionModel } from '@angular/cdk/collections';
+import { HttpService } from '../../shared-module/services/http.service';
+import { environment } from '../../../../environments/environment';
+import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { QuestionService } from '../question.service';
+import { KeyValueModel } from '../../shared-module/models/key-value.model';
 
 @Component({
   selector: 'app-dsa-qs-list',
@@ -18,13 +18,12 @@ import {KeyValueModel} from '../../shared-module/models/key-value.model';
   styleUrls: ['./dsa-qs-list.component.scss'],
 })
 export class DsaQsListComponent {
-
-
   public listOfQs: QuestionDetailModel[] = [];
   public allStatus: KeyValueModel[] = [];
   public topic: string;
   public status: FormControl = new FormControl('');
   public formGroup: FormGroup;
+  public showBackButton: boolean;
   // displayedColumns: string[] = ['select', 'status', 'questionTitle', 'answerUrl', 'notes'];
   displayedColumns: string[] = ['questionTitle', 'answerUrl'];
   dataSource: MatTableDataSource<QuestionDetailModel>;
@@ -32,8 +31,19 @@ export class DsaQsListComponent {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  constructor(private route: ActivatedRoute, private httpService: HttpService, private router: Router, private formBuilder: FormBuilder, private questionService: QuestionService) {
-    this.route.params.subscribe((params: Params) => this.topic = params.topic);
+  constructor(
+    private route: ActivatedRoute,
+    private httpService: HttpService,
+    private router: Router,
+    private formBuilder: FormBuilder,
+    private questionService: QuestionService,
+  ) {
+    this.route.params.subscribe(
+      (params: Params) => (this.topic = params.topic),
+    );
+    const navigation = this.router.getCurrentNavigation();
+    const state = navigation?.extras.state;
+    this.showBackButton = state?.showBackButton;
     this.initFormGroup();
     this.getAllQuestions();
     // this.getAllStatus();
@@ -41,7 +51,7 @@ export class DsaQsListComponent {
 
   private initFormGroup(): void {
     this.formGroup = this.formBuilder.group({
-      status: this.status
+      status: this.status,
     });
   }
 
@@ -55,14 +65,13 @@ export class DsaQsListComponent {
     // const url = environment.baseUrl + environment.getAllQuestion + this.topic;
     const url = `assets/jsondata/${this.topic}.json`;
 
-
     this.httpService.getData(url).subscribe((data) => {
       this.listOfQs = data;
       this.dataSource = new MatTableDataSource(this.listOfQs);
     });
   }
 
- /* ngAfterViewInit() {
+  /* ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }*/
@@ -101,13 +110,10 @@ export class DsaQsListComponent {
   }
 
   public navigateToList(): void {
-    this.router.navigate(['topics'], {relativeTo: this.route.parent});
+    this.router.navigate(['topics'], { relativeTo: this.route.parent });
   }
 
   public openInNewTab(url: string) {
     window.open(url, '_blank');
   }
 }
-
-
-

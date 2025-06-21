@@ -1,0 +1,16 @@
+[
+  {
+    "topic": "JavaScript Projects",
+    "questionTitle": "Infinite Scroll",
+    "answerDetails": [
+      {
+        "level": "The Code Creative",
+        "url": "https://youtu.be/xHm6AbNwAw8?si=DZuhkQlouGXfUZOh"
+      },
+      {
+        "level": "Code",
+        "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/e1fd25d4ecd4edde9d4430c8aec0a189233d2a6e/infinite-scroll"
+      }
+    ]
+  }
+]

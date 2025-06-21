@@ -1,14 +1,25 @@
 <div class="pagination-page all-page parent-container">
   <h1 class="mat-headline-4">Pagination Example</h1>
-  <app-pagination [noOfPages]="noOfPages" (pageChange)="setCurrentPage($event)"></app-pagination>
+  <app-pagination
+    [noOfPages]="noOfPages"
+    (pageChange)="setCurrentPage($event)"
+  ></app-pagination>
+
   <div class="all-product">
-    <div *ngFor="let product of products.slice(start,end)">
-      <app-product-card [product]="product"></app-product-card>
+    <h1 class="mat-headline-5">Available Products</h1>
+    <div class="all-product">
+      <div *ngFor="let product of products.slice(start, end)">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
     </div>
   </div>
 
-  <button class="code-btn" mat-mini-fab (click)="openGitHubUrl()" matTooltip="Check Code">
+  <button
+    class="code-btn"
+    mat-mini-fab
+    (click)="openGitHubUrl()"
+    matTooltip="Check Code"
+  >
     <mat-icon class="code">code</mat-icon>
   </button>
-
 </div>
