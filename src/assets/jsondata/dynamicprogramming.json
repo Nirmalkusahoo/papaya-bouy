@@ -306,6 +306,41 @@
         "url": "https://youtu.be/b3GD8263-PQ"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "518. Coin Change II",
+    "questionUrl": "https://leetcode.com/problems/coin-change-ii/",
+    "hint": "similar to [494. Target Sum](https://leetcode.com/problems/target-sum/)\n* Since you infinite coin supply, so when you take you can't index-1, it will be again same index. Note : its is not\ncoin count, its is not of ways, so in base case you will return 1 or 0. And also in the base case you have to\ncheck target % coins[0] == 0",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.22",
+        "url": "https://youtu.be/HgyouUi11zk"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "518. Coin Change II",
+    "questionUrl": "https://leetcode.com/problems/coin-change-ii/",
+    "hint": "similar to [494. Target Sum](https://leetcode.com/problems/target-sum/)\n* Since you infinite coin supply, so when you take you can't index-1, it will be again same index. Note : its is not\ncoin count, its is not of ways, so in base case you will return 1 or 0. And also in the base case you have to\ncheck target % coins[0] == 0",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.22",
+        "url": "https://youtu.be/HgyouUi11zk"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Unbounded Knapsack",
+    "questionUrl": "https://www.codingninjas.com/studio/problems/unbounded-knapsack_1215029",
+    "hint": "Since infinite value supply, so when you take you can't index-1, it will be again same index. Two types base case.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.23",
+        "url": "https://youtu.be/OgvOZ6OrJoY"
+      }
+    ]
   }
 ]
-
