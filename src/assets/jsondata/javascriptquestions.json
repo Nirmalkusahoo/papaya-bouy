@@ -39,6 +39,30 @@
   },
   {
     "topic": "JavaScript",
+    "questionTitle": "2627. Debounce",
+    "questionUrl": "https://leetcode.com/problems/debounce",
+    "hint": "Concept",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/sh72ccm7sBg?si=xNjH4HfYMY99pKXI"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "2625. Flatten Deeply Nested Array",
+    "questionUrl": "https://leetcode.com/problems/flatten-deeply-nested-array/description",
+    "hint": "Nested array.",
+    "answerDetails": [
+      {
+        "level": "Chirag",
+        "url": "https://youtu.be/EXoS4MfElEc?si=UxmUX2PSlXzXk0Ih"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
     "questionTitle": "2694. Event Emitter",
     "questionUrl": "https://leetcode.com/problems/event-emitter?envType=study-plan-v2&envId=30-days-of-javascript",
     "answerDetails": [
@@ -82,3 +106,5 @@
     ]
   }
 ]
+
+

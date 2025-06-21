@@ -282,7 +282,30 @@
         "url": "https://youtu.be/myPeWb3Y68A?si=IU8oqfKf-HFAF8GS"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "983. Minimum Cost For Tickets",
+    "questionUrl": "https://leetcode.com/problems/minimum-cost-for-tickets/",
+    "hint": "Interesting one.Same as [322. Coin Change]. See 0- endDay flow didn't work, so did n->0 . Memoize in 1D array.",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/minimum-cost-for-tickets/solutions/2345641/dp-solution-as-striver-taught-beginner-friendly/"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "494. Target Sum",
+    "questionUrl": "https://leetcode.com/problems/target-sum/",
+    "hint": "similar to [Count Partitions With Given Difference][TUF](https://youtu.be/zoilQD1kYSg). Base case is trick for 0.\n* Did it in positive and negative option ways also.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.21",
+        "url": "https://youtu.be/b3GD8263-PQ"
+      }
+    ]
   }
 ]
-
 
