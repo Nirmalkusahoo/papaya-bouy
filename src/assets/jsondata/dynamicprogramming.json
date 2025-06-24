@@ -342,5 +342,72 @@
         "url": "https://youtu.be/OgvOZ6OrJoY"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Rod cutting problem",
+    "questionUrl": "https://www.codingninjas.com/codestudio/problems/rod-cutting-problem_800284",
+    "hint": "Since you infinite value supply, so when you take you can't index-1, it will be again same index.\n* To watch tabulation way I have seen Tushar video. (Pending )You can also see Aditya Verma video on this.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.24",
+        "url": "https://youtu.be/mO8XpGoJwuo"
+      },
+      {
+        "level": "TUF-DP.24",
+        "url": "https://youtu.be/IRwVmTmN6go"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1143. Longest Common Subsequence",
+    "questionUrl": "https://leetcode.com/problems/longest-common-subsequence/",
+    "hint": "Striver has explained all the approach. Shown how to handle negative base case(known to me in another way).\n* Initially I understood from AME way which is similar to levenstein(AlgoExpert) distance problem. they have solved\ndirectly using tabulation way.\n* The difference is you need to find the common subsequence while traversing in the 2D array.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.25",
+        "url": "https://youtu.be/NPZn9jBrX8U"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=M_dpZ8IS_70"
+      }
+    ]
+  },
+  {"topic": "DynamicProgramming",
+    "questionTitle": "Print Longest Common Subsequence",
+    "questionUrl": "https://www.naukri.com/code360/problems/print-longest-common-subsequence_8416383",
+    "hint": "Back tracking is the logic. if same i++, j++ else any one of them which is greater.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.26",
+        "url": "https://youtu.be/-zI4mrF2Pb4"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "718. Maximum Length of Repeated Subarray",
+    "questionUrl": "https://leetcode.com/problems/maximum-length-of-repeated-subarray/",
+    "hint": "Slight modification to the longest common subsequence.See this is something you need to remember.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.27",
+        "url": "https://youtu.be/_wP9mWNPL5w"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "516. Longest Palindromic Subsequence",
+    "questionUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+    "hint": "You need to reverse the string and need to find LCS between actual string and revered string.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.28",
+        "url": "https://youtu.be/6i_T5kkfv4A"
+      }
+    ]
   }
 ]
