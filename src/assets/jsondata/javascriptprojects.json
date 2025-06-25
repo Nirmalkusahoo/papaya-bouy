@@ -12,5 +12,33 @@
         "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/e1fd25d4ecd4edde9d4430c8aec0a189233d2a6e/infinite-scroll"
       }
     ]
+  },
+  {
+    "topic": "JavaScript Projects",
+    "questionTitle": "Search Box",
+    "answerDetails": [
+      {
+        "level": "Web Dev Simplified",
+        "url": "https://youtu.be/TlP5WIxVirU?si=pBuvP_Dqp8RhUOxq"
+      },
+      {
+        "level": "Code",
+        "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/71b3eb7ed88835be6a70fc0f51ee387423ace138/auto-complete-search"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript Projects",
+    "questionTitle": "Stop Watch",
+    "answerDetails": [
+      {
+        "level": "Code Commerce",
+        "url": "https://youtu.be/jPFh8kBXoug?si=HNrfhtKrot_wF-ld"
+      },
+      {
+        "level": "Code",
+        "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/38462e84ddb532fa7294bd538fe98c59de599119/stopwatch"
+      }
+    ]
   }
 ]

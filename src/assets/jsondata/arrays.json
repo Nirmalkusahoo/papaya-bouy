@@ -429,5 +429,21 @@
     "questionTitle": "11. Container With Most Water",
     "questionUrl": "https://leetcode.com/problems/container-with-most-water/",
     "hint": "Simple logic maxWater = Math.max(maxWater, Math.min(height[leftIdx], height[rightIdx]) * (rightIdx - leftIdx));"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "769. Max Chunks To Make Sorted",
+    "questionUrl": "https://leetcode.com/problems/max-chunks-to-make-sorted/description/",
+    "hint": "New learning.Simple logic. Need practise.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/nXnamovQlG8?si=G4MrNJrgHDfQFegR"
+      },
+      {
+        "level": "PepCoding",
+        "url": "https://youtu.be/XZueXHOhO5E"
+      }
+    ]
   }
 ]
