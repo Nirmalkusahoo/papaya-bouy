@@ -38,5 +38,9 @@
   {
     "technicalName": "doublylinkedlist",
     "endUserName": "Doubly Linked List"
+  },
+  {
+    "technicalName": "binarytree",
+    "endUserName": "Binary Tree"
   }
 ]

@@ -445,5 +445,18 @@
         "url": "https://youtu.be/XZueXHOhO5E"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "442. Find All Duplicates in an Array",
+    "questionUrl": "https://leetcode.com/problems/find-all-duplicates-in-an-array/description/",
+    "hint": "Easy one, bit tricky.",
+    "answerDetails": [
+      {
+        "level": "Nick",
+        "url": "https://youtu.be/aMsSF1Il3IY?si=pq9_6innTBa3VKNh"
+      }
+    ]
   }
 ]
+

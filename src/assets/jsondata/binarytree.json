@@ -1,0 +1,84 @@
+[
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "Introduction to Trees",
+    "hint": "Different binary tre concepts",
+    "answerDetails": [
+      {
+        "level": "TUF-L1",
+        "url": "https://youtu.be/_ANrF3FJm7I"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "Binary Tree Representation",
+    "hint": "Representation of tree",
+    "answerDetails": [
+      {
+        "level": "TUF-L3",
+        "url": "https://youtu.be/hyLyW7rP24I"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "Binary Tree Traversals",
+    "hint": "Different tree traversal technique.You should watch this video again.",
+    "answerDetails": [
+      {
+        "level": "TUF-L4",
+        "url": "https://youtu.be/jmy0LaGET1I"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "144. Binary Tree Preorder Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-preorder-traversal/",
+    "hint": "Preorder traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF-L5",
+        "url": "https://youtu.be/RlUu72JrOCQ"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "589. N-ary Tree Preorder Traversal",
+    "questionUrl": "https://leetcode.com/problems/n-ary-tree-preorder-traversal/",
+    "hint": "Same as Inorder. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "94. Binary Tree Inorder Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+    "hint": "Inorder traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF-L6",
+        "url": "https://youtu.be/Z_NEgBgbRVI"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "145. Binary Tree Postorder Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+    "hint": "Postorder traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF-L7",
+        "url": "https://youtu.be/COQOU6klsBg"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "590. N-ary Tree Postorder Traversal",
+    "questionUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
+    "hint": "Same as Postorder. **Skip able**."
+  }
+]
+

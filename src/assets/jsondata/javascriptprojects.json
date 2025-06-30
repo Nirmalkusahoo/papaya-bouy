@@ -40,5 +40,33 @@
         "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/38462e84ddb532fa7294bd538fe98c59de599119/stopwatch"
       }
     ]
+  },
+  {
+    "topic": "JavaScript Projects",
+    "questionTitle": "TODO List",
+    "answerDetails": [
+      {
+        "level": "Great Stack",
+        "url": "https://youtu.be/G0jO8kUrg-I?si=bLsrHCm-uxCqQ7Js"
+      },
+      {
+        "level": "Code",
+        "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/24fcce07f60f5b83d7b325110483d8d285308115/todo-list"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript Projects",
+    "questionTitle": "Toast Message",
+    "answerDetails": [
+      {
+        "level": "Great Stack",
+        "url": "https://youtu.be/mkNITfM1gm8?si=U79ACJdJZ2g7qzox"
+      },
+      {
+        "level": "Code",
+        "url": "https://github.com/Nirmalkusahoo/JavaScript-Projects/tree/43dfd9b1fc716bd57ac594869080d6c4a0da885d/toast-message"
+      }
+    ]
   }
 ]

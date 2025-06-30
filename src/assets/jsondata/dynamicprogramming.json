@@ -409,5 +409,31 @@
         "url": "https://youtu.be/6i_T5kkfv4A"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "132. Palindrome Partitioning II",
+    "questionUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "hint": "Similar to [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/).\n* Here you need to find the minimum cuts required to make all the partitions palindrome.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.29",
+        "url": "https://youtu.be/2b1a9k8g0jY"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1216. Valid Palindrome III",
+    "questionUrl": "https://leetcode.com/problems/valid-palindrome-iii/",
+    "hint": "Similar to [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/).\n* Here you need to find the longest palindromic subsequence of length k.",
+    "answerDetails": [
+      {
+        "level": "Leetocde",
+        "url": "https://leetcode.com/problems/valid-palindrome-iii/solutions/397606/find-longest-palindromic-subsequence/?orderBy=most_votes"
+      }
+    ]
   }
+
 ]
+
