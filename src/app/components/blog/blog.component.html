@@ -6,7 +6,7 @@
       <mat-card-title>DSA</mat-card-title>
       <mat-card-subtitle>Data Structure And Algorithm</mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image src="assets/images/dsa.jpg" alt="Data Structure And Algorithm">
+    <img loading="eager" src="assets/images/dsa.jpg" alt="Data Structure And Algorithm">
     <mat-card-content>
       <p>
         <!--          Data Structure And Algorithm-->
@@ -24,7 +24,7 @@
       <mat-card-title>JavaScript</mat-card-title>
       <mat-card-subtitle></mat-card-subtitle>
     </mat-card-header>
-    <img mat-card-image class="javascript" src="assets/images/logo-javascript.svg" alt="JavaScript">
+    <img loading="lazy" class="javascript" src="assets/images/logo-javascript.svg" alt="JavaScript">
     <mat-card-content>
       <p>
         <!--          Data Structure And Algorithm-->
@@ -52,6 +52,17 @@
       <mat-card-subtitle></mat-card-subtitle>
     </mat-card-header>
     <img mat-card-image class="javascript" src="assets/images/angular_logo.png" alt="Angular">
+    <mat-card-content>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card class="example-card" (click)="navigateToAngularSystemDesign()">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Angular System Design</mat-card-title>
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image class="javascript" src="assets/images/angularsystemdesign.png" alt="Angular System Design">
     <mat-card-content>
     </mat-card-content>
   </mat-card>

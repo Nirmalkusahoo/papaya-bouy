@@ -32,6 +32,9 @@ export class BlogComponent {
     this.router.navigate(['../dsa/list/angularprojects']);
   }
 
+  public navigateToAngularSystemDesign(): void {
+    this.router.navigate(['../dsa/list/angularsystemdesign']);
+  }
   public navigateToJavaInterviewQs(): void {
     this.router.navigate(['../dsa/list/javainterviewsqs']);
   }
