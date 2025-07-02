@@ -79,6 +79,59 @@
     "questionTitle": "590. N-ary Tree Postorder Traversal",
     "questionUrl": "https://leetcode.com/problems/n-ary-tree-postorder-traversal/",
     "hint": "Same as Postorder. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "102. Binary Tree Level Order Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "hint": "Level order traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF-L8",
+        "url": "https://youtu.be/0bX1d2g3j6c"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "1102. Binary Tree Level Order Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+    "hint": "Level order traversal.",
+    "answerDetails": [
+      {
+        "level": "TUF-L8",
+        "url": "https://youtu.be/EoAsWbO7sqg"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "107. Binary Tree Level Order Traversal II",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal-ii/",
+    "hint": "Same as Level order. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "429. N-ary Tree Level Order Traversal",
+    "questionUrl": "https://leetcode.com/problems/n-ary-tree-level-order-traversal/",
+    "hint": "Same as Level order. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "111. Minimum Depth of Binary Tree",
+    "questionUrl": "https://leetcode.com/problems/minimum-depth-of-binary-tree/",
+    "hint": "Level order traversal. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "104. Maximum Depth of Binary Tree",
+    "questionUrl": "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+    "hint": "Level order traversal. Can be done in Recursive way as well. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "559. Maximum Depth of N-ary Tree",
+    "questionUrl": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
+    "hint": "Level order traversal. **Skip able**."
   }
 ]
-
