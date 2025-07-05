@@ -8,5 +8,15 @@
         "url": "https://youtu.be/Y-MRJ9QYCvI?si=JUnunAHbVR2mZrfQ"
       }
     ]
+  },
+  {
+    "topic": "Angular System Design",
+    "questionTitle": "OnPush Change Detection Strategy",
+    "answerDetails": [
+      {
+        "level": "Decoded Frontend",
+        "url": "https://youtu.be/WAu7omIoerM?si=k9EDWphqJTAV80Qv"
+      }
+    ]
   }
 ]

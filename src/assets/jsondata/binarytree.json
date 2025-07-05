@@ -133,5 +133,53 @@
     "questionTitle": "559. Maximum Depth of N-ary Tree",
     "questionUrl": "https://leetcode.com/problems/maximum-depth-of-n-ary-tree/",
     "hint": "Level order traversal. **Skip able**."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "236. Lowest Common Ancestor of a Binary Tree",
+    "questionUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "hint": "Simple logic , new one.Need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-L27",
+        "url": "https://youtu.be/_-QHfMDde90"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "1644. Lowest Common Ancestor of a Binary Tree II",
+    "questionUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/",
+    "hint": "Same ase LCA with slight change.Just need practise.",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/solutions/933835/java-difference-from-236-is-you-need-to-search-the-entire-tree/"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "1650. Lowest Common Ancestor of a Binary Tree III",
+    "questionUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/",
+    "hint": "LCA pattern with additional depth logic.Find distance till parent and the one is less take it same level as other and then go till parent"
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "129. Sum Root to Leaf Numbers",
+    "questionUrl": "https://leetcode.com/problems/sum-root-to-leaf-numbers/description/",
+    "hint": "**Skip able**. Number construction is key logic."
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "314. Binary Tree Vertical Order Traversal",
+    "questionUrl": "https://leetcode.com/problems/binary-tree-vertical-order-traversal/",
+    "hint": "* Can be solved if you think as matrix.\n* do level order traversal and store as below .Idx will start from 0 as root node\n* queue.offer(new NodeDetail(idx - 1, node.left)); queue.offer(new NodeDetail(idx + 1, node.right));\n* Also store it in map( Map<Integer, List<Integer>> map) index as key . And at the sort the mao keys and iterate\n,prepare list"
+  },
+  {
+    "topic": "BinaryTree",
+    "questionTitle": "366. Find Leaves of Binary Tree",
+    "questionUrl": "https://leetcode.com/problems/find-leaves-of-binary-tree/",
+    "hint": "Find the height of each node by doing postOrder traversal and Nodes with the same height are grouped into sublists, representing the order in which they would be removed as leaves."
   }
 ]
