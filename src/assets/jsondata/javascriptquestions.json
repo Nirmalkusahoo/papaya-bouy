@@ -11,11 +11,21 @@
   },
   {
     "topic": "JavaScript",
-    "questionTitle": "setTimeout + Closures Interview Question ",
+    "questionTitle": "setTimeout + Closures Interview Question",
     "answerDetails": [
       {
         "level": "Akshay Saini",
         "url": "https://youtu.be/eBTBG4nda2A?si=_eZLwFBap4OIEk5x"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
+    "questionTitle": "Closures",
+    "answerDetails": [
+      {
+        "level": "Akshay Saini",
+        "url": "https://youtu.be/t1nFAMws5FI?si=wh7qdGeQkd9M1Fq-"
       }
     ]
   },
