@@ -136,6 +136,18 @@
   },
   {
     "topic": "BinaryTree",
+    "questionTitle": "543. Diameter of Binary Tree",
+    "questionUrl": "https://leetcode.com/problems/balanced-binary-tree/",
+    "hint": "Recursive approach.",
+    "answerDetails": [
+      {
+        "level": "TUF-L16",
+        "url": "https://youtu.be/Rezetez59Nk"
+      }
+    ]
+  },
+  {
+    "topic": "BinaryTree",
     "questionTitle": "236. Lowest Common Ancestor of a Binary Tree",
     "questionUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
     "hint": "Simple logic , new one.Need practise.",

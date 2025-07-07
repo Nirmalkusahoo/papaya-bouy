@@ -31,6 +31,16 @@
   },
   {
     "topic": "JavaScript",
+    "questionTitle": "Asynchronous JavaScript & EVENT LOOP",
+    "answerDetails": [
+      {
+        "level": "Akshay Saini",
+        "url": "https://youtu.be/8zKuNo4ay8E?si=nH15ybUP6Y7QsM3J"
+      }
+    ]
+  },
+  {
+    "topic": "JavaScript",
     "questionTitle": "2625. Flatten Deeply Nested Array",
     "questionUrl": "https://leetcode.com/problems/flatten-deeply-nested-array/description/?envType=study-plan-v2&envId=30-days-of-javascript",
     "answerUrl": "",
