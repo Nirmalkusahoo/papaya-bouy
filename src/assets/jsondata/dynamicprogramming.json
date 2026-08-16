@@ -15,7 +15,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "1137. N-th Tribonacci Number",
     "questionUrl": "https://leetcode.com/problems/n-th-tribonacci-number/",
-    "hint": "Similar to [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/).Similar to [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)"
+    "hint": "Similar to [509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)\n* Its just that here we need to consider last three values"
   },
   {
     "topic": "DynamicProgramming",
@@ -26,6 +26,10 @@
       {
         "level": "TUF-DP.2",
         "url": "https://youtu.be/mLfjzJsN8us"
+      },
+      {
+        "level": "Algo expert:: Staircase traversal",
+        "url": "https://www.algoexpert.io/questions/staircase-traversal"
       }
     ]
   },
@@ -45,14 +49,14 @@
     "topic": "DynamicProgramming",
     "questionTitle": "746. Min Cost Climbing Stairs",
     "questionUrl": "https://leetcode.com/problems/min-cost-climbing-stairs/",
-    "hint": "See you need to find current cost + Math.min(cost[i-1],cost[i-2])\n* See here the striver approach will work wil slight change, because frog jump is different from this problem.It is\npartially similar. It still needs practises.",
+    "hint": "See you need to find current cost + Math.min(cost[i-1],cost[i-2])\n* See here the striver approach will work wil slight change, because frog jump is different from this problem.It is\n      partially similar. It still needs practises.",
     "answerDetails": [
       {
         "level": "TUF-DP.3",
         "url": "https://youtu.be/EgG3jsGoPvQ"
       },
       {
-        "level": "Leetcode",
+        "level": "Leetcode Solution",
         "url": "https://leetcode.com/problems/min-cost-climbing-stairs/discuss/476388/4-ways-or-Step-by-step-from-Recursion-greater-top-down-DP-greater-bottom-up-DP-greater-fine-tuning"
       }
     ]
@@ -61,7 +65,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "198. House Robber",
     "questionUrl": "https://leetcode.com/problems/house-robber/",
-    "hint": "~~Similar to [Max subset sum no adjacent](https://www.algoexpert.io/questions/max-subset-sum-no-adjacent)\n.Algo-expert may be helpful for this particular problem. But Striver teaches how to solve by yourself.\n* So for now watch striver video. this is important video, since here he has explained very well all the approaches.\nIt is indeed worth watching this one.~~\n* Simple pick and not pick problem, the base case will be different if you start from 0 and n.",
+    "hint": "~~Similar to [Max subset sum no adjacent](https://www.algoexpert.io/questions/max-subset-sum-no-adjacent)\n      .Algo-expert may be helpful for this particular problem. But Striver teaches how to solve by yourself.\n* So for now watch striver video. this is important video, since here he has explained very well all the approaches.\n      It is indeed worth watching this one.~~\n* Simple pick and not pick problem, the base case will be different if you start from 0 and n.",
     "answerDetails": [
       {
         "level": "TUF-DP.5",
@@ -71,9 +75,25 @@
   },
   {
     "topic": "DynamicProgramming",
+    "questionTitle": "213. House Robber II",
+    "questionUrl": "https://leetcode.com/problems/house-robber-ii/",
+    "hint": "Similar to [198. House Robber](https://leetcode.com/problems/house-robber/). Initially did follow AME way, but\n      latter did striver way.In one call we will skip last element , in another first element.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=5bxF0MJ1oM0"
+      },
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/3WaxQMELSkw"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
     "questionTitle": "Ninja's Training",
     "questionUrl": "https://www.codingninjas.com/codestudio/problems/ninja-s-training_3621003?source=youtube&campaign=striver_dp_videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=striver_dp_videos",
-    "hint": "This is important video, since Striver he has explained very well all the approaches for 2D DP patterns. It is\n  indeed worth watching this one.",
+    "hint": "This is important video, since Striver he has explained very well all the approaches for 2D DP patterns. It is\n      indeed worth watching this one.",
     "answerDetails": [
       {
         "level": "TUF-DP.7",
@@ -109,7 +129,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "63. Unique Paths II",
     "questionUrl": "https://leetcode.com/problems/unique-paths-ii/",
-    "hint": "It's not that complex. Basic fundamental logic is for each position find how many ways are there to reach.And at\nthe end you will have value for reaching the bottom right position.Find the ways to reach for first column and row\nvalues in if condition and then using these values you can get other values position obstacleGrid[i][j] =\nobstacleGrid[i - 1][j] + obstacleGrid[i][j - 1]; Solution 3 code. Follow striver approach.",
+    "hint": "It's not that complex. Basic fundamental logic is for each position find how many ways are there to reach.And at\n      the end you will have value for reaching the bottom right position.Find the ways to reach for first column and row\n      values in if condition and then using these values you can get other values position obstacleGrid[i][j] =\n      obstacleGrid[i - 1][j] + obstacleGrid[i][j - 1]; Solution 3 code. Follow striver approach.",
     "answerDetails": [
       {
         "level": "TUF-DP.9",
@@ -137,14 +157,14 @@
     "topic": "DynamicProgramming",
     "questionTitle": "1463. Cherry Pickup II",
     "questionUrl": "https://leetcode.com/problems/cherry-pickup-ii/",
-    "hint": " See code wise solution 1 simple to write and simple to understand too. ButI have just followed striver approach\nwhich is more helpful in long run/problem-solving ability\n* while practising try writing it from solution 2 and reach to 3.",
+    "hint": "See code wise solution 1 simple to write and simple to understand too. ButI have just followed striver approach\n      which is more helpful in long run/problem-solving ability\n* while practising try writing it from solution 2 and reach to 3.",
     "answerDetails": [
       {
         "level": "TUF-DP.13",
         "url": "https://youtu.be/QGfn7JeXK54"
       },
       {
-        "level": "Leetcode",
+        "level": "Solution 1",
         "url": "https://leetcode.com/problems/cherry-pickup-ii/discuss/660562/C%2B%2BJavaPython-Top-Down-DP-Clean-code"
       }
     ]
@@ -156,7 +176,7 @@
     "hint": "~~Solutions 4 & 5 should be fine for interview , did in all ways. AME also did in solution 6 way.\n* here take min of above tow possible value, except when you are in first column and last column.~~\n* Multi option base case.Variable Ending Points.",
     "answerDetails": [
       {
-        "level": "TUF-DP.11",
+        "level": "TUF.DP-11",
         "url": "https://youtu.be/SrP-PiLSYC0"
       },
       {
@@ -219,15 +239,15 @@
     "topic": "DynamicProgramming",
     "questionTitle": "2035. Partition Array Into Two Arrays to Minimize Sum Difference",
     "questionUrl": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/",
-    "hint": "Similar subset sum problem with little trick.Understood clearly both the solution But both Striver and Aditya\nsolution failing for negative values.",
+    "hint": "Similar subset sum problem with little trick.Understood clearly both the solution But both Striver and Aditya\n      solution failing for negative values.",
     "answerDetails": [
-      {
-        "level": "TUF-DP.16",
-        "url": "https://youtu.be/GS_OqZb2CWc"
-      },
       {
         "level": "Aditya",
         "url": "https://www.youtube.com/watch?v=-GtpxG6l_Mc"
+      },
+      {
+        "level": "TUF=DP.16",
+        "url": "https://youtu.be/GS_OqZb2CWc"
       }
     ]
   },
@@ -247,7 +267,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "Count Partitions With Given Difference",
     "questionUrl": "https://www.codingninjas.com/studio/problems/partitions-with-given-difference_3751628",
-    "hint": "Same as count subset sum of k with little change .Understood clearly the solution But need to get hold of space\noptimization solution. Didn't find leetcode problem.",
+    "hint": "Same as count subset sum of k with little change .Understood clearly the solution But need to get hold of space\n      optimization solution. Didn't find leetcode problem.",
     "answerDetails": [
       {
         "level": "TUF-DP.18",
@@ -266,7 +286,7 @@
         "url": "https://youtu.be/GqOmJHQZivw"
       },
       {
-        "level": "Tushar Roy",
+        "level": "Tushar Rpy",
         "url": "https://youtu.be/8LusJS5-AGo"
       }
     ]
@@ -280,6 +300,10 @@
       {
         "level": "TUF-DP.20",
         "url": "https://youtu.be/myPeWb3Y68A?si=IU8oqfKf-HFAF8GS"
+      },
+      {
+        "level": "Algo Expert",
+        "url": "https://www.algoexpert.io/questions/min-number-of-coins-for-change"
       }
     ]
   },
@@ -290,7 +314,7 @@
     "hint": "Interesting one.Same as [322. Coin Change]. See 0- endDay flow didn't work, so did n->0 . Memoize in 1D array.",
     "answerDetails": [
       {
-        "level": "Leetcode",
+        "level": "Leetcode answer",
         "url": "https://leetcode.com/problems/minimum-cost-for-tickets/solutions/2345641/dp-solution-as-striver-taught-beginner-friendly/"
       }
     ]
@@ -311,23 +335,15 @@
     "topic": "DynamicProgramming",
     "questionTitle": "518. Coin Change II",
     "questionUrl": "https://leetcode.com/problems/coin-change-ii/",
-    "hint": "similar to [494. Target Sum](https://leetcode.com/problems/target-sum/)\n* Since you infinite coin supply, so when you take you can't index-1, it will be again same index. Note : its is not\ncoin count, its is not of ways, so in base case you will return 1 or 0. And also in the base case you have to\ncheck target % coins[0] == 0",
+    "hint": "similar to [494. Target Sum](https://leetcode.com/problems/target-sum/)\n* Since you infinite coin supply, so when you take you can't index-1, it will be again same index. Note : its is not\n      coin count, its is not of ways, so in base case you will return 1 or 0. And also in the base case you have to\n      check target % coins[0] == 0",
     "answerDetails": [
       {
         "level": "TUF-DP.22",
         "url": "https://youtu.be/HgyouUi11zk"
-      }
-    ]
-  },
-  {
-    "topic": "DynamicProgramming",
-    "questionTitle": "518. Coin Change II",
-    "questionUrl": "https://leetcode.com/problems/coin-change-ii/",
-    "hint": "similar to [494. Target Sum](https://leetcode.com/problems/target-sum/)\n* Since you infinite coin supply, so when you take you can't index-1, it will be again same index. Note : its is not\ncoin count, its is not of ways, so in base case you will return 1 or 0. And also in the base case you have to\ncheck target % coins[0] == 0",
-    "answerDetails": [
+      },
       {
-        "level": "TUF-DP.22",
-        "url": "https://youtu.be/HgyouUi11zk"
+        "level": "Algo Expert",
+        "url": "https://www.algoexpert.io/questions/number-of-ways-to-make-change"
       }
     ]
   },
@@ -335,7 +351,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "Unbounded Knapsack",
     "questionUrl": "https://www.codingninjas.com/studio/problems/unbounded-knapsack_1215029",
-    "hint": "Since infinite value supply, so when you take you can't index-1, it will be again same index. Two types base case.",
+    "hint": "Since infinite value supply, so when you take you can't index-1, it will be again same index.Two types base case",
     "answerDetails": [
       {
         "level": "TUF-DP.23",
@@ -354,7 +370,7 @@
         "url": "https://youtu.be/mO8XpGoJwuo"
       },
       {
-        "level": "TUF-DP.24",
+        "level": "Tushar Roy",
         "url": "https://youtu.be/IRwVmTmN6go"
       }
     ]
@@ -363,7 +379,7 @@
     "topic": "DynamicProgramming",
     "questionTitle": "1143. Longest Common Subsequence",
     "questionUrl": "https://leetcode.com/problems/longest-common-subsequence/",
-    "hint": "Striver has explained all the approach. Shown how to handle negative base case(known to me in another way).\n* Initially I understood from AME way which is similar to levenstein(AlgoExpert) distance problem. they have solved\ndirectly using tabulation way.\n* The difference is you need to find the common subsequence while traversing in the 2D array.",
+    "hint": "Striver has explained all the approach. Shown how to handle negative base case(known to me in another way).\n* Initially I understood from AME way which is similar to levenstein(AlgoExpert) distance problem. they have solved\n      directly using tabulation way.\n* The difference is you need to find the common subsequence while traversing in the 2D array.",
     "answerDetails": [
       {
         "level": "TUF-DP.25",
@@ -372,10 +388,15 @@
       {
         "level": "AME",
         "url": "https://www.youtube.com/watch?v=M_dpZ8IS_70"
+      },
+      {
+        "level": "longest common subsequence",
+        "url": "https://www.algoexpert.io/questions/longest-common-subsequence"
       }
     ]
   },
-  {"topic": "DynamicProgramming",
+  {
+    "topic": "DynamicProgramming",
     "questionTitle": "Print Longest Common Subsequence",
     "questionUrl": "https://www.naukri.com/code360/problems/print-longest-common-subsequence_8416383",
     "hint": "Back tracking is the logic. if same i++, j++ else any one of them which is greater.",
@@ -383,6 +404,10 @@
       {
         "level": "TUF-DP.26",
         "url": "https://youtu.be/-zI4mrF2Pb4"
+      },
+      {
+        "level": "longest common subsequence",
+        "url": "https://www.algoexpert.io/questions/longest-common-subsequence"
       }
     ]
   },
@@ -412,28 +437,587 @@
   },
   {
     "topic": "DynamicProgramming",
-    "questionTitle": "132. Palindrome Partitioning II",
-    "questionUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/",
-    "hint": "Similar to [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/).\n* Here you need to find the minimum cuts required to make all the partitions palindrome.",
+    "questionTitle": "1216. Valid Palindrome III",
+    "questionUrl": "https://leetcode.com/problems/valid-palindrome-iii/",
+    "hint": "Similar to [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)",
     "answerDetails": [
       {
-        "level": "TUF-DP.29",
-        "url": "https://youtu.be/2b1a9k8g0jY"
+        "level": "Solution",
+        "url": "https://leetcode.com/problems/valid-palindrome-iii/solutions/397606/find-longest-palindromic-subsequence/?orderBy=most_votes"
       }
     ]
   },
   {
     "topic": "DynamicProgramming",
-    "questionTitle": "1216. Valid Palindrome III",
-    "questionUrl": "https://leetcode.com/problems/valid-palindrome-iii/",
-    "hint": "Similar to [516.Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/).\n* Here you need to find the longest palindromic subsequence of length k.",
+    "questionTitle": "5.Longest Palindromic Substring",
+    "questionUrl": "https://leetcode.com/problems/longest-palindromic-substring/",
+    "hint": "Follow MIK way, simple intuitive way.\n* AlgoExpert way:find odd longest (i-1,i+1) , find even longest (i-1,i) Store longest\n* Points to remember-> u need to store index int[] odd,int[] even and return new int[]{left + 1, right};",
     "answerDetails": [
       {
-        "level": "Leetocde",
-        "url": "https://leetcode.com/problems/valid-palindrome-iii/solutions/397606/find-longest-palindromic-subsequence/?orderBy=most_votes"
+        "level": "MIk",
+        "url": "https://youtu.be/n_kL8BkURVA?si=d6L1xl9FsTqK0FbK"
       }
     ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1312. Minimum Insertion Steps to Make a String Palindrome",
+    "questionUrl": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/",
+    "hint": "Reverse the string and need to find LCS between actual string and revered string. and then find length difference.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.29",
+        "url": "https://youtu.be/xPBLEj41rFU"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "583. Delete Operation for Two Strings",
+    "questionUrl": "https://leetcode.com/problems/delete-operation-for-two-strings/",
+    "hint": "First followed AME way similar to lenvestein distance problem. Then did Striver since its more relatable.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.30",
+        "url": "https://youtu.be/yMnH0jrir0Q"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=VSrsUkoG0bk"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1092. Shortest Common Supersequence ",
+    "questionUrl": "https://leetcode.com/problems/shortest-common-supersequence/",
+    "hint": "Again solved using LCS and then to find the string you need to backtrack.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.31",
+        "url": "https://youtu.be/xElxAuBcvsU"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "115. Distinct Subsequences",
+    "questionUrl": "https://leetcode.com/problems/distinct-subsequences/",
+    "hint": "Again solved using LCS and trick is there to find all the options during recursion. This qs can also called as no\n      of subsequence.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.32",
+        "url": "https://youtu.be/nVG7eTiD2bY"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "72. Edit Distance",
+    "questionUrl": "https://leetcode.com/problems/edit-distance/",
+    "hint": "Interesting Easy problem. Later I did it from 0->n;\n* Again solved using LCS and trick is there to find all the options during recursion. Similar Algo expert\n      levenstein distance problem.You need practise for recursion and tabulation approach (length +1 scenario).",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.33",
+        "url": "https://youtu.be/fJaKO8FbDdo"
+      },
+      {
+        "level": "Levenshtein distance",
+        "url": "https://www.algoexpert.io/questions/levenshtein-distance"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "44. Wildcard Matching",
+    "questionUrl": "https://leetcode.com/problems/wildcard-matching/",
+    "hint": "Got hold of recursion + memoization .Need to try space optimization.The options are tricky.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.34",
+        "url": "https://youtu.be/ZmlQ3vgAOMo"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "121. Best Time to Buy and Sell Stock",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+    "hint": "Did follow both Strive and Anuj(first, initial days). Store min price , find profit at each i, and store maxProfit",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.35",
+        "url": "https://youtu.be/excAOvwF_Wk"
+      },
+      {
+        "level": "Anuj",
+        "url": "https://www.youtube.com/watch?v=34WE6kwq49U"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "122. Best Time to Buy and Sell Stock II",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
+    "hint": "Very easy. Just see if arr[i]>arr[i-1] then profit+=arr[i]-arr[i-1]; if you follow Anuj\n* Striver solution still need to get hold. Need practise.",
+    "answerDetails": [
+      {
+        "level": "Anuj",
+        "url": "https://www.youtube.com/watch?v=Q7v239y-Tik"
+      },
+      {
+        "level": "TUF-DP.36",
+        "url": "https://youtu.be/nGJmxkUJQGs"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "123. Best Time to Buy and Sell Stock III",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/",
+    "hint": "Simple Striver pattern solution related earlier problem with extra variable cap=2.\n* Tabulation you need to practise. Since cap will start from 1. And in 3D dp array no need initialise array for the\n      base case. Since its already having value has 0.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.37",
+        "url": "https://youtu.be/-uQGzhYj8BQ"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "188. Best Time to Buy and Sell Stock IV",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+    "hint": "Simple Striver pattern solution related earlier problem with extra variable cap=k.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.38",
+        "url": "https://youtu.be/IV1dHbk5CDc"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "309. Best Time to Buy and Sell Stock with Cooldown",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+    "hint": "Simple Striver pattern solution related earlier problem with index +2 jum because of cool down period.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.39",
+        "url": "https://youtu.be/IGIe46xw3YY"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "714. Best Time to Buy and Sell Stock with Transaction Fee",
+    "questionUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/",
+    "hint": "Simple Striver pattern solution related earlier problem with subtracting fee while buy/sale..",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.40",
+        "url": "https://youtu.be/k4eK-vEmnKg"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "300. Longest Increasing Subsequence",
+    "questionUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "hint": "Standard recursive approach is more intuitive than algo expert . In DP 41 striver has also again explained\n      AlgoExpert way.This way required if you want to backtrack to find the sequence itself.\n* ALGO-EXPERT=> Two Approach- 1.Binary search , 2. Regular subsequence DP approach.Regular subsequence DP approach\n      is clear and revised. Algo Expert Binary search still need practise",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.41",
+        "url": "https://youtu.be/ekcwMsSIzVc"
+      },
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/longest-increasing-subsequence"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Printing Longest Increasing Subsequence",
+    "questionUrl": "https://bit.ly/3XiRbmG",
+    "hint": "Both Striver and Algo expert explained same Solution which can be used to backtrack.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.42",
+        "url": "https://youtu.be/IFfYfonAFGc"
+      },
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/longest-increasing-subsequence"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "300. Longest Increasing Subsequence-Using Binary Seatch",
+    "questionUrl": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "hint": "Striver Binary search approach understood.Note: Need to use list.set() and need to do binary search in list.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.43",
+        "url": "https://youtu.be/on2hvxBXJH4"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "334. Increasing Triplet Subsequence",
+    "questionUrl": "https://leetcode.com/problems/increasing-triplet-subsequence/",
+    "hint": "Solved using binary search technique since other solution gave TLE.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.43",
+        "url": "https://youtu.be/on2hvxBXJH4"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "368. Largest Divisible Subset",
+    "questionUrl": "https://leetcode.com/problems/largest-divisible-subset/",
+    "hint": "See here the keyword is SubSet, so if you sort it then it similar to LIS.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.44",
+        "url": "https://youtu.be/gDuZwBW9VvM"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "646. Maximum Length of Pair Chain",
+    "questionUrl": "https://leetcode.com/problems/maximum-length-of-pair-chain/",
+    "hint": "Solved using LIS post sorting."
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1048. Longest String Chain",
+    "questionUrl": "https://leetcode.com/problems/longest-string-chain/",
+    "hint": "Similar to LIS post sort since sequence can start from any place. Only change is need to check both string differs\n      by 1 char max.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.45",
+        "url": "https://www.youtube.com/watch?v=YY8iBaYcc4g"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1671. Minimum Number of Removals to Make Mountain Array",
+    "questionUrl": "https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/",
+    "hint": "Called longest bitonic subsequence too.Find LIS from left and right. Find sum of max among both and substarct\n      one (the common one).For leetcode slight change in ans. Got additional 1 line code from below link.\n* [link](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array/solutions/952016/java-lis-with-detailed-explanation-and-comments-o-n-2-time-and-o-n-space-revised/)",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.46",
+        "url": "https://youtu.be/y4vN0WNdrlg"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "845. Longest Mountain in Array",
+    "questionUrl": "https://leetcode.com/problems/longest-mountain-in-array/",
+    "hint": "Same as [Algo expert - Longest Peak](https://www.algoexpert.io/questions/Longest%20Peak)",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.algoexpert.io/questions/Longest%20Peak"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "673. Number of Longest Increasing Subsequence",
+    "questionUrl": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+    "hint": "Can be solved using another countArr. if length is already there then count[i]= count[i]+ count[j];",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.47",
+        "url": "https://www.youtube.com/watch?v=cKVl1TFdNXg"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "674. Longest Continuous Increasing Subsequence",
+    "questionUrl": "https://leetcode.com/problems/longest-continuous-increasing-subsequence/",
+    "hint": "Easy LIS. Done own."
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1027. Longest Arithmetic Subsequence",
+    "questionUrl": "https://leetcode.com/problems/longest-arithmetic-subsequence/description/",
+    "hint": "Bit similar LIS but with HashMap array.Need practise.",
+    "answerDetails": [
+      {
+        "level": "Rahul",
+        "url": "https://youtu.be/Y3sZ2bsresI?si=WllONk2kJaE1FLG9"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1218. Longest Arithmetic Subsequence of Given Difference",
+    "questionUrl": "https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/description/",
+    "hint": "O(N^2) solution you know.But here it's an easy one with O(N). one pass solution.Easy interesting one.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/tMhUY5pUQmQ?si=KMET5cYUPbUQlaUu"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1039. Minimum Score Triangulation of Polygon",
+    "questionUrl": "https://leetcode.com/problems/minimum-score-triangulation-of-polygon/",
+    "hint": "New concept, understood , but yeh need practise;",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.48",
+        "url": "https://youtu.be/vRVfmbCFW7Y"
+      },
+      {
+        "level": "TUF-DP.49-Tabulation",
+        "url": "https://youtu.be/pDCXsbAw5Cg"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1547. Minimum Cost to Cut a Stick",
+    "questionUrl": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/",
+    "hint": "New concept, partially understood , but yeh need practise;",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.50",
+        "url": "https://youtu.be/xwomavsC86c"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "312. Burst Balloons",
+    "questionUrl": "https://leetcode.com/problems/burst-balloons/",
+    "hint": "Partially understood , but yeh need practise.Understood better in second time watch.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.51",
+        "url": "https://youtu.be/Yz4LlDSlkns"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "Evaluate Boolean Expression to True ",
+    "questionUrl": "https://bit.ly/32tAMUW",
+    "hint": "Partially understood , but yeh need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.52",
+        "url": "https://youtu.be/MM7fXopgyjw"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "87. Scramble String",
+    "questionUrl": "https://leetcode.com/problems/scramble-string/",
+    "hint": "Understood.But yehh Need practise;",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/SqA0o-DGmEw"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "887. Super Egg Drop",
+    "questionUrl": "https://leetcode.com/problems/super-egg-drop/",
+    "hint": "Partially understood.",
+    "answerDetails": [
+      {
+        "level": "Aditya",
+        "url": "https://youtu.be/S49zeUjeUL0"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "132. Palindrome Partitioning II",
+    "questionUrl": "https://leetcode.com/problems/palindrome-partitioning-ii/",
+    "hint": "New concept using String.Easy one but need practise to dot it by own.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.53",
+        "url": "https://youtu.be/_H8V5hJUGd0"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1043. Partition Array for Maximum Sum",
+    "questionUrl": "https://leetcode.com/problems/partition-array-for-maximum-sum/",
+    "hint": "Understood well.Similar concept of front partition.",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.54",
+        "url": "https://youtu.be/PhWWJmaKfMc"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1277. Count Square Submatrices with All Ones",
+    "questionUrl": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+    "hint": "all boxes as individual makes one(one size) matrix. if above all three makes matrix then 1 + Math.min(all the\n      three box). above two condition satisfy only if matrix[i][j]=1",
+    "answerDetails": [
+      {
+        "level": "TUF-DP.56",
+        "url": "https://youtu.be/auS1fynpnjo"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "2369. Check if There is a Valid Partition For The Array",
+    "questionUrl": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/",
+    "hint": "Easy partition problem.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/kFITpaConiA?si=1o9oh8WwWfQ0jb2l"
+      },
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/check-if-there-is-a-valid-partition-for-the-array/"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "377. Combination Sum IV",
+    "questionUrl": "https://leetcode.com/problems/combination-sum-iv/",
+    "hint": "Slight change in take and nottake.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/YyuwTwXzSxY?si=cd1XLRJrD4qQVOgf"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "486. Predict the Winner",
+    "questionUrl": "https://leetcode.com/problems/predict-the-winner/description/",
+    "hint": "MIK:MIK way more intuitive.\n* Pawan:Understood well.Addition to existing know logic.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/ak3DkeUBo-c?si=0CmHICkBDmNj5eZ2"
+      },
+      {
+        "level": "Pawan",
+        "url": "https://youtu.be/7Z6TD9gED90"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "688. Knight Probability in Chessboard",
+    "questionUrl": "https://leetcode.com/problems/knight-probability-in-chessboard/description/",
+    "hint": "Understood well.New concept along with know exiting concept.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/UGTjYBGMbBo?si=hi-hfCelVH_beJ6q"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "139. Word Break",
+    "questionUrl": "https://leetcode.com/problems/word-break/description/",
+    "hint": "Understood well.New concept along with know exiting concept.",
+    "answerDetails": [
+      {
+        "level": "Fraz",
+        "url": "https://youtu.be/_iIK7Gu7MNo?si=NGy2ILp08BU3CX3B"
+      },
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/word-break/solutions/1737300/java-easy-and-clean-code-with-comments/"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1751. Maximum Number of Events That Can Be Attended II",
+    "questionUrl": "https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/",
+    "hint": "a bit change in knapsack and used binary search.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/9ykgLt25X9c?si=KJWSXBJFY4JPDodJ"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1235. Maximum Profit in Job Scheduling",
+    "questionUrl": "https://leetcode.com/problems/maximum-profit-in-job-scheduling/",
+    "hint": "Same as knapsack and used binary search.Same as [1751. Maximum Number of Events That Can Be Attended II].",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/LL0tVxlAeV4?si=A4B7xPj7nh19wqBt"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "1641. Count Sorted Vowel Strings",
+    "questionUrl": "https://leetcode.com/problems/count-sorted-vowel-strings/",
+    "hint": "it is equals to levenstein distance problem.",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=IEIeC0b02HA"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "343. Integer Break",
+    "questionUrl": "https://leetcode.com/problems/integer-break/description/",
+    "hint": "Observation from the options and tree diagram.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/iXtqfIrWMZg?si=iw69RecD2kI3s9cj"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "935. Knight Dialer",
+    "questionUrl": "https://leetcode.com/problems/knight-dialer/description/",
+    "hint": "Observation from the options. New interesting one.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/pOmSGFPcMjQ?si=uD0ueWvWGE7RO1XK"
+      }
+    ]
+  },
+  {
+    "topic": "DynamicProgramming",
+    "questionTitle": "161. One Edit Distance",
+    "questionUrl": "https://leetcode.com/problems/one-edit-distance/description/"
   }
-
 ]
-

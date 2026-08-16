@@ -13,6 +13,12 @@
   },
   {
     "topic": "String",
+    "questionTitle": "subarray-sort",
+    "questionUrl": "https://www.algoexpert.io/questions/subarray-sort",
+    "hint": "find minOutOfOrder and maxOutOfOrder number by iterating .int minOutOfOrder = Integer.MAX_VALUE; and Int.MIN for\n      max\n* minOutOfOrder = Math.min(minOutOfOrder, num); maxOutOfOrder = Math.max(maxOutOfOrder, num);\n* find the index of minOutOfOrder and maxOutOfOrder"
+  },
+  {
+    "topic": "String",
     "questionTitle": "344. Reverse String",
     "questionUrl": "https://leetcode.com/problems/reverse-string/",
     "hint": "Did solve 3 way. 1. Two pointer 2. two pointer recursive 3. One pointer recursive",
@@ -39,7 +45,7 @@
     "topic": "String",
     "questionTitle": "125. Valid Palindrome",
     "questionUrl": "https://leetcode.com/problems/valid-palindrome/",
-    "hint": "Not necessary to watch if u know the recursive way\n* Skip other than letter and numbers , so use while (!Character.isLetterOrDigit(str.charAt(L))){ L++; }\n* Did both way - two pointer and recursive.",
+    "hint": "Skip other than letter and numbers , so use while (!Character.isLetterOrDigit(str.charAt(L))){ L++; }\n* Did both way - two pointer and recursive.",
     "answerDetails": [
       {
         "level": "TUF",
@@ -60,7 +66,7 @@
     "hint": "TC will be reduced if we can calculate shiftArray from backward. Note:converting char interesting logic",
     "answerDetails": [
       {
-        "level": "Leetcode",
+        "level": "Leetcode solution",
         "url": "https://leetcode.com/problems/shifting-letters/discuss/137906/C%2B%2BJavaPython-Easy-Understood"
       }
     ]
@@ -97,10 +103,10 @@
     "topic": "String",
     "questionTitle": "38. Count and Say",
     "questionUrl": "https://leetcode.com/problems/count-and-say/description/",
-    "hint": "Easy logic need practise",
+    "hint": "Easy logic need practise.",
     "answerDetails": [
       {
-        "level": "Code Decoded",
+        "level": "Code decoded",
         "url": "https://youtu.be/VE8yEc4R6q0?si=3x5BmHxDHw5G1n5J"
       }
     ]
@@ -123,8 +129,20 @@
     "hint": "Need practise.Next time try using Trie.",
     "answerDetails": [
       {
-        "level": "Code Decoded",
+        "level": "Code decoded",
         "url": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/solutions/2757049/two-approach-java-solution-brute-force-using-trie-data-structure/"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "524. Longest Word in Dictionary through Deleting",
+    "questionUrl": "https://leetcode.com/problems/longest-word-in-dictionary-through-deleting/description/",
+    "hint": "Simple subsequence.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/G2y5bCDAzJk?si=BxTFHEex4f-hO3zk"
       }
     ]
   },
@@ -135,8 +153,44 @@
     "hint": "Need to remember and practise. Can you check [777. Swap Adjacent in LR String]",
     "answerDetails": [
       {
-        "level": "Code Decoded",
+        "level": "Code decoded",
         "url": "https://youtu.be/313W6T134SE"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "43. Multiply Strings",
+    "questionUrl": "https://leetcode.com/problems/multiply-strings/",
+    "hint": "Anhha need to remember the simple logic a bit.",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=rUVg2Vewbo8"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "556. Next Greater Element III",
+    "questionUrl": "https://leetcode.com/problems/next-greater-element-iii/",
+    "hint": "Need to remember and practise the easy logic.",
+    "answerDetails": [
+      {
+        "level": "Code decoded",
+        "url": "https://www.youtube.com/watch?v=nU5UUAyRFH4"
+      }
+    ]
+  },
+  {
+    "topic": "String",
+    "questionTitle": "336. Palindrome Pairs",
+    "questionUrl": "https://leetcode.com/problems/palindrome-pairs/description/",
+    "hint": "Easy to understand. but you need to remember the solution.",
+    "answerDetails": [
+      {
+        "level": "CodeDecoded",
+        "url": "https://youtu.be/ewNE1UbjmJ8?si=cGCrot5Axyw-TBBH"
       }
     ]
   }

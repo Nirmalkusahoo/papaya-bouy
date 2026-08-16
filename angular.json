@@ -94,21 +94,21 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "papaya-bouy:build"
+            "buildTarget": "papaya-bouy:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "papaya-bouy:build:production"
+              "buildTarget": "papaya-bouy:build:production"
             },
             "dev": {
-              "browserTarget": "papaya-bouy:build:dev"
+              "buildTarget": "papaya-bouy:build:dev"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "papaya-bouy:build"
+            "buildTarget": "papaya-bouy:build"
           }
         },
         "test": {

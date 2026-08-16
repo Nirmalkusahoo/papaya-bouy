@@ -7,6 +7,7 @@ import {QuestionModel} from './question.model';
 import {LIST_OF_TOPICS} from '../dsa.util';
 
 @Component({
+  standalone: false,
   selector: 'app-add-question',
   templateUrl: './add-question.component.html',
   styleUrls: ['./add-question.component.scss']

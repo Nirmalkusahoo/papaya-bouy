@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {HttpService} from '../../../../modules/shared-module/services/http.service';
 
 @Component({
+  standalone: false,
   selector: 'app-auto-complete',
   templateUrl: './auto-complete.component.html',
   styleUrls: ['./auto-complete.component.scss']

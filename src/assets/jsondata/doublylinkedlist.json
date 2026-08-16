@@ -93,6 +93,12 @@
   },
   {
     "topic": "DoublyLinkedList",
+    "questionTitle": "430. Flatten a Multilevel Doubly Linked List",
+    "questionUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
+    "hint": "Latter done by own using queue and recursive call. Initial time watched the video."
+  },
+  {
+    "topic": "DoublyLinkedList",
     "questionTitle": "146. LRU Cache",
     "questionUrl": "https://leetcode.com/problems/lru-cache/",
     "hint": "LRU cache- Create Map<String, DoublyLinkedListNode> cache and DoublyLinkedList mostRecentList with maxSize\n* Striver approach is much cleaner than algo expert. But algo expert is much more fundamentally strong.",
@@ -116,6 +122,22 @@
       {
         "level": "FRAZ",
         "url": "https://youtu.be/SPDhPuMsM9A"
+      }
+    ]
+  },
+  {
+    "topic": "DoublyLinkedList",
+    "questionTitle": "460. LFU Cache",
+    "questionUrl": "https://leetcode.com/problems/lfu-cache/",
+    "hint": "Advance version of LRU cache. Need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-concept",
+        "url": "https://youtu.be/0PSB9y8ehbk?si=qspCtWQXq7DbFwGA"
+      },
+      {
+        "level": "TUF-code",
+        "url": "https://youtu.be/mzqHlAW7jeE?si=uewG8dqShZdUC3b2"
       }
     ]
   }

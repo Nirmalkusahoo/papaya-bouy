@@ -167,7 +167,7 @@
         "url": "https://youtu.be/0fRmVjxopiE"
       },
       {
-        "level": "[Leetcode",
+        "level": "Leetcode-solution",
         "url": "https://leetcode.com/problems/car-fleet/solutions/139850/c-java-python-straight-forward/"
       }
     ]
@@ -210,6 +210,18 @@
   },
   {
     "topic": "Stack",
+    "questionTitle": "316. Remove Duplicate Letters",
+    "questionUrl": "https://leetcode.com/problems/remove-duplicate-letters/",
+    "hint": "Interesting easy logic using stack. Note: while iterating in Stack int for loop it fetches data from bottom.\n* boolean visited array is mandatory to avoid duplicate char.",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=ht-zr2xlfdk"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
     "questionTitle": "1081. Smallest Subsequence of Distinct Characters",
     "questionUrl": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
     "hint": "Interesting easy logic using stack. Note: while iterating in Stack int for loop it fetches data from bottom.\n* boolean visited array is mandatory to avoid duplicate char.",
@@ -234,18 +246,6 @@
   },
   {
     "topic": "Stack",
-    "questionTitle": "227. Basic Calculator II",
-    "questionUrl": "https://leetcode.com/problems/basic-calculator-ii/",
-    "hint": "Need practise. latter can try without using stack.",
-    "answerDetails": [
-      {
-        "level": "AME",
-        "url": "https://youtu.be/GR8Z1zaQzz0"
-      }
-    ]
-  },
-  {
-    "topic": "Stack",
     "questionTitle": "225. Implement Stack using Queues",
     "questionUrl": "https://leetcode.com/problems/implement-stack-using-queues/"
   },
@@ -263,6 +263,150 @@
       {
         "level": "Leetcode",
         "url": "https://leetcode.com/problems/make-the-string-great/solutions/781009/java-simple-solution-using-stack-explained/"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "445. Add Two Numbers II",
+    "questionUrl": "https://leetcode.com/problems/add-two-numbers-ii/",
+    "hint": "Advance version of [2. Add Two Numbers]. Solved using stack.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/Yc9buffV1G0"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "856. Score of Parentheses",
+    "questionUrl": "https://leetcode.com/problems/score-of-parentheses/",
+    "hint": "Easy to understand but, difficult to come up with own .So need practise. latter can try without using stack.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/Pv35fyoKtUA"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "678. Valid Parenthesis String",
+    "questionUrl": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "hint": "New learning.Easy to understand but, difficult to come up with own .So need practise.",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/QhPdNS143Qg"
+      },
+      {
+        "level": "Code from",
+        "url": "https://leetcode.com/problems/valid-parenthesis-string/solutions/543521/java-count-open-parenthesis-o-n-time-o-1-space-picture-explain/"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "32. Longest Valid Parentheses",
+    "questionUrl": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "hint": "Somehow till coding decoded solution is clear.Next time try AME OR Leetcode editor solution 4",
+    "answerDetails": [
+      {
+        "level": "Coding decoded",
+        "url": "https://youtu.be/PknNsm3B7uo"
+      },
+      {
+        "level": "Reference:1",
+        "url": "https://www.youtube.com/watch?v=VdQuwtEd10M"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1021. Remove Outermost Parentheses",
+    "questionUrl": "https://leetcode.com/problems/remove-outermost-parentheses/"
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "2289. Steps to Make Array Non-decreasing",
+    "questionUrl": "https://leetcode.com/problems/steps-to-make-array-non-decreasing/",
+    "hint": "Understood the Monotonic stack concept.",
+    "answerDetails": [
+      {
+        "level": "Coding Decode",
+        "url": "https://youtu.be/NQGduRE1Crk?si=swPDfI-WhVmtI8-L"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "581. Shortest Unsorted Continuous Subarray",
+    "questionUrl": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
+    "hint": "Monotonic stack way.Similar to [subarray-sort](https://www.algoexpert.io/questions/subarray-sort)",
+    "answerDetails": [
+      {
+        "level": "Coding Decode",
+        "url": "https://youtu.be/JKcX5k00oaA?si=ifp4dJz8dCzs3ulg"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "853. Car Fleet",
+    "questionUrl": "https://leetcode.com/problems/car-fleet/",
+    "hint": "New interesting easy problem.just looks like complex.",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://leetcode.com/problems/car-fleet/"
+      },
+      {
+        "level": "Leetcode-solution",
+        "url": "https://leetcode.com/problems/car-fleet/solutions/139850/c-java-python-straight-forward/"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "1006. Clumsy Factorial",
+    "questionUrl": "https://leetcode.com/problems/clumsy-factorial/",
+    "answerDetails": [
+      {
+        "level": "Answer",
+        "url": "https://leetcode.com/problems/clumsy-factorial/solutions/252833/java-stack/?orderBy=most_votes"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "227. Basic Calculator II",
+    "questionUrl": "https://leetcode.com/problems/basic-calculator-ii/",
+    "hint": "Need practise. latter can try without using stack.",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://youtu.be/GR8Z1zaQzz0"
+      }
+    ]
+  },
+  {
+    "topic": "Stack",
+    "questionTitle": "224. Basic Calculator",
+    "questionUrl": "https://leetcode.com/problems/basic-calculator/",
+    "hint": "Need practise. Video answer is not that intuitive, so saw leetcode solution section.See coders heaven video.",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://youtu.be/BjDczS5uQ-g"
+      },
+      {
+        "level": "Coders heaven",
+        "url": "https://youtu.be/no8ODfdhhzw"
+      },
+      {
+        "level": "code from",
+        "url": "https://leetcode.com/problems/basic-calculator/solutions/62361/iterative-java-solution-with-stack/"
       }
     ]
   }

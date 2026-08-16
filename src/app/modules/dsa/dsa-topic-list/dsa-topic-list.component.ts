@@ -6,6 +6,7 @@ import { QuestionService } from '../question.service';
 import { KeyValueModel } from '../../shared-module/models/key-value.model';
 
 @Component({
+  standalone: false,
   selector: 'app-dsa-topic-list',
   templateUrl: './dsa-topic-list.component.html',
   styleUrls: ['./dsa-topic-list.component.scss'],

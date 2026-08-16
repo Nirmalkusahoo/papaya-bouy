@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {HttpService} from '../../../modules/shared-module/services/http.service';
 
 @Component({
+  standalone: false,
   selector: 'app-pagination-example',
   templateUrl: './pagination-example.component.html',
   styleUrls: ['./pagination-example.component.scss']

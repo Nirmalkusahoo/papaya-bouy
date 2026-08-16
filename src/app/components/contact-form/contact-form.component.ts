@@ -6,6 +6,7 @@ import {MatSnackBar} from '@angular/material/snack-bar';
 import {FormValidatorService} from '../../modules/shared-module/services/form-validator.service';
 
 @Component({
+  standalone: false,
   selector: 'app-contact-form',
   templateUrl: './contact-form.component.html',
   styleUrls: ['./contact-form.component.scss'],

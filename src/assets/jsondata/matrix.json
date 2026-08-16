@@ -1,6 +1,105 @@
 [
   {
     "topic": "Matrix",
+    "questionTitle": "329. Longest Increasing Path in a Matrix",
+    "questionUrl": "https://leetcode.com/problems/longest-increasing-path-in-a-matrix/",
+    "hint": "Its is simple matrix traversal problem. Its just that we need memorise the value to improve TC.\n* see at each node the path value =1, and if we go to next node then it will be prev path+ current path.\n* So the whole logic depends on this only. Do matrix traversal get the adjacent nodes and if adjacent nodes >\ncurrentNode\n* then call dfs on that node . Since a node can go in to 4 direction we need to save max among all 4 direction.",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=WiEqhI7v2FY"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "867. Transpose Matrix",
+    "questionUrl": "https://leetcode.com/problems/transpose-matrix/",
+    "hint": "We don't need any special algorithms to do this.\n* You just need to know what the transpose of a matrix looks like. Rows become columns and vice versa!"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "Search in sorted matrix",
+    "questionUrl": "https://www.algoexpert.io/questions/search-in-sorted-matrix",
+    "hint": "Binary search kind of stuff"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "1293. Shortest Path in a Grid with Obstacles Elimination",
+    "questionUrl": "https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/",
+    "hint": "79 times Asked in Google\n* boolean[][][] visited = new boolean[grid.length][grid[0].length][k + 1];\n* int nxtK = currentK; if (grid[newRow][newCol] == 1) { nxtK = nxtK + 1; }\n* why 3 dimensional boolean[][][K+1] visitedArr . Ex:k =3 See for each position you will get 3 chances to visit\n* ex: if k=2 . visited[0][0][1] ,visited[0][0][2]",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=ID9YJXy3OJk&t=4s"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "1730. Shortest Path to Get Food",
+    "questionUrl": "https://leetcode.com/problems/shortest-path-to-get-food/",
+    "hint": "Simpler version\nof [1293. Shortest Path in a Grid with Obstacles Elimination](https://leetcode.com/problems/shortest-path-in-a-grid-with-obstacles-elimination/)\n* The change is making 'O' to 'X' is so that we will not revisit and at the same time we should only change when\nit 'O' // if we change it for '*' then will never find the food (line 25 condition will never satisfy)"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "1254. Number of Closed Islands",
+    "questionUrl": "https://leetcode.com/problems/number-of-closed-islands/",
+    "hint": "Similar to [Algo Expert Remove islands](https://www.algoexpert.io/questions/remove-islands)\n* First convert 0->1 for all border position\n* then find 0 and do dfs convert all directions 0->. Once this loop completes increase the count"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "743. Network Delay Time",
+    "questionUrl": "https://leetcode.com/problems/network-delay-time/",
+    "hint": "Asked 7 times in Google.\n* Using BFS and priority queue, hashmap",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=WjF7d8klHXc"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "221. Maximal Square",
+    "questionUrl": "https://leetcode.com/problems/maximal-square/description/"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "934. Shortest Bridge",
+    "questionUrl": "https://leetcode.com/problems/shortest-bridge/description/",
+    "hint": "Interesting new east learning .Used DFS + BFS.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/THON9BpJXGQ?si=nVJ0S3hCxBdl2_1S"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "419. Battleships in a Board",
+    "questionUrl": "https://leetcode.com/problems/battleships-in-a-board/",
+    "hint": "if (board[i][j] == '.') continue; if (i > 0 && board[i - 1][j] == 'X') continue; if (j > 0 && board[i][j - 1] == '\nX') continue; count++;"
+  },
+  {
+    "topic": "Matrix",
+    "questionTitle": "1197. Minimum Knight Moves",
+    "questionUrl": "https://leetcode.com/problems/minimum-knight-moves/",
+    "hint": "Again same graph/matrix traversal using BFS.\n* Points to note int[][] directions {{2, 1},{2, -1}, {1, 2}, {-1, 2}, {-2, 1}, {-2, -1}, {-1, -2}, {1, -2}};\n* x = Math.abs(x); y = Math.abs(y);\n* and while add neighbour nodes condition should be if (newRow >= -1 && newCol >= -1) to move from (0,0) to (1,1) we\nneed to start from (-1,2) or (1,-1)",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=XhYVY6PQSxs"
+      },
+      {
+        "level": "Reference",
+        "url": "https://leetcode.com/problems/minimum-knight-moves/discuss/401580/Clean-Java-BFS-solution"
+      }
+    ]
+  },
+  {
+    "topic": "Matrix",
     "questionTitle": "3071. Minimum Operations to Write the Letter Y on a Grid",
     "questionUrl": "https://leetcode.com/problems/minimum-operations-to-write-the-letter-y-on-a-grid/description/",
     "hint": "Greedy approach.",
@@ -70,17 +169,5 @@
     "questionTitle": "119. Pascal's Triangle II",
     "questionUrl": "https://leetcode.com/problems/pascals-triangle-ii/",
     "hint": "Similar to [118. Pascal's Triangle]."
-  },
-  {
-    "topic": "Matrix",
-    "questionTitle": "229. Majority Element II",
-    "questionUrl": "https://leetcode.com/problems/majority-element-ii/",
-    "hint": "Extension of Mores Algorithm. and problem [169. Majority Element](https://leetcode.com/problems/majority-element/)\n* Need to use two counter.",
-    "answerDetails": [
-      {
-        "level": "TUF",
-        "url": "https://youtu.be/vwZj1K0e9U8"
-      }
-    ]
   }
 ]

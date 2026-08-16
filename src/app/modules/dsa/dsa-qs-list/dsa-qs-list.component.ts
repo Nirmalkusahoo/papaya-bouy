@@ -13,6 +13,7 @@ import { QuestionService } from '../question.service';
 import { KeyValueModel } from '../../shared-module/models/key-value.model';
 
 @Component({
+  standalone: false,
   selector: 'app-dsa-qs-list',
   templateUrl: './dsa-qs-list.component.html',
   styleUrls: ['./dsa-qs-list.component.scss'],

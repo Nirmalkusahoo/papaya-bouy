@@ -16,8 +16,303 @@
   },
   {
     "topic": "BinarySearch",
+    "questionTitle": "Implement Lower Bound",
+    "questionUrl": "https://bit.ly/43967G5",
+    "hint": "Finding lower bound.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Implement Upper Bound",
+    "questionUrl": "https://bit.ly/3IoKGce",
+    "hint": "Finding upper bound.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "35. Search Insert Position",
+    "questionUrl": "https://leetcode.com/problems/search-insert-position/",
+    "hint": "Do binary search and if match found return middle, else at the end of while loop return L.\n* Also did striver way.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Ceil The Floor",
+    "questionUrl": "https://www.codingninjas.com/codestudio/problems/ceiling-in-a-sorted-array_1825401",
+    "hint": "if you know lower bound you can do it.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.2",
+        "url": "https://youtu.be/6zhGS79oQ4k"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "34. Find First and Last Position of Element in Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+    "hint": "Same as [AlgoExpert]. Need to do multiple binary search till we reach 0 ||length-1 or till mid+1 != target or\nmi-1 != target . Striver way more intuitive.",
+    "answerDetails": [
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/search-for-range"
+      },
+      {
+        "level": "TUF-BS.3",
+        "url": "https://youtu.be/hjR1IYVx9lY"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Count occurrences in Array",
+    "questionUrl": "https://bit.ly/42ZDqM4",
+    "hint": "find first and last index then last-first+1.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.3",
+        "url": "https://youtu.be/hjR1IYVx9lY"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "278. First Bad Version",
+    "questionUrl": "https://leetcode.com/problems/first-bad-version/",
+    "hint": "Same as [34. Find First and Last Position of Element in Sorted Array]"
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2089. Find Target Indices After Sorting Array",
+    "questionUrl": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+    "hint": "Same as [34. Find First and Last Position of Element in Sorted Array]"
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "33. Search in Rotated Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "hint": "You need identify sorted part.So it will be always that one half will be sorted.Need to know which part need to\neliminate. Key word : search , sorted ths why Binary search.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.4",
+        "url": "https://youtu.be/5qGrJbHhqFs"
+      },
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/shifted-binary-search"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "81. Search in Rotated Sorted Array II",
+    "questionUrl": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+    "hint": "Same as leetcode-33. Its just need to keep in shrink the array till both side are equal.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.5",
+        "url": "https://youtu.be/w2G2W8l__pc?si=IJ-NH1Z05UpqpF9c"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "153. Find Minimum in Rotated Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+    "hint": "Since you have one part as sorted, so that means at-least you have minimum of that sorted part.So keep on taking\nminimum of sorted part and then eliminate it.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.6",
+        "url": "https://youtu.be/nhEMDKMB44g"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "154. Find Minimum in Rotated Sorted Array II",
+    "questionUrl": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+    "hint": "Combination of leetcode-81 and leetcode 153."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Find out how many times array has been rotated",
+    "questionUrl": "https://bit.ly/3pMzTCh",
+    "hint": "Same as leetcode-153. Need to find the index of minimum element.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.7",
+        "url": "https://youtu.be/jtSiWTPLwd0"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "540. Single Element in a Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+    "hint": "~~If you want to do it in binary search then its bit tricky, Not that complex. Since did first time so was not\ngetting it. will get it if i see the video next time~~.\n* see expected is always evenIdx and evenIdx+1 will be same in array , but it will violate from the place where\nsingle number stands.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.8",
+        "url": "https://youtu.be/AZOmHuHadxQ"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "162. Find Peak Element",
+    "questionUrl": "https://leetcode.com/problems/find-peak-element/",
+    "hint": "A bit new easy concept using binary search.Can be learned by just observation.",
+    "answerDetails": [
+      {
+        "level": "TUF-BS.9",
+        "url": "https://youtu.be/cXxmbemS6XM"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "852. Peak Index in a Mountain Array",
+    "questionUrl": "https://leetcode.com/problems/peak-index-in-a-mountain-array/",
+    "hint": "Same as [162. Find Peak Element]. ~~But got the solution from leetcode solution section~~."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1095. Find in Mountain Array",
+    "questionUrl": "https://leetcode.com/problems/find-in-mountain-array/description/",
+    "hint": "Understood. Need to try low<=high way while finding peak element.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/wzHmgBIdQXA?si=sS36RBSri2By6-nW"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "69. Sqrt(x)",
+    "questionUrl": "https://leetcode.com/problems/sqrtx/",
+    "hint": "Simple trick using binary search .Just need to remember and practise",
+    "answerDetails": [
+      {
+        "level": "FRAZ",
+        "url": "https://www.youtube.com/watch?v=eC0b6lUj84w"
+      },
+      {
+        "level": "TUF-B.10",
+        "url": "https://youtu.be/Bsv3FPUX_BA"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "367. Valid Perfect Square",
+    "questionUrl": "https://leetcode.com/problems/valid-perfect-square/",
+    "hint": "Similar to  [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)"
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "Find the Nth root of an Integer",
+    "questionUrl": "https://bit.ly/3oWhSkW",
+    "hint": "Simple trick using binary search .Just need to remember and practise",
+    "answerDetails": [
+      {
+        "level": "TUF-B.11",
+        "url": "https://youtu.be/rjEJeYCasHs"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "875. Koko Eating Bananas",
+    "questionUrl": "https://leetcode.com/problems/koko-eating-bananas/",
+    "hint": "Very easy and interesting problem.Asked many times in multiple companies. See you need to find minimum k, that\nmeans you have range for k, and from that range you need to find the minimum. SO this leads to hint to use binary\nsearch",
+    "answerDetails": [
+      {
+        "level": "TUF-B.12",
+        "url": "https://youtu.be/qyfekrNni90"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1482. Minimum Number of Days to Make m Bouquets",
+    "questionUrl": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/",
+    "hint": "Again very interesting problem solved using binary search.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.13",
+        "url": "https://youtu.be/TXAuxeYBTdg"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1283. Find the Smallest Divisor Given a Threshold",
+    "questionUrl": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/",
+    "hint": "Same as [1482. Minimum Number of Days to Make m Bouquets].Did by own in second attempt.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.14",
+        "url": "https://youtu.be/UvBKTVaG6U8"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1011. Capacity To Ship Packages Within D Days",
+    "questionUrl": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+    "hint": "Same as [1482. Minimum Number of Days to Make m Bouquets]. Note : day count value will start from 1. Hints: Array,\n* within d-days means you have a range of days, minimum capacity means you can perform binary search and find\nwhich is minimum",
+    "answerDetails": [
+      {
+        "level": "TUF-B.15",
+        "url": "https://youtu.be/MG-Ac4TAvTY"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1539. Kth Missing Positive Number",
+    "questionUrl": "https://leetcode.com/problems/kth-missing-positive-number/",
+    "hint": "Did understand.But can I come up with this solution in interview ?need practise. May be you can also see some\nother solution.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.16",
+        "url": "https://youtu.be/uZ0N_hZpyps"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "1552. Magnetic Force Between Two Balls",
+    "questionUrl": "https://leetcode.com/problems/magnetic-force-between-two-balls/",
+    "hint": "Interesting easy problem. learned new concept. Finding low and high is the trick.",
+    "answerDetails": [
+      {
+        "level": "TUF-B.17",
+        "url": "https://youtu.be/R_Mfw4ew-Vo"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
     "questionTitle": "Allocate Books or Book Allocation",
     "questionUrl": "https://bit.ly/3MZQOct",
+    "hint": "Interesting. learned new concept.Need practise.",
     "answerDetails": [
       {
         "level": "TUF-B.18",
@@ -29,7 +324,7 @@
     "topic": "BinarySearch",
     "questionTitle": "410. Split Array Largest Sum",
     "questionUrl": "https://leetcode.com/problems/split-array-largest-sum/",
-    "hint": "Same as [Allocate Books or Book Allocation]",
+    "hint": "Same as [Allocate Books or Book Allocation].",
     "answerDetails": [
       {
         "level": "TUF-B.19",
@@ -41,7 +336,7 @@
     "topic": "BinarySearch",
     "questionTitle": "Painter's Partition",
     "questionUrl": "https://bit.ly/3XM8oFS",
-    "hint": "Same as [Allocate Books or Book Allocation]",
+    "hint": "Same as [Allocate Books or Book Allocation]. Need practise.",
     "answerDetails": [
       {
         "level": "TUF-B.19",
@@ -65,7 +360,7 @@
     "topic": "BinarySearch",
     "questionTitle": "4. Median of Two Sorted Arrays",
     "questionUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-    "hint": "TC: O(M+N) or SC:O(2) is easy. Binary search way understood- but to understand need to give more time. See in\n      future if u can implement.",
+    "hint": "TC: O(M+N) or SC:O(2) is easy. Binary search way understood- but to understand need to give more time. See in\nfuture if u can implement.",
     "answerDetails": [
       {
         "level": "TUF-B.21",
@@ -93,7 +388,7 @@
     "topic": "BinarySearch",
     "questionTitle": "2643. Row With Maximum Ones",
     "questionUrl": "https://leetcode.com/problems/row-with-maximum-ones/",
-    "hint": " Easy one , lower bound.",
+    "hint": "Easy one , lower bound.",
     "answerDetails": [
       {
         "level": "TUF-B.23",
@@ -105,7 +400,7 @@
     "topic": "BinarySearch",
     "questionTitle": "74. Search a 2D Matrix",
     "questionUrl": "https://leetcode.com/problems/search-a-2d-matrix/",
-    "hint": "Similar to [Search in sorted matrix](https://www.algoexpert.io/questions/search-in-sorted-matrix)\n    * Algo Expert solution is more crisp, but striver solution is intuitive.",
+    "hint": "Similar to [Search in sorted matrix](https://www.algoexpert.io/questions/search-in-sorted-matrix)\n* Algo Expert solution is more crisp, but striver solution is intuitive.",
     "answerDetails": [
       {
         "level": "TUF-B.24",
@@ -165,7 +460,7 @@
     "topic": "BinarySearch",
     "questionTitle": "702. Search in a Sorted Array of Unknown Size",
     "questionUrl": "https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/",
-    "hint": "Trick is to find the window and right part, because array size is unknown. Why right = target - reader.get(0) ?\n      Explanation: Given all the elements in the Array are unique. If first value is n and we have all possible integers from n to target .\n      We will find the target at worst case  at (target - n)\n      Example: If First Element is -1 and target = 5 if the array had all elements between -1 and 5 i.e.,  \n      [-1,0,1,2,3,4,5] Worst case 5 will be at (target - firstValue).",
+    "hint": "Trick is to find the window and right part, because array size is unknown. Why right = target - reader.get(0) ?\nExplanation: Given all the elements in the Array are unique. If first value is n and we have all possible integers from n to target .\nWe will find the target at worst case  at (target - n)\nExample: If First Element is -1 and target = 5 if the array had all elements between -1 and 5 i.e.,  \n[-1,0,1,2,3,4,5] Worst case 5 will be at (target - firstValue).",
     "answerDetails": [
       {
         "level": "Leetcode",
@@ -306,5 +601,57 @@
     "questionTitle": "441. Arranging Coins",
     "questionUrl": "https://leetcode.com/problems/arranging-coins/description/",
     "hint": "Done own.Simple binary search."
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "528. Random Pick with Weight",
+    "questionUrl": "https://leetcode.com/problems/random-pick-with-weight/",
+    "hint": "New interesting logic. Prefix sum solved helped in range.Binary search problem",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=OdzoUjErlVU"
+      },
+      {
+        "level": "understood qs from here",
+        "url": "https://www.youtube.com/watch?v=fWS0TCcr-lE"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "658. Find K Closest Elements",
+    "questionUrl": "https://leetcode.com/problems/find-k-closest-elements/",
+    "hint": "Binary search a window.Interesting new concept. Still need to get hold of it.",
+    "answerDetails": [
+      {
+        "level": "Neetcode",
+        "url": "https://youtu.be/o-YDQzHoaKM"
+      },
+      {
+        "level": "Leetcode-easier-solution",
+        "url": "https://leetcode.com/problems/find-k-closest-elements/solutions/202785/very-simple-java-o-n-solution-using-two-pointers"
+      },
+      {
+        "level": "Leetcode-Solution",
+        "url": "https://leetcode.com/problems/find-k-closest-elements/solutions/106426/java-c-python-binary-search-o-log-n-k-k/"
+      }
+    ]
+  },
+  {
+    "topic": "BinarySearch",
+    "questionTitle": "2009. Minimum Number of Operations to Make Array Continuous",
+    "questionUrl": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/",
+    "hint": "New observation.understood. but need to come up own, may be next practise will help .Also did sliding widow way\nas explained in leetcode solution section.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/LqtcUyPBWrY?si=oWJ8U6hFrlQiOavO"
+      },
+      {
+        "level": "Sliding-window",
+        "url": "https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous/editorial/"
+      }
+    ]
   }
 ]

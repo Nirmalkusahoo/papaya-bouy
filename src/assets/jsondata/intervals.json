@@ -2,14 +2,17 @@
   {
     "topic": "Intervals",
     "questionTitle": "56. Merge Intervals",
-    "questionUrl": "https://leetcode.com/problems/4sum/description/",
-    "hint": "See you need add first interval to the list before u start iteration, if you dont you need att multiple othere\ncondition to add the last element;",
+    "questionUrl": "https://leetcode.com/problems/merge-intervals/",
+    "hint": "See you need add first interval to the list before u start iteration, if you dont you need att multiple othere condition to add the last element; Also here pass by reference is the thing you need remember.",
     "answerDetails": [
       {
         "level": "TUF",
         "url": "https://youtu.be/IexN60k62jo"
+      },
+      {
+        "level": "Merge Overlapping Intervals",
+        "url": "https://www.algoexpert.io/questions/Merge%20Overlapping%20Intervals"
       }
     ]
   }
 ]
-

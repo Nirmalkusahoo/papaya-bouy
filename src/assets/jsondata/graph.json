@@ -31,7 +31,7 @@
     "topic": "Graph",
     "questionTitle": "2685. Count the Number of Complete Components",
     "questionUrl": "https://leetcode.com/problems/count-the-number-of-complete-components/",
-    "hint": " Same as Connected Components.Traverse each connected component and check whether every node has N-1 vertices in\n      it's adjacency list. If yes, then it is a complete connected component. Else, ignore it.\n    * TC can be improved.Try next time.There are some formula based on edge and vertex.",
+    "hint": "Same as Connected Components.Traverse each connected component and check whether every node has N-1 vertices in\n      it's adjacency list. If yes, then it is a complete connected component. Else, ignore it.\n* TC can be improved.Try next time.There are some formula based on edge and vertex.",
     "answerDetails": [
       {
         "level": "Code",
@@ -79,7 +79,7 @@
     "topic": "Graph",
     "questionTitle": "994. Rotting Oranges",
     "questionUrl": "https://leetcode.com/problems/rotting-oranges/",
-    "hint": "See the only point you need to know is rotting oranges starts parallel from all rotten boxes in the beginning.So\nput those {i,j} in to queue first. Then do level order/BFS\n* You will always return time - 1 because of last level; And if (freshOrange == 0) return 0;",
+    "hint": "See the only point you need to know is rotting oranges starts parallel from all rotten boxes in the beginning.So\n      put those {i,j} in to queue first. Then do level order/BFS\n* You will always return time - 1 because of last level; And if (freshOrange == 0) return 0;",
     "answerDetails": [
       {
         "level": "TUF- G10",
@@ -108,5 +108,930 @@
     "questionTitle": "261. Graph Valid Tree",
     "questionUrl": "https://leetcode.com/problems/graph-valid-tree/",
     "hint": "With minor change . A tree should not have cycle and all nodes should be connected."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "841. Keys and Rooms",
+    "questionUrl": "https://leetcode.com/problems/keys-and-rooms/",
+    "hint": "Just Need to check all nodes should be visited."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1559. Detect Cycles in 2D Grid",
+    "questionUrl": "https://leetcode.com/problems/detect-cycles-in-2d-grid/",
+    "hint": "Similar to [Detect cycle in an undirected graph], where we need keep the parent node.",
+    "answerDetails": [
+      {
+        "level": "TUF- G11",
+        "url": "https://youtu.be/BPlrALf1LDU"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "542. 01 Matrix",
+    "questionUrl": "https://leetcode.com/problems/01-matrix/",
+    "hint": "Easy one, Bit advance version\n      of [number-of-ways-to-traverse-graph](https://www.algoexpert.io/questions/number-of-ways-to-traverse-graph)\n      and [994. Rotting Oranges](https://leetcode.com/problems/rotting-oranges/)\n* Action Item: You can try latter the DP approach mentioned in leetcode answer section which SC: O(1)",
+    "answerDetails": [
+      {
+        "level": "TUF- G13",
+        "url": "https://youtu.be/edXdVwkYHF8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "286. Walls and Gates",
+    "questionUrl": "https://leetcode.com/problems/walls-and-gates/",
+    "hint": "Similar to- [542. 01 Matrix](https://leetcode.com/problems/01-matrix/)\n* Action Item: You can try latter without using visited 2D array, as given in leetcode solution."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "130. Surrounded Regions",
+    "questionUrl": "https://leetcode.com/problems/surrounded-regions/",
+    "hint": "**Skip able** if you just can tell the exact logic.- Similar to [Algo Expert Remove islands]",
+    "answerDetails": [
+      {
+        "level": "TUF- G14",
+        "url": "https://youtu.be/BtdgAys4yMk"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1020. Number of Enclaves",
+    "questionUrl": "https://leetcode.com/problems/number-of-enclaves/",
+    "hint": "Action Item: You can just try BFs approach as explained in Striver video.Here you don't need connected land.",
+    "answerDetails": [
+      {
+        "level": "TUF- G15",
+        "url": "https://youtu.be/rxKcepXQgU4"
+      },
+      {
+        "level": "Algo Expert Remove islands",
+        "url": "https://www.algoexpert.io/questions/remove-islands"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "694. Number of Distinct Islands",
+    "questionUrl": "https://leetcode.com/problems/number-of-distinct-islands/",
+    "hint": "Simple dfs/bfs operation on matrix. Storing combination off all nodes indexes in s Set.\n* The trick here is StringBuilder.append(row - baseRow).append(col - baseCol); and storing StringBuilder in to Set.",
+    "answerDetails": [
+      {
+        "level": "TUF- G16",
+        "url": "https://youtu.be/7zmgQSJghpo"
+      },
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=u617H2WwR5g&t=5s"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "785. Is Graph Bipartite?",
+    "questionUrl": "https://leetcode.com/problems/is-graph-bipartite/",
+    "hint": "With simple BFS color strategy.~~(Recommended)~~\n* DFS- ➡ [TUF](https://www.youtube.com/watch?v=KG5YFfR0j8A&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=18)",
+    "answerDetails": [
+      {
+        "level": "TUF-G17-BFS",
+        "url": "https://youtu.be/-vu34sct1g8"
+      },
+      {
+        "level": "TUF-G18-DFS",
+        "url": "https://youtu.be/KG5YFfR0j8A"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "886. Possible Bipartition",
+    "questionUrl": "https://leetcode.com/problems/possible-bipartition/",
+    "hint": "Same as ➡ [785. Is Graph Bipartite?](https://leetcode.com/problems/is-graph-bipartite/)"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Detect cycle in a directed graph",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "hint": "Simple DFS traversal with two boolean array.",
+    "answerDetails": [
+      {
+        "level": "TUF- G19",
+        "url": "https://youtu.be/9twcmtQj4DU"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "802. Find Eventual Safe States",
+    "questionUrl": "https://leetcode.com/problems/find-eventual-safe-states/",
+    "hint": "(1)::~~New concept using cycle detection using DFS. Maybe next time it will be more clear~~\n* (1.1):: Second time understood perfectly. Now need to practise to use it in right places. Have topo way also.",
+    "answerDetails": [
+      {
+        "level": "TUF-G20",
+        "url": "https://youtu.be/uRbJ1OF9aYM"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Topological sort",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/topological-sort/1",
+    "hint": "Simple concept .Using DFS. Its only applicable for DAG(Directed acyclic graph).",
+    "answerDetails": [
+      {
+        "level": "TUF-G21",
+        "url": "https://youtu.be/5lZ0iJMrUMk"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Kahn's Algorithm- Topological sort",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/topological-sort/1",
+    "hint": "Iis same topological sort but BFS way.Basically reverse of DFS.",
+    "answerDetails": [
+      {
+        "level": "TUF-G22",
+        "url": "https://youtu.be/73sneFXuTEg"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Detect cycle in a directed graph",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1",
+    "hint": "Simple DFS traversal with two boolean array.",
+    "answerDetails": [
+      {
+        "level": "TUF- G23",
+        "url": "https://youtu.be/iTBaI90lpDQ"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "207. Course Schedule",
+    "questionUrl": "https://leetcode.com/problems/course-schedule/",
+    "hint": "Similar to detection of cycle in DAG. if cycle doesn't exit then return true or false.\n* Striver has done in BFS way using inDegree(incoming node/arrow ) concept. Which is preferred.",
+    "answerDetails": [
+      {
+        "level": "TUF-G24",
+        "url": "https://youtu.be/WAOfKpxYHR8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "210. Course Schedule II",
+    "questionUrl": "https://leetcode.com/problems/course-schedule-ii/",
+    "hint": "A bit change of course schedule1 .I have done it in both way DFS(Algo expert) and BFS(Striver).Both understood.\n* Latter decide which one to follow.",
+    "answerDetails": [
+      {
+        "level": "TUF-G24",
+        "url": "https://youtu.be/WAOfKpxYHR8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1136. Parallel Courses",
+    "questionUrl": "https://leetcode.com/problems/parallel-courses/",
+    "hint": "Did own , post doing 207. Course Schedule, 210. Course Schedule II"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "802. Find Eventual Safe States",
+    "questionUrl": "https://leetcode.com/problems/find-eventual-safe-states/",
+    "hint": "Already did DFS way.here done another way using BFS, topological sort. Understood this different way also.\n* Initially the terminal nodes are those who have out-degree 0 but after reversal the terminal nodes becomes those\n      which have indegree 0 so we can apply Kahn's algo to find all the nodes connected to it which have linear\n      dependency on the terminal node or is on the path which leads to terminal node so if the nodes is a part of a\n      cycle or points to a cycle , that path cannot lead to terminal node as each node in that path will have cyclic\n      dependency",
+    "answerDetails": [
+      {
+        "level": "TUF-G25",
+        "url": "https://youtu.be/2gtg3VsDGyc"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "269. Alien Dictionary",
+    "questionUrl": "https://leetcode.com/problems/alien-dictionary/",
+    "hint": "Second Attempt:Done striver topo sort way which more intuitive. Used one additional array just to identify given\n      letters.\n* First Attempt:Few Additional logic with topological sort using BFS. I have seen leetcode discussion solution. But\n      can also try Striver solution with edge case",
+    "answerDetails": [
+      {
+        "level": "TUF-G26",
+        "url": "https://youtu.be/U3N_je7tWAs"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Shortest path in Directed Acyclic Graph",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1",
+    "hint": "Topo sort give the sequence of nodes(Since its DAG). Since you have the nodes in sequence , then you can find the\n      distance sequentially which give ultimately the shortest paths.Understood clearly.",
+    "answerDetails": [
+      {
+        "level": "TUF-G27",
+        "url": "https://youtu.be/ZUFQfFaU-8U"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2050. Parallel Courses III",
+    "questionUrl": "https://leetcode.com/problems/parallel-courses-iii/description/",
+    "hint": "Did BFS/topo sort way.Time calculation is yet to clear.Also deed DFS way where flow and time calculation is clear.\n* ~~Maybe next time you can see Mik video for BFS way~~. Understood MIK video.(Recommended)",
+    "answerDetails": [
+      {
+        "level": "BFS code",
+        "url": "https://leetcode.com/problems/parallel-courses-iii/solutions/4180326/92-65-bfs-in-directed-acyclic-graph/"
+      },
+      {
+        "level": "DFS way- Neetcode",
+        "url": "https://youtu.be/a_NlRPnqCrg?si=Ibg0UDncfy7VDuk5"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2115. Find All Possible Recipes from Given Supplies",
+    "questionUrl": "https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies/",
+    "hint": "Similar AlgoExpert Cycle In graph\n* Did topo sort way also in second attempt. Later decide which way to follow. For now this one is more intutive.",
+    "answerDetails": [
+      {
+        "level": "AlgoExpert",
+        "url": "https://www.algoexpert.io/questions/cycle-in-graph"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "310. Minimum Height Trees",
+    "questionUrl": "https://leetcode.com/problems/minimum-height-trees/",
+    "hint": "~~See somehow understood the requirement and also the code. But couldn't connect means not for long run.~~\n* interesting one , new learning, Use of In-Degree array concept in undirected graph.",
+    "answerDetails": [
+      {
+        "level": "CodeDecoded",
+        "url": "https://youtu.be/1ZDg3jk7dUE?si=x5crlKuonQQ3D-3I"
+      },
+      {
+        "level": "Tried to understand from",
+        "url": "https://www.youtube.com/watch?v=ivl6BHJVcB0"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Shortest path in Undirected Graph having unit distance",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1",
+    "hint": "Simple BFS traversal by storing distance at each node",
+    "answerDetails": [
+      {
+        "level": "TUF-G28",
+        "url": "https://youtu.be/C4gxoTaI71U"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "127. Word Ladder",
+    "questionUrl": "https://leetcode.com/problems/word-ladder/",
+    "hint": "Simple but need multiple practise. Learned few new concepts from striver. like why to remove the word from the\n      list once found.Recommending Striver solution.",
+    "answerDetails": [
+      {
+        "level": "TUF-G29",
+        "url": "https://youtu.be/tRPda0rcf8E"
+      },
+      {
+        "level": "Nick",
+        "url": "https://www.youtube.com/watch?v=M9cVl4d0v04"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "433. Minimum Genetic Mutation",
+    "questionUrl": "https://leetcode.com/problems/minimum-genetic-mutation/",
+    "hint": "**Skip able**- Similar to [127. Word Ladder](https://leetcode.com/problems/word-ladder/)\n* ~~Note : correct place to increase the level, and it should BFS approach always(while(size-->0)).See striver also\n      does in level wise only, its just that as pair(Object).~~"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "126. Word Ladder II",
+    "questionUrl": "https://leetcode.com/problems/word-ladder-ii/",
+    "hint": "Similar to [127. Word Ladder](https://leetcode.com/problems/word-ladder/)\n* Need to store previous node. For this you can create a Node class having previous variable, and you can use\n      LinkedList to create the sequence.\n* And in Striver approach it is similar to word ladder I solution with List version. Gibing TLE which is fine.\n* Ran leetcode solution just to get the testcases passed and increase hard problem count.",
+    "answerDetails": [
+      {
+        "level": "TUF-G30",
+        "url": "https://youtu.be/DREutrv2XD0"
+      },
+      {
+        "level": "Code Decode",
+        "url": "https://www.youtube.com/watch?v=fF5IX88paTk"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Implementing Dijkstra Algorithm",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1",
+    "hint": "Dijkstra Algorithm- the shortest path",
+    "answerDetails": [
+      {
+        "level": "TUF-G32",
+        "url": "https://youtu.be/V6H1qAeB-l4"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Shortest Path in Weighted undirected graph",
+    "questionUrl": "https://practice.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=shortest-path-in-weighted-undirected-graph",
+    "hint": "Priority queue traversal and remembering parent node.And to get the path backtrack till node !=parent[node]",
+    "answerDetails": [
+      {
+        "level": "TUF-G35",
+        "url": "https://youtu.be/rp1SMw7HSO8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Shortest Distance in a Binary Maze",
+    "questionUrl": "https://bit.ly/3QLxjET",
+    "hint": "Shortest path in matrix",
+    "answerDetails": [
+      {
+        "level": "TUF-G36",
+        "url": "https://youtu.be/U5Mw4eyUmw4?si=oZ7mIBmvh8ZrOHRM"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1091. Shortest Path in Binary Matrix",
+    "questionUrl": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+    "hint": "Similar to [Shortest Distance in a Binary Maze](https://bit.ly/3QLxjET).\n* understood from both striver and AME. Striver uses an additional 2D distance array to store distance.\n* in AME, they change the value of visited node to 0->1.\n* See shortest path means Dijkstra algorithm using priority queue.See since here edge weight is 1 ,so we will level\n      wise traversal ,so we can use Queue instead of Priority queue to remove log n factor.\n* ➡ ~~Mistakes did during initial time~~\n* ~~See you can't have global path variable. Since it will get increased for each node visit. which we dont want~~",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=CABaqOkWbgQ"
+      },
+      {
+        "level": "TUF-G36",
+        "url": "https://www.youtube.com/watch?v=U5Mw4eyUmw4&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=37"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1631. Path With Minimum Effort",
+    "questionUrl": "https://leetcode.com/problems/path-with-minimum-effort/",
+    "hint": "Whenever minimum/shortest means Dijkstra Algorithm.Can be solved using min heap. and another 2D array keeping\n      maxEffort. Learned fundamental things using priority queue traversal like when to exist from loop.",
+    "answerDetails": [
+      {
+        "level": "TUF-G37",
+        "url": "https://youtu.be/0ytpZyiZFhA"
+      },
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=FabSLaGu0NI"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "778. Swim in Rising Water",
+    "questionUrl": "https://leetcode.com/problems/swim-in-rising-water/",
+    "hint": "Asked 2o times in google.Can be solved using priority Queue(min heap). See again minimum time taken.So Dijkstra\n      Algo. See initially solved after seeing ridhi video, then solved by own with strive concept.So prefer striver",
+    "answerDetails": [
+      {
+        "level": "Ridhi-Dutta",
+        "url": "https://www.youtube.com/watch?v=SON551VQ76g"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "490. The Maze",
+    "questionUrl": "https://leetcode.com/problems/the-maze/",
+    "hint": "New concept.Since ball will not stop until it hits wall, so we need to run while loop in same direction.In visited\n      array we keep track of all the stop points of the ball from where again it will option to roll. Here place of\n      changing the visited array value matters.",
+    "answerDetails": [
+      {
+        "level": "Sleepy Cracker",
+        "url": "https://youtu.be/Z4Yz3ZDekOk?si=SfCJgcdGqwGYP0wa"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "505. The Maze II",
+    "questionUrl": "https://leetcode.com/problems/the-maze-ii/",
+    "hint": "New concept learned.See again the shortest distance,so Dijkstra Algo.Since here ball will not stop until it hits\n      wall, so we need to run while loop in the same direction.Check while loop",
+    "answerDetails": [
+      {
+        "level": "Sleepy Cracker",
+        "url": "https://www.youtube.com/watch?v=E2DpGhLF2nM"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1102. Path With Maximum Minimum Value",
+    "questionUrl": "https://leetcode.com/problems/path-with-maximum-minimum-value/",
+    "hint": "See again Maximum/Minimum value taken.So Dijkstra Algo.Her its maxHeap."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1514. Path with Maximum Probability",
+    "questionUrl": "https://leetcode.com/problems/path-with-maximum-probability/",
+    "hint": "See again Maximum value.So Dijkstra Algo.Her its maxHeap."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "787. Cheapest Flights Within K Stops",
+    "questionUrl": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+    "hint": "New concepts learned.Initially it looks need to use priority queue using distance ,but it will not work. Here\n      using PQ(distance, node, stop) will not work, because at some node it will not allow larger distance with having\n      balance stops, which might give better distance latter. So need to use (stops, node, distance).\n* Since we are doing BFS by stops it will always increase by 1,so it will go level by level, instead of Priority\n      queue , Queue is enough, which saves TC of logN. It's not difficult but yeh needs dry run and practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-G38",
+        "url": "https://youtu.be/9XybHVqTHcQ"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Minimum Multiplications to reach End",
+    "questionUrl": "https://bit.ly/3AugzNb",
+    "hint": "Again another simple use of Dijkstra's algorithm.",
+    "answerDetails": [
+      {
+        "level": "TUF-G39",
+        "url": "https://youtu.be/_BvEJ3VIDWw"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1976. Number of Ways to Arrive at Destination",
+    "questionUrl": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/",
+    "hint": "Using Dijkstra's algorithm and with one distance and ways array.",
+    "answerDetails": [
+      {
+        "level": "TUF-G40",
+        "url": "https://youtu.be/_-0mx0SmYxA"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Distance from the Source (Bellman-Ford Algorithm)",
+    "questionUrl": "https://bit.ly/3K7emug",
+    "hint": "Shortest path in DAG containing negative edges. Similar to Dijkstra algorithm , the only difference is we need to\n      perform same logic n-1 times same operation.",
+    "answerDetails": [
+      {
+        "level": "TUF-G41",
+        "url": "https://youtu.be/0vVofAhAYjc"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Floyd Warshall Algorithm",
+    "questionUrl": "https://bit.ly/3JZlk4a",
+    "hint": "Shortest path from all node to all other nodes in DAG containing negative edges.Its very simple brute force\n      approach. Need to remember.",
+    "answerDetails": [
+      {
+        "level": "TUF-G42",
+        "url": "https://youtu.be/YbY8cVwWAvw"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+    "questionUrl": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/",
+    "hint": "Since you need to find the shortest path from all node thts why Floyd Warshall.~~Action Item-try to solve it using\n      dijakstra.~~\n* in Dijkstra way Since here we have threshold value , so don't need to consider the city again once it is reachable\n      under threshold. so visited will work.",
+    "answerDetails": [
+      {
+        "level": "TUF-G43",
+        "url": "https://youtu.be/PwMVNSJ5SLI"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Minimum Spanning Tree - Theory",
+    "questionUrl": "",
+    "hint": "Concept Video only",
+    "answerDetails": [
+      {
+        "level": "TUF-G44",
+        "url": "https://youtu.be/ZSPjZuZWCME"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Prim's Algorithm - Minimum Spanning Tree",
+    "questionUrl": "https://bit.ly/3ABwwRP",
+    "hint": "Prims algorithm using priority queue.Its simple just pull the path with minimum weight, and mark that adjNode as\n      visited during poll() to construct MST.\n* Try to solve https://leetcode.com/tag/minimum-spanning-tree/ if not",
+    "answerDetails": [
+      {
+        "level": "TUF-G45",
+        "url": "https://youtu.be/mJcZjjKzeqk"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1135. Connecting Cities With Minimum Cost",
+    "questionUrl": "https://leetcode.com/problems/connecting-cities-with-minimum-cost/description/",
+    "hint": "Prims algorithm ,priority queue. See dijakstra:shortest path from source ,Prim: shortest path connecting all nodes"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1584. Min Cost to Connect All Points",
+    "questionUrl": "https://leetcode.com/problems/min-cost-to-connect-all-points/description/",
+    "hint": "interesting one.Simple problem with Prims' algo.Only trick thing is to make adjacency list. Key words- Min Cost,\n      Connect all points",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/hsr7KolYDH0?si=E7sbr9p8oZU9SPTT"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1168. Optimize Water Distribution in a Village",
+    "questionUrl": "https://leetcode.com/problems/optimize-water-distribution-in-a-village/description/",
+    "hint": "interesting small new/easy concept with Prims' algo.",
+    "answerDetails": [
+      {
+        "level": "PEPCODING",
+        "url": "https://youtu.be/gc6ShDTldb4?si=JyljUYSfJEh0qbVL"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1489. Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+    "questionUrl": "https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/",
+    "hint": "TODO"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Disjoint Set | Union by Rank | Union by Size | Path Compression",
+    "questionUrl": "",
+    "hint": "Concept using rank and size. Very simple just needs practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-G46",
+        "url": "https://youtu.be/aBxjDBC4M1U"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Minimum Spanning Tree - using  Kruskal's Algorithm",
+    "questionUrl": "https://bit.ly/3eLuYvH",
+    "hint": "Using disjoint set by Kruskal's algorithm.",
+    "answerDetails": [
+      {
+        "level": "TUF-G47",
+        "url": "https://youtu.be/DMnDM_sxVig"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "547. Number of Provinces",
+    "questionUrl": "https://leetcode.com/problems/number-of-provinces/",
+    "hint": "First solution using DFS call. Second one with disjoint set.",
+    "answerDetails": [
+      {
+        "level": "TUF-G48",
+        "url": "https://youtu.be/ZGr5nX-Gi6Y"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1319. Number of Operations to Make Network Connected",
+    "questionUrl": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/",
+    "hint": "Solved using disjoint set. If noOfExtraEdges(holds same ultimate parent)>=noOfConnectedComponents(parents)-1 then\n      answer will be noOfConnectedComponents-1. General concept:Edges =noOfComponents-1;",
+    "answerDetails": [
+      {
+        "level": "TUF-G49",
+        "url": "https://youtu.be/FYrl7iz9_ZU"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "721. Accounts Merge",
+    "questionUrl": "https://leetcode.com/problems/accounts-merge/",
+    "hint": "Solved using disjoint set.Pretty interesting one. If you know disjoint set it's a simple problem.Just practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-G50",
+        "url": "https://youtu.be/FMwpt_aQOGw"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "737. Sentence Similarity II",
+    "questionUrl": "https://leetcode.com/problems/sentence-similarity-ii/",
+    "hint": "Solved using disjoint set. I think somehow can be code can be reduced. Similar to [721. Accounts Merge]."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1202. Smallest String With Swaps",
+    "questionUrl": "https://leetcode.com/problems/smallest-string-with-swaps/",
+    "hint": "Learned new interesting trick.Solved using disjoint set with priority queue.Created swap numbers graph.Each graph\n      numbers can be swapped n times.And store them in Map with id and pq. while retrieval it will be in ascending order",
+    "answerDetails": [
+      {
+        "level": "Coding Decoded",
+        "url": "https://youtu.be/O3jr8HOpkUU"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1722. Minimize Hamming Distance After Swap Operations",
+    "questionUrl": "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/",
+    "hint": "Similar to [1202. Smallest String With Swaps]. Just that need to store number count."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "734. Sentence Similarity",
+    "questionUrl": "https://leetcode.com/problems/sentence-similarity/",
+    "hint": "String problem."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "684. Redundant Connection",
+    "questionUrl": "https://leetcode.com/problems/redundant-connection/",
+    "hint": "Understood the question and approach from AME, but implemented by striver way. The path/edge which perform the\n      cycle/ or having same ultimate parent node the ands",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=Cb6p18e9c8s"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1101. The Earliest Moment When Everyone Become Friends",
+    "questionUrl": "https://leetcode.com/problems/the-earliest-moment-when-everyone-become-friends/",
+    "hint": "Solved using disjoint set. Only thing is , need to sort based on timestamp, so that already connected components(\n      consuming larger time) time will not be considered."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "305. Number of Islands II",
+    "questionUrl": "https://leetcode.com/problems/number-of-islands-ii/",
+    "hint": "Interesting new simple logic using disjoint set. Just need practise",
+    "answerDetails": [
+      {
+        "level": "TUF-G51",
+        "url": "https://youtu.be/Rn6B-Q4SNyA"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2076. Process Restricted Friend Requests",
+    "questionUrl": "https://leetcode.com/problems/process-restricted-friend-requests/description/",
+    "hint": "Just need practise.",
+    "answerDetails": [
+      {
+        "level": "Solution",
+        "url": "https://leetcode.com/problems/process-restricted-friend-requests/solutions/1578306/java-clean-and-commented-code-with-explanation-union-find-algorithm/"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "827. Making A Large Island",
+    "questionUrl": "https://leetcode.com/problems/making-a-large-island/",
+    "hint": "Again interesting new simple logic using disjoint set. Only thing is a bit lengthy. Just need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-G52",
+        "url": "https://youtu.be/lgiz0Oup6gM"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "947. Most Stones Removed with Same Row or Column",
+    "questionUrl": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/",
+    "hint": "~~Problem concept is clear.You should definatley see the video again, you will learn more. And do practise~~.\n* Second time it was more clear.Need more practise.Nice concept.",
+    "answerDetails": [
+      {
+        "level": "TUF-G53",
+        "url": "https://www.youtube.com/watch?v=OwMNX8SPavM&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=53"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "990. Satisfiability of Equality Equations",
+    "questionUrl": "https://leetcode.com/problems/satisfiability-of-equality-equations/",
+    "hint": "Simple two iteration. Keyword='relationships' ,'==' means belongs to same parent node. Two different for loop will\n      work."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1971. Find if Path Exists in Graph",
+    "questionUrl": "https://leetcode.com/problems/find-if-path-exists-in-graph/",
+    "hint": "Simple one. Next time try with DFS approach."
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1697. Checking Existence of Edge Length Limited Paths",
+    "questionUrl": "https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths/",
+    "hint": "See its east. But just new small small techniques are there so u need practise.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/WYBpATWlXWA?si=IoxccTzcaGmXz9DI"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2492. Minimum Score of a Path Between Two Cities",
+    "questionUrl": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/",
+    "hint": "Very simple. Done by both DSu and DFS",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/blUPwDof-r4?si=4oiMHl2o63Pr4lA9"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2421. Number of Good Paths",
+    "questionUrl": "https://leetcode.com/problems/number-of-good-paths/",
+    "hint": "Its a hard problem , implementation wise.Understood clearly. Test case failing. You can try at last, when free.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/Y02Muq_xoCg?si=ZbsjhhvIodBWKbwk"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "839. Similar String Groups",
+    "questionUrl": "https://leetcode.com/problems/similar-string-groups/",
+    "hint": "Connected Groups==Connected components-KeyWord.Basically need to find connected components.So hint towards DFS.BFS\n* Connected Groups-KeyWord.So hint towards DSU.Didn't see DSU video.",
+    "answerDetails": [
+      {
+        "level": "MIK- DFS/BFS",
+        "url": "https://youtu.be/CMTlE0W01Pk?si=y856k6rwUbF37rG6"
+      },
+      {
+        "level": "MIK- DSU",
+        "url": "https://youtu.be/Xw6lpWDh82E?si=VjN5rG5J_jVRi0n4"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Strongly Connected Components - Kosaraju's Algorithm)",
+    "questionUrl": "https://bit.ly/3R6LzID",
+    "hint": "A different concept. easy to understand. Just need ~~second~~ practise.",
+    "answerDetails": [
+      {
+        "level": "TUF-G54",
+        "url": "https://youtu.be/R6uoSjZ2imo"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1192. Critical Connections in a Network",
+    "questionUrl": "https://leetcode.com/problems/critical-connections-in-a-network/",
+    "hint": "A new easy concept using DFS.Need to hold of intuition.",
+    "answerDetails": [
+      {
+        "level": "TUF-G55",
+        "url": "https://youtu.be/qrAub5z8FeA?si=XI0IiICM6WkT9Yg8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "Articulation Point in Graph",
+    "questionUrl": "https://bit.ly/3w9lfp1",
+    "hint": "Similar to above problem with minor change. Didn't get that much at first attempt.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://www.youtube.com/watch?v=j1QDfU21iZk&list=PLgUwDviBIf0oE3gA41TKO2H5bHpPd7fzn&index=56"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2101. Detonate the Maximum Bombs",
+    "questionUrl": "https://leetcode.com/problems/detonate-the-maximum-bombs/",
+    "hint": "creating the adjList and counting the connected nodes is the trick. Key word: onc bomb can detonate another\n      bomb-chain of bomb -> lead to adjList and dfs",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/WPU7JlvUud8?si=D86uyr9nL4C4S6cs"
+      },
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/detonate-the-maximum-bombs/"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "1615. Maximal Network Rank",
+    "questionUrl": "https://leetcode.com/problems/maximal-network-rank/",
+    "hint": "Normal matrix with slight trick.",
+    "answerDetails": [
+      {
+        "level": "Naresh",
+        "url": "https://youtu.be/lXiv1sw58d0?si=guh6b-h4ISfZRY2c"
+      },
+      {
+        "level": "Mik",
+        "url": "https://youtu.be/R2sjm5jfwYY?si=1fGFxLE4YwGNHXxt"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "695. Max Area of Island",
+    "questionUrl": "https://leetcode.com/problems/max-area-of-island/"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "399. Evaluate Division",
+    "questionUrl": "https://leetcode.com/problems/evaluate-division/",
+    "hint": "Learned new technique ,creating graph using Hashmap,when node size is not known.~~Naresh explained well~~. Later\n      found MIK explanation more intuitive.",
+    "answerDetails": [
+      {
+        "level": "Naresh",
+        "url": "https://youtu.be/UcDZM6Ap5P4"
+      },
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/C6cm6IvqmyA?si=4-DKS_qgbgZiHdZY"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "2316. Count Unreachable Pairs of Nodes in an Undirected Graph",
+    "questionUrl": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/",
+    "hint": "Left Node calculation is new.",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/solutions/2195995/union-find-or-dfs-faster-than-100/"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "815. Bus Routes",
+    "questionUrl": "https://leetcode.com/problems/bus-routes/",
+    "hint": "Its Multi source BFS.Understood.Need practise.",
+    "answerDetails": [
+      {
+        "level": "MIK",
+        "url": "https://youtu.be/uDbr-6svYKw?si=yYUaNUBQ-h_8-dSa"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "797. All Paths From Source to Target",
+    "questionUrl": "https://leetcode.com/problems/all-paths-from-source-to-target/",
+    "hint": "Using normal BFS traversal and along the traversal keep adding nodes and add the final list if it is last node.",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=uvN4y7E3wZ8"
+      }
+    ]
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "317. Shortest Distance from All Buildings",
+    "questionUrl": "https://leetcode.com/problems/shortest-distance-from-all-buildings/"
+  },
+  {
+    "topic": "Graph",
+    "questionTitle": "489. Robot Room Cleaner",
+    "questionUrl": "https://leetcode.com/problems/robot-room-cleaner/"
   }
 ]

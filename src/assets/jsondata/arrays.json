@@ -9,25 +9,19 @@
   },
   {
     "topic": "Arrays",
+    "questionTitle": "subarray-sort",
+    "questionUrl": "https://www.algoexpert.io/questions/subarray-sort",
+    "hint": "find minOutOfOrder and maxOutOfOrder number by iterating .int minOutOfOrder = Integer.MAX_VALUE; and Int.MIN for\nmax\n* minOutOfOrder = Math.min(minOutOfOrder, num); maxOutOfOrder = Math.max(maxOutOfOrder, num);\n* find the index of minOutOfOrder and maxOutOfOrder"
+  },
+  {
+    "topic": "Arrays",
     "questionTitle": "581. Shortest Unsorted Continuous Subarray",
     "questionUrl": "https://leetcode.com/problems/shortest-unsorted-continuous-subarray/",
-    "hint": " East one but need practise.",
+    "hint": "East one but need practise.",
     "answerDetails": [
       {
         "level": "NICK",
         "url": "https://youtu.be/p-O7FExDH1M?si=k4DudCpO_g8H6EmK"
-      }
-    ]
-  },
-  {
-    "topic": "Arrays",
-    "questionTitle": "1996. The Number of Weak Characters in the Game",
-    "questionUrl": "https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/",
-    "hint": "Sorting will give the solution .",
-    "answerDetails": [
-      {
-        "level": "Code Decoded",
-        "url": "https://www.youtube.com/watch?v=P0T2fy06x48"
       }
     ]
   },
@@ -111,14 +105,7 @@
   {
     "topic": "Arrays",
     "questionTitle": "349. Intersection of Two Arrays",
-    "questionUrl": "https://leetcode.com/problems/intersection-of-two-arrays/",
-    "hint": "Two pointer approach.349- will be set, 350 will be List",
-    "answerDetails": [
-      {
-        "level": "TUF",
-        "url": "https://youtu.be/wvcQg43_V8U?t=4170"
-      }
-    ]
+    "questionUrl": "https://leetcode.com/problems/intersection-of-two-arrays/"
   },
   {
     "topic": "Arrays",
@@ -194,6 +181,18 @@
   },
   {
     "topic": "Arrays",
+    "questionTitle": "Longest Subarray With Sum K",
+    "questionUrl": "https://bit.ly/3GHyBOS",
+    "hint": "You can learn the two pointer approach. Need practise.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/frf7qxiN2qU"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
     "questionTitle": "1. Two Sum",
     "questionUrl": "https://leetcode.com/problems/two-sum/",
     "hint": "**Skip able**- Simple , you know the solution.",
@@ -215,12 +214,6 @@
     "questionTitle": "1099. Two Sum Less Than K",
     "questionUrl": "https://leetcode.com/problems/two-sum-less-than-k/",
     "hint": "**Skip able**- Simple , you know the solution. while (left < right) not while (left <= right)"
-  },
-  {
-    "topic": "Arrays",
-    "questionTitle": "430. Flatten a Multilevel Doubly Linked List",
-    "questionUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/",
-    "hint": "Latter done by own using queue and recursive call. Initial time watched the video."
   },
   {
     "topic": "Arrays",
@@ -336,6 +329,18 @@
   },
   {
     "topic": "Arrays",
+    "questionTitle": "229. Majority Element II",
+    "questionUrl": "https://leetcode.com/problems/majority-element-ii/",
+    "hint": "Extension of Mores Algorithm. and problem [169. Majority Element](https://leetcode.com/problems/majority-element/)\n* Need to use two counter.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/vwZj1K0e9U8"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
     "questionTitle": "18. 4Sum",
     "questionUrl": "https://leetcode.com/problems/4sum/description/",
     "hint": "Initially did use algo expert way but latter found striver solution is much easier. Same as three sum with\nadditional for loop and avoid duplicate logic",
@@ -366,6 +371,18 @@
   },
   {
     "topic": "Arrays",
+    "questionTitle": "88. Merge Sorted Array",
+    "questionUrl": "https://leetcode.com/problems/merge-sorted-array/",
+    "hint": "Whenever it comes to array creation on sorted array it is wise to start from end. So again it's a game of two\npointer and for loop started from end index. If you simply consider one element each at a time from the two arrays\nand insert it and decrease the respective pointer then it's done",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.youtube.com/watch?v=C4oBXLr3zos"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
     "questionTitle": "Merge Without Extra Space",
     "questionUrl": "https://bit.ly/3zRzmAo",
     "hint": "Learned a simple new trick.",
@@ -380,7 +397,13 @@
     "topic": "Arrays",
     "questionTitle": "977. Squares of a Sorted Array",
     "questionUrl": "https://leetcode.com/problems/squares-of-a-sorted-array/",
-    "hint": "Again one more qs of array creation given sorted array .So better to start from end\n* Can be solved using two pointer , compare with absolute value and store the larger value in the last index of\nanswer array and decrease/increase the respective array index"
+    "hint": "Again one more qs of array creation given sorted array .So better to start from end\n* Can be solved using two pointer , compare with absolute value and store the larger value in the last index of\nanswer array and decrease/increase the respective array index",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.algoexpert.io/questions/Sorted%20Squared%20Array"
+      }
+    ]
   },
   {
     "topic": "Arrays",
@@ -457,6 +480,177 @@
         "url": "https://youtu.be/aMsSF1Il3IY?si=pq9_6innTBa3VKNh"
       }
     ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1647. Minimum Deletions to Make Character Frequencies Unique",
+    "questionUrl": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/description/",
+    "hint": "Easy one, but few edge cases are bit tricky.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/sq7LBb6Kd3g?si=4OJr7_mW12ZvJzQL"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1366. Rank Teams by Votes",
+    "questionUrl": "https://leetcode.com/problems/rank-teams-by-votes/description/",
+    "hint": "Understood, but code wise need to get hold.",
+    "answerDetails": [
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/rank-teams-by-votes/"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "2483. Minimum Penalty for a Shop",
+    "questionUrl": "https://leetcode.com/problems/minimum-penalty-for-a-shop/description/",
+    "hint": "Interesting one.Need to get hold. Partially passed ,next time may be can try for proper code and optimized one.",
+    "answerDetails": [
+      {
+        "level": "Aryan",
+        "url": "https://youtu.be/iB0IGr-Huu0?si=eAGVc_N0nTfwLcSC"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "849. Maximize Distance to Closest Person",
+    "questionUrl": "https://leetcode.com/problems/maximize-distance-to-closest-person/description/",
+    "hint": "One pass solution with a different edge case.",
+    "answerDetails": [
+      {
+        "level": "Code",
+        "url": "https://leetcode.com/problems/maximize-distance-to-closest-person/editorial/"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1010. Pairs of Songs With Total Durations Divisible by 60",
+    "questionUrl": "https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/description/",
+    "hint": "New easy interesting logic.",
+    "answerDetails": [
+      {
+        "level": "Naresh",
+        "url": "https://youtu.be/5gHnQ4lfDko?si=gDaE9l2yarV0xdX3"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "149. Max Points on a Line",
+    "questionUrl": "https://leetcode.com/problems/max-points-on-a-line/",
+    "hint": "Run two for loop and take point1 and point2; and create map inside first for loop\n* find slope by using gcd(the greatest common divisor). then rise=slope[0], run=slope[1];\n* Now make ket using rise and run and store it in map and out side the second for loop find the currentMax\n* and store maxPointsInALine = Math.max(currentMax, maxPointsInALine);",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.algoexpert.io/questions/Line%20Through%20Points"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1996. The Number of Weak Characters in the Game",
+    "questionUrl": "https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/",
+    "hint": "Sorting will give the solution .",
+    "answerDetails": [
+      {
+        "level": "Code Decoded",
+        "url": "https://www.youtube.com/watch?v=P0T2fy06x48"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "1470. Shuffle the Array",
+    "questionUrl": "https://leetcode.com/problems/shuffle-the-array/",
+    "hint": "its game of two pointer\n* first pointer 2*i and second 2*i + 1\n```\nfor (int i = 0; i < n; i++) {\n          result[2 * i] = nums[i];\n          result[2 * i + 1] = nums[i + n];\n      }\n```"
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "135. Candy",
+    "questionUrl": "https://leetcode.com/problems/candy/",
+    "hint": "Same as [Algo expert - Min Rewards](https://www.algoexpert.io/questions/Min%20Rewards)\n* create rewards array with value 1 in all. Array.fill(rewards,1).\n* in for (int i=1;i<len-1;i++) if(arr[i]>arr[i-1]) then rewards[i]=rewards[i-1]+1\n* in second for loop need to iterate in reverse\n* for(int i=len-2;i>=0;i--) if(arr[i]>arr[i+1]) rewards[i]= Math.max(arr[i],arr[i+1]+1)\n* and next return sum of rewards array",
+    "answerDetails": [
+      {
+        "level": "Reference",
+        "url": "https://www.algoexpert.io/questions/Min%20Rewards"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "453. Minimum Moves to Equal Array Elements",
+    "questionUrl": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+    "hint": "Simple need multiple practise."
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "462. Minimum Moves to Equal Array Elements II",
+    "questionUrl": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-ii/",
+    "hint": "Can be solved using median and two pointer technique post sorting.\n* Two pointer one is easy to implement",
+    "answerDetails": [
+      {
+        "level": "AME",
+        "url": "https://www.youtube.com/watch?v=FGgL5QxZLno"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "31. Next Permutation",
+    "questionUrl": "https://leetcode.com/problems/next-permutation/",
+    "hint": "Second time video code better. But still need practise.\n* See it is another variant of [46. Permutations](https://leetcode.com/problems/permutations/).But this solution\ngiving error for some test cases.\n* So you can follow striver another(above url) solution for this",
+    "answerDetails": [
+      {
+        "level": "TUF-2nd-A-Z",
+        "url": "https://youtu.be/JDOXKqF60RQ"
+      },
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/LuLCLgMElus"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "Count Inversions in an Array",
+    "questionUrl": "https://bit.ly/3GJcuYj",
+    "hint": "Understood , but need practise. In code studio cases are failing, may be next time you will get it passed.",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/AseUmwVNaoY"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "493. Reverse Pairs",
+    "questionUrl": "https://leetcode.com/problems/reverse-pairs/",
+    "hint": "Understood , but need practise. Similar to [Count Inversions in an Array].",
+    "answerDetails": [
+      {
+        "level": "TUF",
+        "url": "https://youtu.be/0e4bZaP3MDI"
+      }
+    ]
+  },
+  {
+    "topic": "Arrays",
+    "questionTitle": "362. Design Hit Counter",
+    "questionUrl": "https://leetcode.com/problems/design-hit-counter/",
+    "hint": "Need to store 300 bucket. if 602 is coming then it means 602%300=2.So two array time[300] and hit[300] will work",
+    "answerDetails": [
+      {
+        "level": "Leetcode",
+        "url": "https://leetcode.com/problems/design-hit-counter/solutions/83483/super-easy-design-o-1-hit-o-s-gethits-no-fancy-data-structure-is-needed/"
+      }
+    ]
   }
 ]
-

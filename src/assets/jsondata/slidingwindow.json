@@ -78,7 +78,7 @@
     "topic": "SlidingWindow",
     "questionTitle": "239. Sliding Window Maximum",
     "questionUrl": "https://leetcode.com/problems/sliding-window-maximum/",
-    "hint": "We don't need smaller value in before jth index because that is out of window we need smaller element because it\nmight be required in the future.So storing data in deque will help in removing first and last element.\n* remove all smaller values to the left, so that your deque will contain the largest value at first index.",
+    "hint": "We don't need smaller value in before jth index because that is out of window we need smaller element because it\n      might be required in the future.So storing data in deque will help in removing first and last element.\n* remove all smaller values to the left, so that your deque will contain the largest value at first index.",
     "answerDetails": [
       {
         "level": "Anuj",
@@ -105,6 +105,12 @@
         "url": "https://www.youtube.com/watch?v=xmguZ6GbatA"
       }
     ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "Variable Size Sliding Window General Format",
+    "questionUrl": "https://youtu.be/LV-BgyeH8yo",
+    "hint": "Skip it, he told same thing again. So repetitive."
   },
   {
     "topic": "SlidingWindow",
@@ -146,15 +152,15 @@
     "topic": "SlidingWindow",
     "questionTitle": "424. Longest Repeating Character Replacement",
     "questionUrl": "https://leetcode.com/problems/longest-repeating-character-replacement/description/",
-    "hint": "Latter did by Aditya's way only.~~Can be done in normal Aditya sliding window way also~~ .and For coding decoded\nway need to do dry run to understand.\nend variable will go beyond length i.e 11 then you will get answer for [1,1,1,0,0,0,1,1,1,1,0]",
+    "hint": "Latter did by Aditya's way only.~~Can be done in normal Aditya sliding window way also~~ .and For coding decoded\n      way need to do dry run to understand.\n      end variable will go beyond length i.e 11 then you will get answer for [1,1,1,0,0,0,1,1,1,1,0]",
     "answerDetails": [
       {
         "level": "Code decoded",
-        "url": "https: //www.youtube.com/watch?v=pwaVTOazeb4"
+        "url": "https://www.youtube.com/watch?v=pwaVTOazeb4"
       },
       {
-        "level": "TUF",
-        "url": "https: //youtu.be/_eNhaDCr6P0?si=Q2enmrRn6FfouIt1"
+        "level": "TUF-",
+        "url": "https://youtu.be/_eNhaDCr6P0?si=Q2enmrRn6FfouIt1"
       }
     ]
   },
@@ -162,10 +168,10 @@
     "topic": "SlidingWindow",
     "questionTitle": "1004. Max Consecutive Ones III",
     "questionUrl": "https://leetcode.com/problems/max-consecutive-ones-iii/",
-    "hint": "So, let's say there were no constraints like the k. Given a string convert it to a string with all same characters\nwith minimal changes. The answer to this is (string.length() - maximum occurring character) .Given this, we can\napply the at most k changes constraint and maintain a sliding window such that (string.length() - maximum\noccurring character in the substring) <= k\n* ~~Need to get hold more and practise.~~",
+    "hint": "So, let's say there were no constraints like the k. Given a string convert it to a string with all same characters\n      with minimal changes. The answer to this is (string.length() - maximum occurring character) .Given this, we can\n      apply the at most k changes constraint and maintain a sliding window such that (string.length() - maximum\n      occurring character in the substring) <= k\n* ~~Need to get hold more and practise.~~",
     "answerDetails": [
       {
-        "Solution": "Code decoded",
+        "level": "Solution",
         "url": "https://leetcode.com/problems/longest-repeating-character-replacement/solutions/91271/java-12-lines-o-n-sliding-window-solution-with-explanation/"
       },
       {
@@ -178,10 +184,10 @@
     "topic": "SlidingWindow",
     "questionTitle": "904. Fruit Into Baskets",
     "questionUrl": "https://leetcode.com/problems/fruit-into-baskets/",
-    "hint": " Similar to Pick a toy and  [Longest K unique characters substring]. See this is the key line from question which\ntells that it is a substring/sliding window problem \"**you must pick exactly one fruit from every tree (including\nthe start tree) while moving to the right.**\"",
+    "hint": "Similar to Pick a toy and  [Longest K unique characters substring]. See this is the key line from question which\n      tells that it is a substring/sliding window problem \"**you must pick exactly one fruit from every tree (including\n      the start tree) while moving to the right.**\"",
     "answerDetails": [
       {
-        "Solution": "Aditya",
+        "level": "Aditya",
         "url": "https://youtu.be/seOKHXB_w74"
       }
     ]
@@ -193,8 +199,12 @@
     "hint": "Variable sliding window problem.Interesting one. Need practise.",
     "answerDetails": [
       {
-        "Solution": "Aditya",
+        "level": "Aditya",
         "url": "https://youtu.be/iwv1llyN6mo?si=Ynwev-QN0OzpbWAa"
+      },
+      {
+        "level": "Code solution-first comment",
+        "url": "https://leetcode.com/problems/minimum-window-substring/discuss/26810/Java-solution.-using-two-pointers-%2B-HashMap"
       }
     ]
   },
@@ -205,7 +215,7 @@
     "hint": "Simple variable sliding window problem.",
     "answerDetails": [
       {
-        "Solution": "Nick",
+        "level": "Nick",
         "url": "https://www.youtube.com/watch?v=jKF9AcyBZ6E"
       }
     ]
@@ -217,23 +227,27 @@
     "hint": "Later followed TUF solution.Asked 16times in _Google_.\n* It's a sliding window problem. You need to find out the total sum and the window sum.\n* Now in a for loop you need increase windowSum(- from back , +from front) and subtract from total sum\n* and save Max(ans, totalSum-windowSum)",
     "answerDetails": [
       {
-        "Solution": "TUF-L2",
-        "url": "https://youtu.be/pBWCOCS636U?si=go6LFp47OQiSUbv"
+        "level": "TUF-L2",
+        "url": "https://youtu.be/pBWCOCS636U?si=go6LFp47OQiSUbv_"
       },
       {
-        "Solution": "Code",
+        "level": "Code",
         "url": "https://www.youtube.com/watch?v=U0utLw_vWGM"
+      },
+      {
+        "level": "Understood from",
+        "url": "https://www.youtube.com/watch?v=TsA4vbtfCvo"
       }
     ]
   },
   {
     "topic": "SlidingWindow",
     "questionTitle": "1358. Number of Substrings Containing All Three Characters",
-    "questionUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "questionUrl": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/",
     "hint": "Tried tow ways. Traditional way like other problems and a tricky way. See whichever fine for you.\n* trick-see the index where you found all three char , then from 0->tht index all are valid substring.",
     "answerDetails": [
       {
-        "Solution": "TUF-L7",
+        "level": "TUF-L7",
         "url": "https://youtu.be/xtqN4qlgr8s?si=sN6r9uF4rWeXDJvZ"
       }
     ]
@@ -245,11 +259,11 @@
     "hint": "The formula the trick. New learning. ~~still need to get hold of it~~.",
     "answerDetails": [
       {
-        "Solution": "Solution 2",
+        "level": "Solution 2",
         "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/solutions/3836125/o-n-mindblowing-explanation-by-deriving-formula"
       },
       {
-        "Solution": "Solution 1",
+        "level": "Solution 1",
         "url": "https://leetcode.com/problems/count-complete-subarrays-in-an-array/solutions/3836137/java-c-python-sliding-window-o-n/"
       }
     ]
@@ -261,8 +275,20 @@
     "hint": "New easy trick.",
     "answerDetails": [
       {
-        "Solution": "TUF-L9",
+        "level": "TUF-L9",
         "url": "https://youtu.be/XnMdNUkX6VM?si=Y3tgVeXt9fShz4Jn"
+      }
+    ]
+  },
+  {
+    "topic": "SlidingWindow",
+    "questionTitle": "1248. Count Number of Nice Subarrays",
+    "questionUrl": "https://leetcode.com/problems/count-number-of-nice-subarrays/description/",
+    "hint": "same as [930. Binary Subarrays With Sum] with nice trick.",
+    "answerDetails": [
+      {
+        "level": "TUF-L10",
+        "url": "https://youtu.be/j_QOv9OT9Og?si=MGDVjO2W1DkTmRFN"
       }
     ]
   },
@@ -273,7 +299,7 @@
     "hint": "same as [930. Binary Subarrays With Sum] with nice trick.",
     "answerDetails": [
       {
-        "Solution": "TUF-L11",
+        "level": "TUF-L11",
         "url": "https://youtu.be/7wYGbV_LsX4?si=-oOEhHD2eM9-rWt4"
       }
     ]
@@ -282,7 +308,7 @@
     "topic": "SlidingWindow",
     "questionTitle": "1493. Longest Subarray of 1's After Deleting One Element",
     "questionUrl": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/",
-    "hint": "Done own. A slight change in sliding window.,"
+    "hint": "Done own. A slight change in sliding window."
   },
   {
     "topic": "SlidingWindow",
@@ -291,7 +317,7 @@
     "hint": "Simple variable size sliding window.Its just that need to run two times.",
     "answerDetails": [
       {
-        "Solution": "Aryan",
+        "level": "Aryan",
         "url": "https://youtu.be/HI9A-pvwIQ0?si=YTN_HsXU72q0nR0z"
       }
     ]
@@ -303,7 +329,7 @@
     "hint": "Interesting new learning.Binary search for learning. for interview -sliding window approach.",
     "answerDetails": [
       {
-        "Solution": "MIK",
+        "level": "MIK",
         "url": "https://youtu.be/iOqH_JnXIOQ?si=xqX7wKQgDQltefNG"
       }
     ]
@@ -312,10 +338,10 @@
     "topic": "SlidingWindow",
     "questionTitle": "395. Longest Substring with At Least K Repeating Characters",
     "questionUrl": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
-    "hint": "Partially understood.Didn't understand Code decoded solution. Need to see some other video. You can check editor\nsliding window solution.",
+    "hint": "Partially understood.Didn't understand Code decoded solution. Need to see some other video. You can check editor\n      sliding window solution.",
     "answerDetails": [
       {
-        "Solution": "Code decoded",
+        "level": "Code decoded",
         "url": "https://www.youtube.com/watch?v=YSQVDVRQyA4"
       }
     ]

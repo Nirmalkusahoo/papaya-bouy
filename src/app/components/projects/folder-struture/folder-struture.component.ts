@@ -2,6 +2,7 @@ import {Component} from '@angular/core';
 import {HttpService} from '../../../modules/shared-module/services/http.service';
 
 @Component({
+  standalone: false,
   selector: 'app-folder-struture',
   templateUrl: './folder-struture.component.html',
   styleUrls: ['./folder-struture.component.scss']
