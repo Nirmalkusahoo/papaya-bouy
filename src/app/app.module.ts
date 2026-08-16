@@ -25,13 +25,8 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {ProgressBarComponent} from './components/projects/progress-bar/progress-bar.component';
 import {FolderComponent} from './components/projects/folder-struture/folder/folder.component';
 import {FolderStrutureComponent} from './components/projects/folder-struture/folder-struture.component';
-import {TestComponent} from './components/test/test.component';
 import { AutoCompleteSearchBarComponent } from './components/projects/auto-complete-search-bar/auto-complete-search-bar.component';
 import { AutoCompleteComponent } from './components/projects/auto-complete-search-bar/auto-complete/auto-complete.component';
-import { TabFormComponent } from './components/projects/tab-form/tab-form.component';
-import { ProfileComponent } from './components/projects/tab-form/profile/profile.component';
-import { SettingsComponent } from './components/projects/tab-form/settings/settings.component';
-import { IntrestComponent } from './components/projects/tab-form/intrest/intrest.component';
 import { PaginationExampleComponent } from './components/projects/pagination-example/pagination-example.component';
 import { ProductCardComponent } from './components/projects/pagination-example/product-card/product-card.component';
 import { PaginationComponent } from './components/projects/pagination-example/pagination/pagination.component';
@@ -53,10 +48,6 @@ import { PaginationComponent } from './components/projects/pagination-example/pa
     FolderStrutureComponent,
     AutoCompleteSearchBarComponent,
     AutoCompleteComponent,
-    TabFormComponent,
-    ProfileComponent,
-    SettingsComponent,
-    IntrestComponent,
     PaginationExampleComponent,
     ProductCardComponent,
     PaginationComponent,
@@ -69,7 +60,7 @@ import { PaginationComponent } from './components/projects/pagination-example/pa
     BrowserAnimationsModule,
     ReactiveFormsModule,
     MatSnackBarModule,
-    MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule, TestComponent, FormsModule, NgOptimizedImage
+    MatCardModule, MatButtonModule, MatIconModule, MatTooltipModule, FormsModule, NgOptimizedImage
   ],
   providers: [INTERCEPTOR_PROVIDERS],
   bootstrap: [AppComponent],

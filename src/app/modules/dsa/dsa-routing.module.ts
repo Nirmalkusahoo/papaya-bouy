@@ -8,7 +8,6 @@ import {ProgressBarComponent} from '../../components/projects/progress-bar/progr
 import {FolderComponent} from '../../components/projects/folder-struture/folder/folder.component';
 import {FolderStrutureComponent} from '../../components/projects/folder-struture/folder-struture.component';
 import {AutoCompleteSearchBarComponent} from '../../components/projects/auto-complete-search-bar/auto-complete-search-bar.component';
-import {TabFormComponent} from '../../components/projects/tab-form/tab-form.component';
 import {PaginationExampleComponent} from '../../components/projects/pagination-example/pagination-example.component';
 
 const routes: Routes = [
@@ -19,7 +18,6 @@ const routes: Routes = [
   {path: 'progress-bar', component: ProgressBarComponent},
   {path: 'folder-structure', component: FolderStrutureComponent},
   {path: 'auto-complete', component: AutoCompleteSearchBarComponent},
-  {path: 'tab-forms', component: TabFormComponent},
   {path: 'pagination', component: PaginationExampleComponent},
 ];
 
